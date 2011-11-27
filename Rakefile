@@ -1,6 +1,6 @@
 require 'nanoc3/tasks'
 
-task :create_post do
+task :new_post do
   id = Digest::SHA1.hexdigest(Time.now.to_i.to_s)
   puts id
   path = "#{File.dirname(__FILE__) + '/content/posts/' + id + '.haml'}"
@@ -16,5 +16,17 @@ title: Untitled Post
   file.close
 
   `mvim #{path}`
+end
+
+task :clean do
+  `cd #{File.dirname(__FILE__)}/content/posts && git clean -f`
+end
+
+task :commit do
+  `cd #{File.dirname(__FILE__)} && git commit -am "Automatic commit"`
+end
+
+task :push do
+  `cd #{File.dirname(__FILE__)} && git push origin master`
 end
 
