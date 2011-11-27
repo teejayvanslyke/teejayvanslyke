@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><%= @item[:title]%></title>
+    <title>Generating text-based art from images using HTML</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -32,17 +32,22 @@
       <div class="fill">
         <div class="container">
           <a class="brand" href="/">Teejay VanSlyke</a>
-					<%= render '/partials/default/nav'%>
+					<ul class="nav">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
         </div>
       </div>
 
     </div>
 
-    <%= @item[:content_for_header] %>
-
     <div class="container">
 
-      <%= yield%>
+      <h1>Generating text-based art from images using HTML</h1>
+
+      <img src='/assets/images/image2html01.png' width='940' />
+
 
       <footer>
       <small>All content &copy;2011 T.J. VanSlyke unless otherwise stated.</small>

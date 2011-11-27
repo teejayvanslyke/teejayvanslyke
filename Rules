@@ -29,12 +29,21 @@ route '/assets/js/*/' do
   @item.identifier.chop + '.' + @item[:extension]
 end
 
+route '/assets/images/*/' do
+  @item.identifier.chop + '.' + @item[:extension]
+end
+
 route '/assets/less/*/' do
   # don't copy over
 end
 
 route '/posts/*' do
   @item.identifier.gsub('posts/', '') + 'index.html'
+end
+
+compile '/posts/*' do
+  filter :haml
+  layout 'post'
 end
 
 compile '*' do
