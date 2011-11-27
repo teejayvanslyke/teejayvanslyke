@@ -2,13 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2011-11-27T05:59:21Z</updated>
+  <updated>2011-11-27T07:07:43Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-26:/ed367d347c43776c5398a62ab6da953b930132ba/</id>
+    <title type="html"></title>
+    <published>2011-11-27T07:07:43Z</published>
+    <updated>2011-11-27T07:07:43Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/ed367d347c43776c5398a62ab6da953b930132ba/"/>
+    <content type="html">Stoked I finally built out a new blog site! I'm going to be migrating all of my publishing here shortly and syndicating on both Facebook and Twitter. Stay tuned.
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2011-11-26:/a132c3b234b31e82c138d4e3028463465749ed66/</id>
     <title type="html"></title>
