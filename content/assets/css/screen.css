@@ -97,5 +97,7 @@ ul.albums {
 }
 
 ul.albums li {
-  display: inline;
+  float: left;
+  padding-right: 28px;
+  height: 180px;
 }

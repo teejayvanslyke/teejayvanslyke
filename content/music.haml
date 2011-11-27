@@ -1,5 +1,12 @@
-%ul.unstyled.albums
-  - Album.recent.each do |album|
-    %li
-      %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album['id']}/thumb.png"}/
+- content_for :header do
+  %header.jumbotron.masthead#overview
+    .inner
+      .container
+        %h1 Sometimes I write music. 
+
+%section
+  %ul.unstyled.albums
+    - Album.recent.each do |album|
+      %li
+        %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album['id']}/thumb.png"}/
 
