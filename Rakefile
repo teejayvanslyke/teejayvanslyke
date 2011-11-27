@@ -1,6 +1,6 @@
 require 'nanoc3/tasks'
 
-task :new_post do
+def new_post(body='')
   id = Digest::SHA1.hexdigest(Time.now.to_i.to_s)
   puts id
   path = "#{File.dirname(__FILE__) + '/content/posts/' + id + '.haml'}"
@@ -11,11 +11,16 @@ kind: article
 created_at: #{Time.now}
 title: 
 ---
+#{body}
   }
 
   file.close
 
-  `mvim #{path}`
+  `mvim #{path}` if body == ''
+end
+
+task :new_post do
+  new_post
 end
 
 task :clean do
@@ -34,3 +39,15 @@ task :deploy do
   `rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/ `
 end
 
+namespace :tweets do
+  task :import do
+    require 'twitter'
+
+    (0..50).each do |page|
+      Twitter.user_timeline("teejayvanslyke", :page => page).each do |tweet|
+        next if tweet['text'][0] == '@'
+        new_post tweet['text']
+      end
+    end
+  end
+end

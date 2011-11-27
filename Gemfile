@@ -8,4 +8,5 @@ gem 'adsf'
 gem 'haml'
 gem 'pismo'
 gem 'builder'
+gem 'twitter'
 
