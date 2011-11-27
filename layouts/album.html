@@ -25,7 +25,7 @@
         <div class="album">
           <div class="row">
             <div class="span6">
-              <img src="http://s3.amazonaws.com/bop.fm/covers/<%= @item[:id] %>/medium.png"/>
+              <img src="<%= (@item[:cover_image_300] ? @item[:cover_image_300] : "http://s3.amazonaws.com/bop.fm/covers/#{@item[:id]}/medium.png") %>"/>
             </div>
             <div class="span10">
               <ol class="tracklist">
@@ -35,8 +35,7 @@
                   <li>
                   <%= song.attributes['name'] %>
                   <span
-                    data-audio-url="http://s3.amazonaws.com/bop.fm/audio_files/<%=
-                    song.attributes['id'] %>/original.mp3" class="play-button
+                    data-audio-url="<%= (song.attributes['audio_url'] ? song.attributes['audio_url'] : "http://s3.amazonaws.com/bop.fm/audio_files/#{song.attributes['id']}/original.mp3") %>" class="play-button
                     pull-right">&#x25B7;</p>
                   </li>
                   <% end %>

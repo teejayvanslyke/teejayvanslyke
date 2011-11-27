@@ -42,7 +42,7 @@ end
 module Nanoc3
   class Site
     def albums
-      self.items.select {|i| i[:kind] == 'album'}.sort {|a, b| b['created_at'] <=> a['created_at']}
+      self.items.select {|i| i[:kind] == 'album'}.sort {|a, b| b[:created_at] <=> a[:created_at]}
     end
   end
 end

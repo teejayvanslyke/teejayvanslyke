@@ -10,9 +10,8 @@ title: Music
 
 %section
   %ul.unstyled.albums
-    - p @site.albums.first.attributes
     - @site.albums.each do |album|
       %li
         %a{:href => album.path}
-          %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album[:id]}/thumb.png"}/
+          %img{:src => ( album[:cover_image_158] ? album[:cover_image_158] : "http://s3.amazonaws.com/bop.fm/covers/#{album[:id]}/thumb.png")}/
 
