@@ -73,3 +73,11 @@ section { padding-top:30px;}
 .post {
   margin-bottom: 30px;
 }
+
+body.post .post {
+  margin-top:40px;
+}
+
+body.post .post h1 {
+  padding-top:30px;
+}
