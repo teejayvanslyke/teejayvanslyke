@@ -1,0 +1,8 @@
+%ul.unstyled
+  - @site.music.each do |year|
+    %li
+      = year[:year]
+      %ul
+        - year[:releases].each do |release|
+          %li
+            %a{:href => release[:url] ? release[:url] : release[:path]}= release[:title]

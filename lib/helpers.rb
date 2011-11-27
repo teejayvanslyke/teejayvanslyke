@@ -29,8 +29,14 @@ end
 
 module Nanoc3
   class Site
-    def music_releases
-      self.items.select {|item| item[:kind] == 'music_release'}
+    MUSIC_PATH = "/Volumes/Hawthorne/Music\ Archive"
+    def music
+      Dir["#{MUSIC_PATH}/*"].map do |year|
+        {
+          :year => year,
+          :releases => Dir["#{year}/*"].map {|release| { :title => File.basename(release), :path => release } }
+        }
+      end
     end
   end
 end

@@ -12,16 +12,10 @@ title: Home
 
 %section 
   .row
-    .span12
+    .span16
       - @site.sorted_articles.each do |article|
         .post
           %h3
             %a{:href => article.path, :title => article[:title]}= article[:title]
             %span.date= article[:created_at].strftime('%Y-%m-%d %H:%M')
           .body= article.compiled_content
-    .span4
-      %h4 Music
-      %ul.unstyled
-        - @site.music_releases.each do |release|
-          %li
-            %a{:href => release[:url] ? release[:url] : release.path}= release[:title]

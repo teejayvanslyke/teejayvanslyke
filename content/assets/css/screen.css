@@ -1,3 +1,7 @@
+.topbar .fill {
+  padding: 12px 0;
+}
+
 span.date {
   font-size: 0.85em;
   color: #ccc;
@@ -17,8 +21,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004D9F', endC
 }
 
 .jumbotron {
+margin-top: 40px;
 min-width: 940px;
-margin-top: -20px;
 }
 
 .jumbotron .inner {
