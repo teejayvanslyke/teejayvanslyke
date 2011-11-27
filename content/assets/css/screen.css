@@ -78,9 +78,11 @@ body.post .post {
   margin-top:40px;
 }
 
-body.post .post h1 {
+body.post .post h1,
+body.album .album h1 {
   padding-top:30px;
 }
+
 
 footer {
 background-color: #EEE;
@@ -102,6 +104,33 @@ ul.albums li {
   height: 180px;
 }
 
+
+
 .nav li {
   font-size: 2em;
+}
+
+
+ol.tracklist {
+  border: 1px solid #DDD;
+  border-collapse: separate;
+  -webkit-border-radius: 4px;
+  list-style-type: none;
+}
+
+ol.tracklist li:nth-child(odd) {
+  background-color: #F9F9F9;
+}
+
+ol.tracklist li {
+  line-height: 1.5em;
+  font-size: 1.0em;
+  padding: 10px 10px 9px;
+  -webkit-border-radius: 4px 0 0 0;
+  -moz-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+}
+
+body.album .breadcrumb {
+  padding-top: 30px;
 }

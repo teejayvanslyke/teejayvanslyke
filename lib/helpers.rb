@@ -29,30 +29,21 @@ def thumbnail_for_url(url)
   end
 end
 
-module Nanoc3
-  class Site
-    MUSIC_PATH = "/Volumes/Hawthorne/Music\ Archive"
-    def music
-      Dir["#{MUSIC_PATH}/*"].map do |year|
-        {
-          :year => year,
-          :releases => Dir["#{year}/*"].map {|release| { :title => File.basename(release), :path => release } }
-        }
-      end
-    end
-  end
-end
 
 class Song
-end
+  attr_reader :attributes
 
-class Album
-  def self.all
-    @all = YAML.load_file($root + 'albums.yaml')
+  def method_missing(name, *args)
+    return self.attributes[name.to_s]
   end
 
-  def self.recent
-    @recent = all.sort {|a, b| b['created_at'] <=> a['created_at']}
+end
+
+module Nanoc3
+  class Site
+    def albums
+      self.items.select {|i| i[:kind] == 'album'}
+    end
   end
 end
 

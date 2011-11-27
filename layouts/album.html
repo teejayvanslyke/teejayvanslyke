@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= render '/partials/default/head' %>
+
+  <body class="album">
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="/"><img src="/assets/images/logo.png"/></a>
+					<%= render '/partials/default/nav'%>
+        </div>
+      </div>
+
+    </div>
+
+    <%= @item[:content_for_header] %>
+
+    <div class="container">
+      <section>
+        <ul class="breadcrumb">
+          <li><a href="#">All Albums</a> <span class="divider">/</span></li>
+          <li class="active"><%= @item[:title] %></li>
+        </ul>
+        <div class="album">
+          <div class="row">
+            <div class="span6">
+              <img src="http://s3.amazonaws.com/bop.fm/covers/<%= @item[:id] %>/medium.png"/>
+            </div>
+            <div class="span10">
+              <ol class="tracklist">
+                <% songs = @item[:songs] %>
+                <% if songs %>
+                  <% songs.each do |song| %>
+                    <li><%= song.attributes['name'] %></li>
+                  <% end %>
+                <% end %>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div> <!-- /container -->
+
+    <footer>
+    <div class="container">
+      <p>All content &copy;2011 T.J. VanSlyke unless otherwise stated.</p>
+    </div>
+    </footer>
+
+  </body>
+</html>

@@ -10,8 +10,9 @@ title: Music
 
 %section
   %ul.unstyled.albums
-    - Album.recent.each do |album|
+    - p @site.albums.first.attributes
+    - @site.albums.each do |album|
       %li
-        %a{:href => "http://#{album['subdomain']}.bop.fm", :target => '_blank'}
-          %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album['id']}/thumb.png"}/
+        %a{:href => album.path}
+          %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album[:id]}/thumb.png"}/
 

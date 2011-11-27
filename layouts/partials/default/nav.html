@@ -1,5 +1,5 @@
 <br/>
 <ul class="nav">
   <li class="<%= 'active' if @item.path == '/'%>"><a href="/">Home</a></li>
-  <li class="<%= 'active' if @item.path == '/music/'%>"><a href="/music/">Music</a></li>
+  <li class="<%= 'active' if @item.path.include?('/music')%>"><a href="/music/">Music</a></li>
 </ul>

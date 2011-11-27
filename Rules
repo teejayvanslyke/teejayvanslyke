@@ -54,11 +54,22 @@ compile '/posts/*' do
   layout 'post'
 end
 
-route '/v1/*' do
+route '/music/' do
   @item.identifier + 'index.html'
 end
 
-compile '/v1/*' do
+compile '/music/' do
+  filter :haml
+  layout 'default'
+end
+
+route '/music/*' do
+  @item.identifier + 'index.html'
+end
+
+compile '/music/*' do
+  filter :haml
+  layout 'album'
 end
 
 compile '*' do
