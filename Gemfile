@@ -7,4 +7,5 @@ gem 'rainpress'
 gem 'adsf'
 gem 'haml'
 gem 'pismo'
+gem 'builder'
 

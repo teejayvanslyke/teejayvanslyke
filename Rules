@@ -1,5 +1,13 @@
 #!/usr/bin/env ruby
 
+compile '/feed/' do
+  filter :haml
+end
+
+route '/feed/' do
+  '/feed.xml'
+end
+
 compile '/assets/less/*' do
   # Note:  built-in less filter not working properly
   #        using commandline filter instead

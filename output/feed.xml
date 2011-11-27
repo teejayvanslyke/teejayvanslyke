@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://tjvanslyke.com/</id>
+  <title>Teejay VanSlyke</title>
+  <updated>2011-11-27T05:59:21Z</updated>
+  <link rel="alternate" href="http://tjvanslyke.com/"/>
+  <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
+  <author>
+    <name>Teejay VanSlyke</name>
+    <uri>http://tjvanslyke.com</uri>
+  </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-26:/a132c3b234b31e82c138d4e3028463465749ed66/</id>
+    <title type="html"></title>
+    <published>2011-11-27T05:59:21Z</published>
+    <updated>2011-11-27T05:59:21Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/a132c3b234b31e82c138d4e3028463465749ed66/"/>
+    <content type="html">&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/P6H7oFfzU5E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-26:/f2c89f4944791da38c6cb5d09198bdf07a2034e4/</id>
+    <title type="html"></title>
+    <published>2011-11-27T03:49:07Z</published>
+    <updated>2011-11-27T03:49:07Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/f2c89f4944791da38c6cb5d09198bdf07a2034e4/"/>
+    <content type="html">I love watching stoner movies passively while coding. It's a nice moderate distraction for a quiet Saturday night.
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-26:/afd45fd1348e42bb737002c057b15e734b8a36f1/</id>
+    <title type="html">Thanksgiving week link roundup</title>
+    <published>2011-11-27T01:09:09Z</published>
+    <updated>2011-11-27T01:09:09Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/afd45fd1348e42bb737002c057b15e734b8a36f1/"/>
+    <content type="html">&lt;div class="share_url"&gt;
+    &lt;div class="thumbnail"&gt;&lt;img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/11/17/1321558943257/Brandon-Watts-lies-injure-003.jpg"/&gt;&lt;/div&gt;
+    &lt;div class="title"&gt;&lt;a href="http://www.guardian.co.uk/commentisfree/cifamerica/2011/nov/25/shocking-truth-about-crackdown-occupy?fb=optOut"&gt;The shocking truth about the crackdown on Occupy | Naomi Wolf&lt;/a&gt;&lt;/div&gt;
+    &lt;div class="description"&gt;Naomi Wolf: The violent police assaults across the US are no coincidence. Occupy has touched the third rail of our political class's venality&lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class="share_url"&gt;
+    &lt;div class="thumbnail"&gt;&lt;img src=""/&gt;&lt;/div&gt;
+    &lt;div class="title"&gt;&lt;a href="http://seattletimes.nwsource.com/html/nationworld/2016859604_walmart26.html"&gt;Pepper spray clears path to Walmart specials&lt;/a&gt;&lt;/div&gt;
+    &lt;div class="description"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-26:/e62f469afaea6b2d08c24e7fc9ade68c6526718f/</id>
+    <title type="html">Generating text-based art from images using HTML</title>
+    <published>2011-11-27T00:23:27Z</published>
+    <updated>2011-11-27T00:23:27Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/e62f469afaea6b2d08c24e7fc9ade68c6526718f/"/>
+    <content type="html">&lt;img src='/assets/images/image2html01.png' width='940' /&gt;
+</content>
+  </entry>
+</feed>
