@@ -1,6 +1,6 @@
 require 'nanoc3/tasks'
 
-def new_post(body='')
+def new_post(body='', created_at=nil)
   id = Digest::SHA1.hexdigest(Time.now.to_i.to_s)
   puts id
   path = "#{File.dirname(__FILE__) + '/content/posts/' + id + '.haml'}"
@@ -8,7 +8,7 @@ def new_post(body='')
   file << 
   %{---
 kind: article
-created_at: #{Time.now}
+created_at: #{created_at ? created_at : Time.now}
 title: 
 ---
 #{body}
@@ -46,7 +46,7 @@ namespace :tweets do
     (0..50).each do |page|
       Twitter.user_timeline("teejayvanslyke", :page => page).each do |tweet|
         next if tweet['text'][0] == '@'
-        new_post tweet['text']
+        new_post tweet['text'], tweet['created_at']
       end
     end
   end
