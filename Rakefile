@@ -1,7 +1,7 @@
 require 'nanoc3/tasks'
 
 def new_post(body='', created_at=nil)
-  id = Digest::SHA1.hexdigest(Time.now.to_i.to_s)
+  id = Digest::SHA1.hexdigest((Time.now.to_i * Kernel.rand).to_s)
   puts id
   path = "#{File.dirname(__FILE__) + '/content/posts/' + id + '.haml'}"
   file = File.open(path, 'w')
