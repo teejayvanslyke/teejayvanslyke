@@ -1,8 +1,5 @@
-%ul.unstyled
-  - @site.music.each do |year|
+%ul.unstyled.albums
+  - Album.recent.each do |album|
     %li
-      = year[:year]
-      %ul
-        - year[:releases].each do |release|
-          %li
-            %a{:href => release[:url] ? release[:url] : release[:path]}= release[:title]
+      %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album['id']}/thumb.png"}/
+

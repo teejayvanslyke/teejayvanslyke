@@ -1,0 +1,1608 @@
+--- 
+- name: Volume One
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: application/x-zip
+  download_file_name: teejayvanslykemakesmusicvolumeone.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 21:03:38 Z
+  comments: false
+  cover_updated_at: 2009-11-29 00:23:55 Z
+  download_file_size: 30864672
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: "  body {\r\n    font-family: Helvetica, Arial, Sans-serif;\r\n    font-size: 12px;\r\n    color: #fff;\r\n    background-color: #101010;\r\n  }\r\n\
+    \r\n  ul {\r\n    margin: 0\r\n  }\r\n  ul li {\r\n    margin-left: -1em;\r\n    list-style-type: none;\r\n  }\r\n\
+    \r\n\
+    \r\n  #content {\r\n    width: 640px;\r\n    margin:  auto;\r\n  }\r\n\
+    \r\n  #info {\r\n\
+    margin-top: 120px;\r\n\
+    margin-left: 150px;\r\n  }\r\n\
+    \r\n  #info img,\r\n  #info p {\r\n    margin: 1.0em 2.0em;\r\n  }\r\n\
+    \r\n  #info p {\r\n    font-size: 0.9em;\r\n    text-align: justify;\r\n  }\r\n\
+    \r\n  #player {\r\n\
+    margin-top: 130px;\r\n  } a { color: #fff } \r\n\
+    \r\n\
+    #playlist_list li.playlist_current {\r\n  color: #00b7ff;\r\n\
+    }\r\n\
+    #player_progress_play_bar {\r\n\
+    \r\n    background-color: #00b7ff;\r\n  }   "
+  download_updated_at: 2010-10-09 00:15:26 Z
+  published: true
+  share_links: false
+  show_cover: true
+  fonts: ""
+  subdomain: teejayvanslykemakesmusicvolumeone
+  background_image_updated_at: 2009-12-24 17:49:40 Z
+  id: 5
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: teejayvanslykemakesmusic-volume1-cover.png
+  cover_file_size: 5702
+  description: Teejay VanSlyke's favorite works of 2004-2009.
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: viograph
+      name: Viograph
+      artist_id: 
+      updated_at: 2010-10-10 00:44:13
+      audio_file_file_name: viograph.mp3
+      audio_file_file_size: "3300359"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "15"
+      audio_file_updated_at: 2009-11-27 10:23:12
+      sort: "0"
+      created_at: 2009-11-27 10:23:12
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: zzaj-chilled
+      name: Zzaj Chilled
+      artist_id: 
+      updated_at: 2010-10-10 00:44:13
+      audio_file_file_name: zzaj_chilled.mp3
+      audio_file_file_size: "3049588"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "16"
+      audio_file_updated_at: 2009-11-27 10:23:15
+      sort: "1"
+      created_at: 2009-11-27 10:23:15
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: able-danger
+      name: Able Danger
+      artist_id: 
+      updated_at: 2010-10-10 00:44:13
+      audio_file_file_name: able_danger.mp3
+      audio_file_file_size: "6096068"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "17"
+      audio_file_updated_at: 2009-11-27 10:23:18
+      sort: "2"
+      created_at: 2009-11-27 10:23:18
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: they-sold-out
+      name: They Sold Out
+      artist_id: 
+      updated_at: 2010-10-10 00:44:13
+      audio_file_file_name: they_sold_out_Rendered.mp3
+      audio_file_file_size: "3779958"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "18"
+      audio_file_updated_at: 2009-11-27 10:23:42
+      sort: "3"
+      created_at: 2009-11-27 10:23:42
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: sex-metaphors
+      name: Sex Metaphors
+      artist_id: 
+      updated_at: 2010-10-10 00:44:13
+      audio_file_file_name: Sex_Metaphors.mp3
+      audio_file_file_size: "3171319"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "19"
+      audio_file_updated_at: 2009-11-27 10:23:56
+      sort: "4"
+      created_at: 2009-11-27 10:23:56
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: the-internet-music-business
+      name: The Internet Music Business
+      artist_id: 
+      updated_at: 2010-10-10 00:44:14
+      audio_file_file_name: The_Internet_Music_Business.mp3
+      audio_file_file_size: "8618904"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "20"
+      audio_file_updated_at: 2009-11-27 10:24:09
+      sort: "5"
+      created_at: 2009-11-27 10:24:09
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: teacher-teacher
+      name: Teacher, Teacher!
+      artist_id: 
+      updated_at: 2010-10-10 00:44:14
+      audio_file_file_name: Teacher_Teacher_.mp3
+      audio_file_file_size: "4296168"
+      audio_file_content_type: application/x-mp3
+      album_id: "5"
+      id: "21"
+      audio_file_updated_at: 2009-11-27 10:24:41
+      sort: "6"
+      created_at: 2009-11-27 10:24:41
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: teejayvanslykemakesmusic-bkg.png
+  background_image_file_size: 171652
+  created_at: 2009-11-27 10:23:11 Z
+  google_analytics_profile: UA-11893594-4
+- name: Twisted Transgender Love Affair
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: application/x-zip
+  download_file_name: twistedtransgenderloveaffair.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 00:19:13 Z
+  comments: false
+  cover_updated_at: 2010-05-25 02:55:38 Z
+  download_file_size: 5730903
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |-
+    body {
+    background-color: #e08ca9;
+    }
+    #info {
+    margin-left: 180px;
+    margin-top:320px;
+    }
+    
+    #player {
+    
+    margin-top:320px;
+    }
+    
+    #info p {
+    margin: 0;
+    padding: 0;
+    margin-left: 1.0em;
+    margin-bottom: 0.75em;
+    color: #87328c;
+    }
+    
+    #playlist_list li {
+    color: #87328c;
+    }
+    
+    
+    #player_progress_load_bar {
+    background-color: #e08ca9;
+    }
+    #player_progress_play_bar {
+    
+      background-color: #87328c;
+    
+    }
+    #play_time, #total_time, #ctrl_prev, #ctrl_next {
+    display: none;
+    }
+  download_updated_at: 2010-10-09 00:16:10 Z
+  published: false
+  share_links: false
+  show_cover: false
+  fonts: ""
+  subdomain: twistedtransgenderloveaffair
+  background_image_updated_at: 2009-12-03 09:00:47 Z
+  id: 8
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: twisted-cover.png
+  cover_file_size: 152217
+  description: |
+    Teejay VanSlyke wrote the abomination that is Twisted Transgender Love Affair during his collegiate days. This dastardly narrative is sure to quench your perverse thirst.
+
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: twisted-transgender-love-affair
+      name: Twisted Transgender Love Affair
+      artist_id: 
+      updated_at: 2009-12-03 09:03:37
+      audio_file_file_name: twisted_transgender_love_affair.mp3
+      audio_file_file_size: "5655721"
+      audio_file_content_type: audio/mpg
+      album_id: "8"
+      id: "28"
+      audio_file_updated_at: 2009-12-03 09:03:37
+      sort: 
+      created_at: 2009-12-03 09:03:37
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: twistedtransgenderloveaffair.bop.fm.png
+  background_image_file_size: 61883
+  created_at: 2005-10-10 00:00:00 Z
+  google_analytics_profile: UA-11893605-3
+- name: Weekend Adventures In Two Step
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: application/x-zip
+  download_file_name: weekendadventuresintwostep.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 00:23:23 Z
+  comments: false
+  cover_updated_at: 2009-12-27 21:55:48 Z
+  download_file_size: 30674829
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |
+    body { background-color: #000; }
+    
+    
+    #player_container ul#player_controls, #player_progress {
+    opacity:0.3;
+    }
+    
+    #player { margin-left: 370px; margin-top: 100px; }
+    
+    #info { display: none; }
+    #player_progress { width: 45px; }
+    #playlist_list li { font-size:2em; padding: 0.25em 0; }
+
+  download_updated_at: 2010-10-09 00:17:28 Z
+  published: true
+  share_links: false
+  show_cover: false
+  fonts: ""
+  subdomain: weekendadventuresintwostep
+  background_image_updated_at: 2009-12-24 19:04:30 Z
+  id: 11
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: weekendadventure-cover.png
+  cover_file_size: 24938
+  description: "Weekend Adventures is a collection of Teejay's first exploration into two-step and dubstep themes. "
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: girl
+      name: Girl
+      artist_id: 
+      updated_at: 2009-12-21 05:25:02
+      audio_file_file_name: Girl_Two_Step_.mp3
+      audio_file_file_size: "9955844"
+      audio_file_content_type: audio/mpg
+      album_id: "11"
+      id: "33"
+      audio_file_updated_at: 2009-12-21 05:25:02
+      sort: 
+      created_at: 2009-12-21 05:25:02
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: jump-bounce
+      name: Jump & Bounce
+      artist_id: 
+      updated_at: 2009-12-27 21:20:14
+      audio_file_file_name: Jump_and_Bounce.mp3
+      audio_file_file_size: "5833699"
+      audio_file_content_type: audio/mpg
+      album_id: "11"
+      id: "34"
+      audio_file_updated_at: 2009-12-27 21:20:14
+      sort: 
+      created_at: 2009-12-21 05:27:41
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: 30000-2
+      name: "30,000"
+      artist_id: 
+      updated_at: 2009-12-21 06:35:15
+      audio_file_file_name: 30_000_Two_Step_.mp3
+      audio_file_file_size: "7220303"
+      audio_file_content_type: audio/mpg
+      album_id: "11"
+      id: "35"
+      audio_file_updated_at: 2009-12-21 06:35:15
+      sort: 
+      created_at: 2009-12-21 06:35:15
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: way-down-low
+      name: Way Down Low
+      artist_id: 
+      updated_at: 2010-01-06 20:54:09
+      audio_file_file_name: Way_Down_Low.mp3
+      audio_file_file_size: "9957931"
+      audio_file_content_type: audio/mpg
+      album_id: "11"
+      id: "36"
+      audio_file_updated_at: 2010-01-06 20:54:09
+      sort: 
+      created_at: 2010-01-06 20:54:09
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: weekendadventuresintwostep.bop.fm.png
+  background_image_file_size: 146735
+  created_at: 2009-12-21 05:22:02 Z
+  google_analytics_profile: UA-11893594-2
+- name: UK2010
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: application/x-zip
+  download_file_name: uk2010.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 00:20:57 Z
+  comments: false
+  cover_updated_at: 2010-05-23 20:40:25 Z
+  download_file_size: 24808469
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |
+    #player_container ul#player_controls, #player_progress {
+    color: #000;
+    }
+    #player { margin-left: 250px; margin-top: 325px; }
+    #play_time, #total_time { color: #000; }
+    
+    #info { display: none; }
+    #player_progress { width: 100px; }
+    #player_controls li { padding: 0; }
+    #playlist_list li { font-size:2em; padding: 0.25em 0; color: #000; }
+    #playlist_list li.playlist_current { color: #fff; }
+
+  download_updated_at: 2010-10-09 00:19:01 Z
+  published: false
+  share_links: false
+  show_cover: false
+  fonts: ""
+  subdomain: uk2010
+  background_image_updated_at: 2010-05-23 20:29:30 Z
+  id: 13
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: uk2010-cover.png
+  cover_file_size: 57792
+  description: "Heralded as Teejay VanSlyke's coming-of-age release, UK\xE2\x80\xA22010 is a throwback to his idiotcore roots. And if you don't like it, you're doing your part."
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: blowpop
+      name: Blowpop
+      artist_id: 
+      updated_at: 2010-06-25 03:56:42
+      audio_file_file_name: 01_Blowpop.mp3
+      audio_file_file_size: "6597557"
+      audio_file_content_type: audio/mp3
+      album_id: "13"
+      id: "37"
+      audio_file_updated_at: 2010-06-25 03:56:42
+      sort: 
+      created_at: 2010-05-23 20:36:54
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: put-on-your-fucking-safari-hats
+      name: Put On Your Fucking Safari Hats
+      artist_id: 
+      updated_at: 2010-06-25 03:57:36
+      audio_file_file_name: 02_Put_On_Your_Fucking_Safari_Hats.mp3
+      audio_file_file_size: "7394838"
+      audio_file_content_type: audio/mp3
+      album_id: "13"
+      id: "38"
+      audio_file_updated_at: 2010-06-25 03:57:36
+      sort: 
+      created_at: 2010-05-23 20:40:45
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: lemon-dick
+      name: Lemon Dick
+      artist_id: 
+      updated_at: 2010-06-25 04:06:01
+      audio_file_file_name: 03_Lemon_Dick.mp3
+      audio_file_file_size: "11064499"
+      audio_file_content_type: audio/mp3
+      album_id: "13"
+      id: "39"
+      audio_file_updated_at: 2010-06-25 04:06:01
+      sort: 
+      created_at: 2010-05-23 20:46:13
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: 2010.bop.fm.png
+  background_image_file_size: 1723535
+  created_at: 2010-05-23 20:03:11 Z
+  google_analytics_profile: UA-11893594-5
+- name: Tetragrammaton
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: application/x-zip
+  download_file_name: tetragrammaton.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 21:02:35 Z
+  comments: true
+  cover_updated_at: 2010-05-30 08:38:03 Z
+  download_file_size: 26689512
+  downloadable: true
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: 
+  css: |-
+    #header { z-index: 1000; position: fixed; top: 0px; left: 0px; text-align: left;}
+    #header ul#nav { display: none; }
+    #header ul#sushibar { display: none; }
+    
+    #download { position: fixed; padding: 1em; top: 0px; right: 120px; }
+    #download a.modal, #comments a { font-size: 1.5em; text-decoration: none; background-color: #111; color: #fff; padding: 0.25em;}
+    #download a.modal:hover, #comments a:hover { background-color: #333;  }
+    #comments { padding: 1em; position: fixed; top: 0px; right: 0px; }
+    #download a.modal:hover { background-color: #333;  }
+    #download_overlay h3, #comments_overlay h2 { background-color: #111; }
+    
+    
+    #facebook_share_link { position: fixed; right: 16px; top: 48px; }
+    #twitter_share_link { position: fixed; right: 86px; top: 48px; }
+    
+    
+    body {
+    background-color: #121212;
+    }
+    #info { display: none; }
+    #player {
+    width:750px;
+    }
+    #playlist_list ul li {
+    margin: 0;
+    padding:0;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 480px;
+    background-image: url(http://bop.fm.s3.amazonaws.com/tetragrammatron/letters.png);
+    display:none;
+    font-size:0.0001em;
+    color: #121212
+    }
+    #playlist_list ul li.playlist_current { 
+    display: block;
+    }
+    
+    
+    #playlist_item_0.playlist_current { 
+    
+    background-position: 0px -3120px;
+    }
+    #playlist_item_1.playlist_current { 
+    
+    background-position: 0px -2160px;
+    }
+    #playlist_item_2.playlist_current { 
+    
+    background-position: 0px -1200px;
+    }
+    #playlist_item_3.playlist_current { 
+    
+    background-position: 0px -240px;
+    }
+    #play_time, #total_time {
+    display: none;
+    }
+    #player_controls {
+    position: relative;
+    left: 280px;
+    top: 24px;
+    margin-left: -4em;
+    }
+    #player_controls li {
+    padding: 0 21px;
+    background-repeat: no-repeat;
+    }
+    #player_progress {
+    width: 400px;
+    border-radius: 5px;
+    height: 48px;
+    background-color: #232323;
+    float: none;
+    position: relative;
+    left: 280px;
+    top: 48px;
+    }
+    #player_progress_play_bar {
+    background-image: url(http://bop.fm.s3.amazonaws.com/tetragrammatron/progress.png);
+    height: 48px;
+    border-radius: 5px;
+    }
+  download_updated_at: 2010-10-09 00:23:57 Z
+  published: true
+  share_links: true
+  show_cover: false
+  fonts: ""
+  subdomain: tetragrammaton
+  background_image_updated_at: 
+  id: 14
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: tetragrammatron.bop.fm.png
+  cover_file_size: 11644
+  description: Driving four-on-the-floors meet two-step grinds in this four-track instrumental EP.
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: yodh
+      name: Yodh
+      artist_id: 
+      updated_at: 2010-06-25 03:30:54
+      audio_file_file_name: 01_Yodh.mp3
+      audio_file_file_size: "6657121"
+      audio_file_content_type: audio/mp3
+      album_id: "14"
+      id: "40"
+      audio_file_updated_at: 2010-06-25 03:30:54
+      sort: 
+      created_at: 2010-05-30 07:08:57
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: he
+      name: He
+      artist_id: 
+      updated_at: 2010-06-25 03:31:44
+      audio_file_file_name: 02_He.mp3
+      audio_file_file_size: "7866066"
+      audio_file_content_type: audio/mp3
+      album_id: "14"
+      id: "41"
+      audio_file_updated_at: 2010-06-25 03:31:44
+      sort: 
+      created_at: 2010-05-30 07:09:41
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: waw
+      name: Waw
+      artist_id: 
+      updated_at: 2010-06-25 03:32:26
+      audio_file_file_name: 03_Waw.mp3
+      audio_file_file_size: "8697806"
+      audio_file_content_type: audio/mp3
+      album_id: "14"
+      id: "42"
+      audio_file_updated_at: 2010-06-25 03:32:26
+      sort: 
+      created_at: 2010-05-30 07:32:07
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: he-2
+      name: He
+      artist_id: 
+      updated_at: 2010-06-25 03:32:56
+      audio_file_file_name: 04_He.mp3
+      audio_file_file_size: "5825381"
+      audio_file_content_type: audio/mp3
+      album_id: "14"
+      id: "43"
+      audio_file_updated_at: 2010-06-25 03:32:56
+      sort: 
+      created_at: 2010-05-30 07:43:14
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: 
+  background_image_file_size: 
+  created_at: 2010-05-30 07:08:01 Z
+  google_analytics_profile: UA-11893594-6
+- name: Emotiodroid
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: application/x-zip
+  download_file_name: emotiodroid.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 00:18:40 Z
+  comments: false
+  cover_updated_at: 2010-06-23 06:48:25 Z
+  download_file_size: 12807627
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |-
+    #player { margin-left: 330px; margin-top: 220px; }
+    
+    #info { display: none; }
+    #playlist_list { width: 320px; }
+    #player_progress { width: 70px; }
+    #player_progress_load_bar { background-color: #ccc; }
+    #play_time, #total_time { display: none; }
+    #playlist_list li { color: #000; font-size:1.75em; padding: 0.25em 0; text-align:center; }
+  download_updated_at: 2010-10-09 00:25:08 Z
+  published: false
+  share_links: false
+  show_cover: false
+  fonts: ""
+  subdomain: emotiodroid
+  background_image_updated_at: 2010-06-23 06:45:21 Z
+  id: 15
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: emotiodroid-cover.png
+  cover_file_size: 27506
+  description: Songs about robots Teejay VanSlyke wrote in 2002.
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: an-innocent-robot
+      name: An Innocent Robot
+      artist_id: 
+      updated_at: 2010-06-23 06:33:22
+      audio_file_file_name: An_Innocent_Robot.mp3
+      audio_file_file_size: "4674454"
+      audio_file_content_type: audio/mp3
+      album_id: "15"
+      id: "44"
+      audio_file_updated_at: 2010-06-23 06:33:22
+      sort: 
+      created_at: 2010-06-23 06:33:22
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: the-one-you-love
+      name: The One You Love
+      artist_id: 
+      updated_at: 2010-06-23 06:33:58
+      audio_file_file_name: The_One_You_Love.mp3
+      audio_file_file_size: "2818297"
+      audio_file_content_type: audio/mp3
+      album_id: "15"
+      id: "45"
+      audio_file_updated_at: 2010-06-23 06:33:58
+      sort: 
+      created_at: 2010-06-23 06:33:58
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: emotiodroid
+      name: Emotiodroid
+      artist_id: 
+      updated_at: 2010-06-23 06:34:51
+      audio_file_file_name: Emotiodroid.mp3
+      audio_file_file_size: "5544228"
+      audio_file_content_type: audio/mp3
+      album_id: "15"
+      id: "46"
+      audio_file_updated_at: 2010-06-23 06:34:51
+      sort: 
+      created_at: 2010-06-23 06:34:51
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: emotiodroid.bop.fm.png
+  background_image_file_size: 29114
+  created_at: 2010-06-23 06:31:39 Z
+  google_analytics_profile: ""
+- name: Lo-Fi Vegan Indie Power Ballads
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: 
+  download_file_name: 
+  premium: false
+  updated_at: 2010-10-10 00:18:45 Z
+  comments: false
+  cover_updated_at: 2010-06-23 08:33:12 Z
+  download_file_size: 
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |-
+    #player_container ul#player_controls, #player_progress {
+    opacity:0.3;
+    }
+    
+    #player { margin-left: 300px; margin-top: 340px; }
+    
+    #info { display: none; }
+    #playlist_list { width: 380px; }
+    #player_controls { display: none; }
+    #player_progress { display:none; }
+    #play_time, #total_time { display: none; }
+    #playlist_list li { font-size:2.0em; padding: 0.25em 0; text-align:center;}
+    #playlist_list li.playlist_current { text-decoration: underline; }
+  download_updated_at: 
+  published: false
+  share_links: false
+  show_cover: false
+  fonts: ""
+  subdomain: lofiveganindiepowerballads
+  background_image_updated_at: 2010-06-23 08:33:12 Z
+  id: 16
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: lofiveganindiepowerballads.png
+  cover_file_size: 374338
+  description: Recorded on his four-track cassette recorder with the help of bum wine to make the indie kids proud.
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: gonna-get-wet
+      name: Gonna Get Wet
+      artist_id: 
+      updated_at: 2010-06-23 08:27:23
+      audio_file_file_name: Gonna_Get_Wet.mp3
+      audio_file_file_size: "6845218"
+      audio_file_content_type: audio/mp3
+      album_id: "16"
+      id: "47"
+      audio_file_updated_at: 2010-06-23 08:27:23
+      sort: 
+      created_at: 2010-06-23 08:27:23
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: im-missing-you
+      name: I'm Missing You
+      artist_id: 
+      updated_at: 2010-06-23 08:27:53
+      audio_file_file_name: I_m_Missing_You.mp3
+      audio_file_file_size: "6005122"
+      audio_file_content_type: audio/mp3
+      album_id: "16"
+      id: "48"
+      audio_file_updated_at: 2010-06-23 08:27:53
+      sort: 
+      created_at: 2010-06-23 08:27:53
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: breakfast-bitch
+      name: Breakfast Bitch
+      artist_id: 
+      updated_at: 2010-06-23 08:28:52
+      audio_file_file_name: Breakfast_Bitch.mp3
+      audio_file_file_size: "9125187"
+      audio_file_content_type: audio/mp3
+      album_id: "16"
+      id: "49"
+      audio_file_updated_at: 2010-06-23 08:28:52
+      sort: 
+      created_at: 2010-06-23 08:28:52
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: all-aboard
+      name: All Aboard!
+      artist_id: 
+      updated_at: 2010-06-23 08:29:32
+      audio_file_file_name: All_Aboard.mp3
+      audio_file_file_size: "2364693"
+      audio_file_content_type: audio/mp3
+      album_id: "16"
+      id: "50"
+      audio_file_updated_at: 2010-06-23 08:29:32
+      sort: 
+      created_at: 2010-06-23 08:29:32
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: doctor-doctor
+      name: Doctor, Doctor
+      artist_id: 
+      updated_at: 2010-06-23 08:30:09
+      audio_file_file_name: Doctor_Doctor.mp3
+      audio_file_file_size: "8174329"
+      audio_file_content_type: audio/mp3
+      album_id: "16"
+      id: "51"
+      audio_file_updated_at: 2010-06-23 08:30:09
+      sort: 
+      created_at: 2010-06-23 08:30:09
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: cured
+      name: Cured!
+      artist_id: 
+      updated_at: 2010-06-23 08:30:58
+      audio_file_file_name: Cured_.mp3
+      audio_file_file_size: "2964460"
+      audio_file_content_type: audio/mp3
+      album_id: "16"
+      id: "52"
+      audio_file_updated_at: 2010-06-23 08:30:58
+      sort: 
+      created_at: 2010-06-23 08:30:58
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: lofiveganindiepowerballads.bop.fm.png
+  background_image_file_size: 350275
+  created_at: 2010-06-23 08:24:59 Z
+  google_analytics_profile: ""
+- name: Candy Is Dandy
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: 
+  download_file_name: 
+  premium: false
+  updated_at: 2010-10-10 00:22:54 Z
+  comments: false
+  cover_updated_at: 2010-06-25 06:17:00 Z
+  download_file_size: 
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |
+    #player { margin-left: 400px; margin-top: 75px; }
+    
+    #info { display: none; }
+    #player_progress { width: 45px; background-color: #fff; }
+    
+    #playlist_list { margin-top: 300px; width: 250px; margin-left: 0px;}
+    #playlist_list li { font-size:2em; padding: 0.25em 0; text-align:center;}
+    #playlist_list li.playlist_current { text-decoration: underline; }
+
+  download_updated_at: 
+  published: false
+  share_links: false
+  show_cover: false
+  fonts: ""
+  subdomain: candyisdandy
+  background_image_updated_at: 2010-06-25 06:17:00 Z
+  id: 17
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: candy.bop.fm-cover.png
+  cover_file_size: 233540
+  description: "Two kick-thumping remixes of songs from Weekend Adventures In Two Step. "
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: girl-2
+      name: Girl
+      artist_id: 
+      updated_at: 2010-06-25 06:19:10
+      audio_file_file_name: Girl.mp3
+      audio_file_file_size: "10343510"
+      audio_file_content_type: audio/mp3
+      album_id: "17"
+      id: "53"
+      audio_file_updated_at: 2010-06-25 06:19:10
+      sort: 
+      created_at: 2010-06-25 06:19:10
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: way-down-low-2
+      name: Way Down Low
+      artist_id: 
+      updated_at: 2010-06-25 06:20:14
+      audio_file_file_name: Way_Down_Low.mp3
+      audio_file_file_size: "9840922"
+      audio_file_content_type: audio/mp3
+      album_id: "17"
+      id: "54"
+      audio_file_updated_at: 2010-06-25 06:20:14
+      sort: 
+      created_at: 2010-06-25 06:20:14
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: candy.bop.fm.png
+  background_image_file_size: 224245
+  created_at: 2010-06-25 06:17:04 Z
+  google_analytics_profile: ""
+- name: Dance Naked
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: 
+  download_file_name: 
+  premium: false
+  updated_at: 2010-10-10 21:01:07 Z
+  comments: true
+  cover_updated_at: 2010-07-04 21:32:58 Z
+  download_file_size: 
+  downloadable: true
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: 
+  css: |
+    #header { z-index: 1000; position: fixed; top: 0px; left: 0px; text-align: left;}
+    #header ul#nav { display: none; }
+    #header ul#sushibar { display: none; }
+    
+    #download { position: fixed; padding: 1em; top: 0px; right: 120px; }
+    #download a.modal, #comments a { font-size: 1.5em; text-decoration: none; background-color: #111; color: #fff; padding: 0.25em;}
+    #download a.modal:hover, #comments a:hover { background-color: #333;  }
+    #comments { padding: 1em; position: fixed; top: 0px; right: 0px; }
+    #download a.modal:hover { background-color: #333;  }
+    #download_overlay h3, #comments_overlay h2 { background-color: #111; }
+    
+    
+    #facebook_share_link { position: absolute; left: 650px; top: 600px; }
+    #twitter_share_link { position: absolute; left: 720px; top: 600px; }
+    
+    body {
+    background-color: #000;
+    }
+    #info { display: none; }
+    #player {
+    width:300px;
+    
+    }
+    #playlist_list ul li {
+    margin: 0;
+    padding:0;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 960px;
+    background-image: url(http://bop.fm.s3.amazonaws.com/dancenaked/background.png);
+    display:none;
+    font-size:0.0001em;
+    color: #000;
+    }
+    #playlist_list ul li.playlist_current { 
+    display: block;
+    }
+    
+    
+    #playlist_item_3.playlist_current { 
+    
+    background-position: 0px -2880px;
+    }
+    #playlist_item_2.playlist_current { 
+    
+    background-position: 0px -1920px;
+    }
+    #playlist_item_1.playlist_current { 
+    
+    background-position: 0px -960px;
+    }
+    #playlist_item_0.playlist_current { 
+    
+    background-position: 0px 0px;
+    }
+    #play_time, #total_time {
+    display: none;
+    }
+    #player_controls {
+    position: relative;
+    left: 600px;
+    top: 580px;
+    margin-left: -4em;
+    }
+    #player_controls li {
+    background-repeat: no-repeat;
+    }
+
+  download_updated_at: 
+  published: true
+  share_links: true
+  show_cover: false
+  fonts: ""
+  subdomain: dancenaked
+  background_image_updated_at: 
+  id: 18
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: dancenaked.bop.fm-cover-2.png
+  cover_file_size: 122291
+  description: If you're heading to a house party, don't forget to pack this house music showcase.
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: our-house
+      name: Our House
+      artist_id: 
+      updated_at: 2010-07-04 22:37:35
+      audio_file_file_name: 01_Our_House.mp3
+      audio_file_file_size: "7804421"
+      audio_file_content_type: audio/mp3
+      album_id: "18"
+      id: "55"
+      audio_file_updated_at: 2010-07-04 22:37:35
+      sort: 
+      created_at: 2010-07-04 22:37:35
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: yr-wrds
+      name: Yr Wrds
+      artist_id: 
+      updated_at: 2010-07-04 22:40:38
+      audio_file_file_name: 02_Yr_Wrds.mp3
+      audio_file_file_size: "5404289"
+      audio_file_content_type: audio/mp3
+      album_id: "18"
+      id: "56"
+      audio_file_updated_at: 2010-07-04 22:40:38
+      sort: 
+      created_at: 2010-07-04 22:40:38
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: suck-my-metal
+      name: Suck My Metal
+      artist_id: 
+      updated_at: 2010-07-04 22:41:07
+      audio_file_file_name: 03_Suck_My_Metal.mp3
+      audio_file_file_size: "4579870"
+      audio_file_content_type: audio/mp3
+      album_id: "18"
+      id: "57"
+      audio_file_updated_at: 2010-07-04 22:41:07
+      sort: 
+      created_at: 2010-07-04 22:41:07
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: nah-nah-nah
+      name: Nah Nah Nah
+      artist_id: 
+      updated_at: 2010-07-04 22:41:44
+      audio_file_file_name: 04_Nah_Nah_Nah.mp3
+      audio_file_file_size: "4504636"
+      audio_file_content_type: audio/mp3
+      album_id: "18"
+      id: "58"
+      audio_file_updated_at: 2010-07-04 22:41:44
+      sort: 
+      created_at: 2010-07-04 22:41:44
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: 
+  background_image_file_size: 
+  created_at: 2010-07-04 21:33:00 Z
+  google_analytics_profile: UA-11893594-7
+- name: I Sold Out But No One Bought Me
+  artist_id: 
+  cover_content_type: application/octet-stream
+  download_content_type: application/x-zip
+  download_file_name: isoldout.bop.fm.zip
+  premium: false
+  updated_at: 2010-10-10 21:01:54 Z
+  comments: true
+  cover_updated_at: 2010-08-23 17:28:11 Z
+  download_file_size: 55656761
+  downloadable: true
+  page_background_image_file_name: isoldout-bkg.png
+  page_background_image_file_size: 190571
+  price: 
+  background_image_content_type: image/png
+  css: |-
+    #download { position: absolute; top: 190px; right: 14px; }
+    #download a.modal, #comments a { font-size: 1.5em; text-decoration: none; background-color: #666; color: #fff; padding: 0.25em;}
+    #download a.modal:hover, #comments a:hover { background-color: #999;  }
+    #comments { position: absolute; top: 222px; right: 14px; }
+    #download a.modal:hover { background-color: #999;  }
+    #download_overlay h3, #comments_overlay h2 { background-color: #666; }
+    body {background-color: #fff;} 
+    
+    #facebook_share_link { position: absolute; right: 14px; top: 254px; }
+    #twitter_share_link { position: absolute; right: 79px; top: 254px; }
+    #player { margin-left: 400px; margin-top: 340px; }
+    #header { z-index: 10000; position: fixed; bottom: 14px; left: 14px; text-align: left;}
+    #header ul#nav { display: none; }
+    #header ul#sushibar { display: none; }
+    
+    #info { display: none; }
+    #playlist_list { width: 300px; }
+    #player_progress { width: 70px; }
+    #player_progress_play_bar { background-color: #666; }
+    #player_progress_load_bar { background-color: #fff; border: 1px solid #111; }
+    #play_time, #total_time { display: none; }
+    #playlist_list li { color: #000; font-size:1.75em; text-transform: uppercase; padding: 0.05em 0; text-align:center; }
+    
+    #playlist_list li.playlist_current { color: #666; }
+  download_updated_at: 2010-10-09 00:28:55 Z
+  published: true
+  share_links: true
+  show_cover: false
+  fonts: ""
+  subdomain: isoldout
+  background_image_updated_at: 2010-08-23 17:28:10 Z
+  id: 19
+  page_background_image_content_type: image/png
+  white_logo: false
+  cover_file_name: isoldout.bop.fm-cover
+  cover_file_size: 1150640
+  description: The critically-acclaimed sensational electro-rap album.
+  page_background_image_updated_at: 2010-08-23 17:43:30 Z
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: shoutout
+      name: (Shoutout)
+      artist_id: 
+      updated_at: 2010-08-19 03:25:04
+      audio_file_file_name: _Shoutout_.mp3
+      audio_file_file_size: "910197"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "67"
+      audio_file_updated_at: 2010-08-19 03:25:04
+      sort: "1"
+      created_at: 2010-08-19 03:25:04
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: get-up
+      name: Get Up
+      artist_id: 
+      updated_at: 2010-08-19 07:11:44
+      audio_file_file_name: Get_Up.mp3
+      audio_file_file_size: "4905882"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "64"
+      audio_file_updated_at: 2010-08-19 07:11:44
+      sort: "5"
+      created_at: 2010-08-10 06:39:36
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: the-clurrrb
+      name: The Clurrrb
+      artist_id: 
+      updated_at: 2010-10-11 01:47:41
+      audio_file_file_name: The_Clurrrb.mp3
+      audio_file_file_size: "6502492"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "61"
+      audio_file_updated_at: 2010-10-11 01:47:41
+      sort: "10"
+      created_at: 2010-08-07 22:55:09
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: mount-rainier
+      name: Mount Rainier
+      artist_id: 
+      updated_at: 2010-08-19 03:28:40
+      audio_file_file_name: Mount_Rainier_1.mp3
+      audio_file_file_size: "5069938"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "60"
+      audio_file_updated_at: 2010-08-19 03:28:40
+      sort: "20"
+      created_at: 2010-08-07 07:22:55
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: on-the-dance-floor
+      name: On The Dance Floor
+      artist_id: 
+      updated_at: 2010-08-19 01:53:03
+      audio_file_file_name: On_The_Dance_Floor.mp3
+      audio_file_file_size: "6062597"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "65"
+      audio_file_updated_at: 2010-08-19 01:53:03
+      sort: "22"
+      created_at: 2010-08-11 06:45:49
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: hipster-chick
+      name: Hipster Chick
+      artist_id: 
+      updated_at: 2010-08-19 01:54:24
+      audio_file_file_name: Hipster_Chick.mp3
+      audio_file_file_size: "7277808"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "63"
+      audio_file_updated_at: 2010-08-19 01:54:24
+      sort: "25"
+      created_at: 2010-08-10 04:22:41
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: porno-movie
+      name: Porno Movie
+      artist_id: 
+      updated_at: 2010-08-19 07:10:48
+      audio_file_file_name: Porno_Movie.mp3
+      audio_file_file_size: "4748108"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "66"
+      audio_file_updated_at: 2010-08-19 07:10:48
+      sort: "26"
+      created_at: 2010-08-13 07:29:30
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: tits-cash
+      name: Tits & Cash
+      artist_id: 
+      updated_at: 2010-10-08 03:57:04
+      audio_file_file_name: Tits_and_Cash.mp3
+      audio_file_file_size: "4996796"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "76"
+      audio_file_updated_at: 2010-10-08 03:57:04
+      sort: "28"
+      created_at: 2010-10-08 03:57:04
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: idaho-stop
+      name: Idaho Stop
+      artist_id: 
+      updated_at: 2010-08-08 02:51:24
+      audio_file_file_name: Idaho_Stop.mp3
+      audio_file_file_size: "6225593"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "62"
+      audio_file_updated_at: 2010-08-08 02:45:15
+      sort: "30"
+      created_at: 2010-08-08 02:45:15
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: bootie
+      name: Bootie
+      artist_id: 
+      updated_at: 2010-08-19 03:30:26
+      audio_file_file_name: Bootie_2.mp3
+      audio_file_file_size: "7804431"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "59"
+      audio_file_updated_at: 2010-08-19 03:30:26
+      sort: "40"
+      created_at: 2010-08-07 07:21:56
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: sugar-cane
+      name: Sugar Cane
+      artist_id: 
+      updated_at: 2010-08-23 18:16:32
+      audio_file_file_name: Sugar_Cane.mp3
+      audio_file_file_size: "4748107"
+      audio_file_content_type: audio/mpeg
+      album_id: "19"
+      id: "68"
+      audio_file_updated_at: 2010-08-23 18:16:32
+      sort: "1000"
+      created_at: 2010-08-23 18:16:32
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: isoldout.bop.fm-site.png
+  background_image_file_size: 1210723
+  created_at: 2010-08-07 07:18:30 Z
+  google_analytics_profile: UA-11893594-8
+- name: Effigy
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: 
+  download_file_name: 
+  premium: false
+  updated_at: 2010-10-10 20:59:37 Z
+  comments: false
+  cover_updated_at: 2010-08-25 00:17:42 Z
+  download_file_size: 
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: image/png
+  css: |-
+    body { background-color: #eae9e7; }
+    #content { border: 1px solid #d8d8d6; }
+    
+    #player { margin-left: 320px; margin-top: 460px; }
+    #header { z-index: 10000; position: fixed; top: 0px; left: 0px; text-align: left;}
+    #header ul#nav { display: none; }
+    #header ul#sushibar { display: none; }
+    
+    #info { display: none; }
+    #playlist_list { width: 360px; }
+    #player_progress { width: 70px; }
+    #player_progress_play_bar { background-color: #4f0006; }
+    #player_progress_load_bar { background-color: #fff; border: 1px solid #d5000c; }
+    #play_time, #total_time { display: none; }
+    #playlist_list li { font-family: "SF Movie Poster"; color: #ffc4c8; font-size:5.0em; padding: 0.05em 0; text-align:center; line-height: 0.65em;}
+    
+    #playlist_list li.playlist_current {  color: #fff; }
+  download_updated_at: 
+  published: true
+  share_links: false
+  show_cover: false
+  fonts: SF_Movie_Poster_400.font.js
+  subdomain: effigy
+  background_image_updated_at: 2010-08-25 00:17:42 Z
+  id: 20
+  page_background_image_content_type: 
+  white_logo: true
+  cover_file_name: effigy.bop.fm-cover.png
+  cover_file_size: 828102
+  description: "In this four-track EP, Teejay experiments with bizarre vocal patterns and dark, enchanting choruses. "
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: around
+      name: Around
+      artist_id: 
+      updated_at: 2010-10-03 00:26:56
+      audio_file_file_name: Around.mp3
+      audio_file_file_size: "8239082"
+      audio_file_content_type: audio/mpeg
+      album_id: "20"
+      id: "69"
+      audio_file_updated_at: 2010-10-03 00:26:56
+      sort: "10"
+      created_at: 2010-08-24 06:40:45
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: lotus
+      name: Lotus
+      artist_id: 
+      updated_at: 2010-10-03 00:27:36
+      audio_file_file_name: Lotus.mp3
+      audio_file_file_size: "7547358"
+      audio_file_content_type: audio/mpeg
+      album_id: "20"
+      id: "70"
+      audio_file_updated_at: 2010-10-03 00:27:35
+      sort: "20"
+      created_at: 2010-08-24 06:41:26
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: basement
+      name: Basement
+      artist_id: 
+      updated_at: 2010-10-03 00:28:17
+      audio_file_file_name: Basement.mp3
+      audio_file_file_size: "10405157"
+      audio_file_content_type: audio/mpeg
+      album_id: "20"
+      id: "71"
+      audio_file_updated_at: 2010-10-03 00:28:17
+      sort: "50"
+      created_at: 2010-09-04 23:31:42
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: butterfly
+      name: Butterfly
+      artist_id: 
+      updated_at: 2010-10-03 00:28:10
+      audio_file_file_name: Butterfly.mp3
+      audio_file_file_size: "6204671"
+      audio_file_content_type: audio/mpeg
+      album_id: "20"
+      id: "72"
+      audio_file_updated_at: 2010-10-03 00:28:10
+      sort: "100"
+      created_at: 2010-09-07 04:04:29
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: effigy.bop.fm.png
+  background_image_file_size: 910849
+  created_at: 2010-08-24 06:33:42 Z
+  google_analytics_profile: ""
+- name: "QT\xCF\x80"
+  artist_id: 
+  cover_content_type: image/png
+  download_content_type: 
+  download_file_name: 
+  premium: false
+  updated_at: 2010-10-17 22:52:31 Z
+  comments: false
+  cover_updated_at: 2010-10-17 22:52:28 Z
+  download_file_size: 
+  downloadable: false
+  page_background_image_file_name: 
+  page_background_image_file_size: 
+  price: 
+  background_image_content_type: 
+  css: ""
+  download_updated_at: 
+  published: true
+  share_links: false
+  show_cover: true
+  fonts: ""
+  subdomain: qtpi
+  background_image_updated_at: 
+  id: 23
+  page_background_image_content_type: 
+  white_logo: false
+  cover_file_name: qtpi.png
+  cover_file_size: 1190360
+  description: ""
+  page_background_image_updated_at: 
+  :songs: 
+  - !ruby/object:Song 
+    attributes: 
+      permalink: the-issues-we-face
+      name: The Issues We Face
+      artist_id: 
+      updated_at: 2010-10-17 17:22:06
+      audio_file_file_name: The_Issues_We_Face.mp3
+      audio_file_file_size: "7223456"
+      audio_file_content_type: audio/mpeg
+      album_id: "23"
+      id: "77"
+      audio_file_updated_at: 2010-10-17 17:22:06
+      sort: "10"
+      created_at: 2010-10-16 05:22:47
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: the-internet
+      name: The Internet
+      artist_id: 
+      updated_at: 2010-10-17 21:26:47
+      audio_file_file_name: 02_The_Internet.mp3
+      audio_file_file_size: "5875541"
+      audio_file_content_type: audio/mpeg
+      album_id: "23"
+      id: "81"
+      audio_file_updated_at: 2010-10-17 21:26:47
+      sort: "12"
+      created_at: 2010-10-17 21:26:47
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: we-make-the-future
+      name: We Make The Future
+      artist_id: 
+      updated_at: 2010-10-19 02:31:10
+      audio_file_file_name: We_Make_The_Future.mp3
+      audio_file_file_size: "5013497"
+      audio_file_content_type: audio/mpeg
+      album_id: "23"
+      id: "82"
+      audio_file_updated_at: 2010-10-19 02:31:10
+      sort: "14"
+      created_at: 2010-10-18 04:57:00
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: qt
+      name: "QT\xCF\x80"
+      artist_id: 
+      updated_at: 2010-10-17 17:22:56
+      audio_file_file_name: QT_.mp3
+      audio_file_file_size: "4994680"
+      audio_file_content_type: audio/mpeg
+      album_id: "23"
+      id: "80"
+      audio_file_updated_at: 2010-10-17 17:22:56
+      sort: "15"
+      created_at: 2010-10-16 09:25:24
+    attributes_cache: {}
+
+  - !ruby/object:Song 
+    attributes: 
+      permalink: there-you-are
+      name: There You Are
+      artist_id: 
+      updated_at: 2010-10-16 05:32:46
+      audio_file_file_name: 02_There_You_Are.mp3
+      audio_file_file_size: "6108554"
+      audio_file_content_type: audio/mpeg
+      album_id: "23"
+      id: "78"
+      audio_file_updated_at: 2010-10-16 05:32:46
+      sort: "20"
+      created_at: 2010-10-16 05:23:20
+    attributes_cache: {}
+
+  autoplay: false
+  background_image_file_name: 
+  background_image_file_size: 
+  created_at: 2010-10-16 05:22:06 Z
+  google_analytics_profile: ""
+
+
+
+
+
+
+
+
+
+

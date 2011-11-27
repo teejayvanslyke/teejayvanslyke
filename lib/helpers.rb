@@ -4,6 +4,8 @@ include Nanoc3::Helpers::Capturing
 
 require 'pismo'
 
+$root = File.dirname(__FILE__) + '/../'
+
 $pismos = {}
 
 def pismo(url)
@@ -38,6 +40,19 @@ module Nanoc3
         }
       end
     end
+  end
+end
+
+class Song
+end
+
+class Album
+  def self.all
+    @all = YAML.load_file($root + 'albums.yaml')
+  end
+
+  def self.recent
+    @recent = all.sort {|a, b| b['created_at'] <=> a['created_at']}
   end
 end
 
