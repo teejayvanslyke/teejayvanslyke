@@ -10,9 +10,10 @@ title: Home
         %h1 Hi. I'm Teejay. I make things.
         %p I believe creativity is the cure for our society's consumer-oriented condition.
 
-- @site.sorted_articles.each do |article|
-  %h3
-    %a{:href => article.path, :title => article[:title]}= article[:title]
-    %span.date= article[:created_at].strftime('%Y-%m-%d %H:%M')
-  .body= article.compiled_content
+%section 
+  - @site.sorted_articles.each do |article|
+    %h3
+      %a{:href => article.path, :title => article[:title]}= article[:title]
+      %span.date= article[:created_at].strftime('%Y-%m-%d %H:%M')
+    .body= article.compiled_content
 
