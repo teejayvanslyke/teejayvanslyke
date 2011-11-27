@@ -101,3 +101,7 @@ ul.albums li {
   padding-right: 28px;
   height: 180px;
 }
+
+.nav li {
+  font-size: 2em;
+}

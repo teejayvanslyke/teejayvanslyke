@@ -8,5 +8,6 @@
   %ul.unstyled.albums
     - Album.recent.each do |album|
       %li
-        %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album['id']}/thumb.png"}/
+        %a{:href => "http://#{album['subdomain']}.bop.fm", :target => '_blank'}
+          %img{:src => "http://s3.amazonaws.com/bop.fm/covers/#{album['id']}/thumb.png"}/
 
