@@ -1,0 +1,10 @@
+--- 
+site_name: TEEJAY VANSLYKE
+title: Home
+---
+
+- @site.sorted_articles.each do |article|
+  %h3
+    %a{:href => article.path, :title => article[:title]}= article[:title]
+  %h6= article[:created_at]
+
