@@ -28,15 +28,6 @@
 </content>
   </entry>
   <entry>
-    <id>tag:tjvanslyke.com,2011-11-26:/a132c3b234b31e82c138d4e3028463465749ed66/</id>
-    <title type="html"></title>
-    <published>2011-11-27T05:59:21Z</published>
-    <updated>2011-11-27T05:59:21Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/a132c3b234b31e82c138d4e3028463465749ed66/"/>
-    <content type="html">&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/P6H7oFfzU5E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-  </entry>
-  <entry>
     <id>tag:tjvanslyke.com,2011-11-26:/f2c89f4944791da38c6cb5d09198bdf07a2034e4/</id>
     <title type="html"></title>
     <published>2011-11-27T03:49:07Z</published>
@@ -61,6 +52,15 @@
     &lt;div class="title"&gt;&lt;a href="http://seattletimes.nwsource.com/html/nationworld/2016859604_walmart26.html"&gt;Pepper spray clears path to Walmart specials&lt;/a&gt;&lt;/div&gt;
     &lt;div class="description"&gt;&lt;/div&gt;
     &lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-26:/e62f469afaea6b2d08c24e7fc9ade68c6526718f/</id>
+    <title type="html">Generating text-based art from images using HTML</title>
+    <published>2011-11-27T00:23:27Z</published>
+    <updated>2011-11-27T00:23:27Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/e62f469afaea6b2d08c24e7fc9ade68c6526718f/"/>
+    <content type="html">&lt;img src='/assets/images/image2html01.png' width='940' /&gt;
 </content>
   </entry>
 </feed>
