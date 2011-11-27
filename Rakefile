@@ -23,10 +23,14 @@ task :clean do
 end
 
 task :commit do
-  `cd #{File.dirname(__FILE__)} && git commit -am "Automatic commit"`
+  `cd #{File.dirname(__FILE__)} && git add . && git commit -am "Automatic commit"`
 end
 
 task :push do
   `cd #{File.dirname(__FILE__)} && git push origin master`
+end
+
+task :deploy do
+  `rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/ `
 end
 
