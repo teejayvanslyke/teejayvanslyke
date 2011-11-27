@@ -9,7 +9,7 @@ task :new_post do
   %{---
 kind: article
 created_at: #{Time.now}
-title: Untitled Post
+title: 
 ---
   }
 

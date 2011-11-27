@@ -27,3 +27,11 @@ def thumbnail_for_url(url)
   end
 end
 
+module Nanoc3
+  class Site
+    def music_releases
+      self.items.select {|item| item[:kind] == 'music_release'}
+    end
+  end
+end
+

@@ -46,6 +46,13 @@ compile '/posts/*' do
   layout 'post'
 end
 
+route '/v1/*' do
+  @item.identifier + 'index.html'
+end
+
+compile '/v1/*' do
+end
+
 compile '*' do
   filter :haml
   layout 'default'
