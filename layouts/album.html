@@ -26,6 +26,11 @@
           <div class="row">
             <div class="span6">
               <img src="<%= (@item[:cover_image_300] ? @item[:cover_image_300] : "http://s3.amazonaws.com/bop.fm/covers/#{@item[:id]}/medium.png") %>"/>
+
+              <div class="description">
+                <br/>
+                <%= @item[:description] %>
+              </div>
             </div>
             <div class="span10">
               <ol class="tracklist">
