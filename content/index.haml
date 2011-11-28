@@ -13,7 +13,7 @@ title: Home
 %section 
   .row
     .span16
-      - @site.sorted_articles.each do |article|
+      - @site.sorted_articles.reject {|a| a[:draft]}.each do |article|
         .post
           %h3
             %a{:href => article.path, :title => article[:title]}= article[:title]

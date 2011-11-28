@@ -2,13 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2011-11-27T07:12:24Z</updated>
+  <updated>2011-11-28T01:55:41Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-11-27:/2413224cf1c6f2206c3f7156419b68a54fc67acd/</id>
+    <title type="html">We have the capacity for renaissance</title>
+    <published>2011-11-28T01:55:41Z</published>
+    <updated>2011-11-28T01:55:41Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/2413224cf1c6f2206c3f7156419b68a54fc67acd/"/>
+    <content type="html">&lt;p&gt;
+  So frequently I find myself in awe over the tools available for content creation and
+  distribution&amp;dash;tools which might have cost the average worker's annual salary only a decade ago.
+  The Internet has granted nearly everyone the capacity to realize and disseminate the ideas in their hearts and minds
+  in a way we've never known in any culture, ever.
+&lt;/p&gt;
+&lt;p&gt;
+  Why then, do we trend toward consumption-centric use patterns with our new technology? I consider myself prolific,
+  but I still find myself checking my Facebook and Twitter feeds constantly, as if this moment of my life is
+  incomplete. We flock toward the mundane minutae of image macros and top ten lists despite their obvious irrelevance
+  to profound betterment of our lives.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2011-11-26:/04a21fa23ce7d846d32639e01a763c197d2c58e2/</id>
     <title type="html"></title>
@@ -52,15 +72,6 @@
     &lt;div class="title"&gt;&lt;a href="http://seattletimes.nwsource.com/html/nationworld/2016859604_walmart26.html"&gt;Pepper spray clears path to Walmart specials&lt;/a&gt;&lt;/div&gt;
     &lt;div class="description"&gt;&lt;/div&gt;
     &lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-11-26:/e62f469afaea6b2d08c24e7fc9ade68c6526718f/</id>
-    <title type="html">Generating text-based art from images using HTML</title>
-    <published>2011-11-27T00:23:27Z</published>
-    <updated>2011-11-27T00:23:27Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/e62f469afaea6b2d08c24e7fc9ade68c6526718f/"/>
-    <content type="html">&lt;img src='/assets/images/image2html01.png' width='940' /&gt;
 </content>
   </entry>
 </feed>
