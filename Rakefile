@@ -46,7 +46,8 @@ task :deploy do
 end
 
 desc "Commit, push, and deploy. Use at your own risk."
-task :cpd => [ :commit, :push, :deploy ] 
+task :cpd => [ :commit, :push, :deploy ] do
+end
 
 namespace :tweets do
   task :import do
