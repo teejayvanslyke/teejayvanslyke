@@ -1,9 +1,11 @@
 require 'nanoc3/tasks'
 
+ROOT = File.dirname(__FILE__)
+
 def new_post(body='', created_at=nil)
   id = Digest::SHA1.hexdigest((Time.now.to_i * Kernel.rand).to_s)
   puts id
-  path = "#{File.dirname(__FILE__) + '/content/posts/' + id + '.haml'}"
+  path = "#{ROOT + '/content/posts/' + id + '.haml'}"
   file = File.open(path, 'w')
   file << 
   %{---
@@ -28,27 +30,45 @@ task :tweet => [ :new_post, :cpd ]
 
 desc "Clean the working directory"
 task :clean do
-  system "`cd #{File.dirname(__FILE__)}/content/posts && git clean -f`"
+  system "`cd #{ROOT}/content/posts && git clean -f`"
 end
 
 desc "Commit changes and provide default commit message"
 task :commit do
-  system "cd #{File.dirname(__FILE__)} && git add . && git commit -am \"Automatic commit\""
+  system "cd #{ROOT} && git add . && git commit -am \"Automatic commit\""
 end
 
 desc "Push changes to master branch."
 task :push do
-  system "cd #{File.dirname(__FILE__)} && git push origin master"
+  system "cd #{ROOT} && git push origin master"
 end
 
 desc "Deploy to production from local output"
 task :deploy do
-  system "cd #{File.dirname(__FILE__)} && nanoc compile"
-  system "cd #{File.dirname(__FILE__)} && rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
+  system "cd #{ROOT} && nanoc compile"
+  system "cd #{ROOT} && rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
 end
 
 desc "Commit, push, and deploy. Use at your own risk."
 task :cpd => [ :commit, :push, :deploy ]
+
+desc "List all post SHA's and titles in reverse chronological order"
+task :list do
+  posts = Dir["#{ROOT}/content/posts/*.haml"].map do |filename|
+    file = File.open(filename)
+    title, created_at = '', ''
+    file.each_line do |line|
+      if line =~ /title:\s*(.*)$/
+        title = $~[1]
+      elsif line =~ /created_at:\s*(.*)$/
+        created_at = $~[1]
+      end
+    end
+    { :title => title, :created_at => created_at, :sha1 => File.basename(file).gsub('.haml','') }
+  end.
+    sort {|a, b| b[:created_at] <=> a[:created_at] }.
+    each {|post| puts "#{post[:created_at]} #{post[:sha1]} #{post[:title]}"}
+end
 
 namespace :tweets do
   task :import do
