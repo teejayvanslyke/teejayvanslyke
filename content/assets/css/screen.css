@@ -47,6 +47,10 @@ text-outline: 1px 1px black;
 
 section { padding-top:30px;} 
 
+.post .body img { 
+  max-width: 100%;
+}
+
 .share_url {
   height: 96px;
 }
@@ -54,6 +58,7 @@ section { padding-top:30px;}
   height: 96px;
   float: left;
 }
+
 .share_url .thumbnail img {
   max-width: 96px;
 }
@@ -139,6 +144,3 @@ body.album .breadcrumb {
   padding-top: 30px;
 }
 
-.post .body img { 
-  max-width: 100%;
-}
