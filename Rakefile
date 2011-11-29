@@ -31,7 +31,7 @@ end
 
 desc "Commit changes and provide default commit message"
 task :commit do
-  exec "`cd #{File.dirname(__FILE__)} && git add . && git commit -am \"Automatic commit\"`"
+  exec "cd #{File.dirname(__FILE__)} && git add . && git commit -am \"Automatic commit\""
 end
 
 desc "Push changes to master branch."
