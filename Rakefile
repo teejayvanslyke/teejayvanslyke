@@ -49,6 +49,9 @@ task :deploy do
   system "cd #{ROOT} && rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
 end
 
+desc "Commit and push. Use at your own risk."
+task :cp => [ :commit, :push ]
+
 desc "Commit, push, and deploy. Use at your own risk."
 task :cpd => [ :commit, :push, :deploy ]
 
