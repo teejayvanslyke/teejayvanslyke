@@ -41,8 +41,8 @@ end
 
 desc "Deploy to production from local output"
 task :deploy do
-  exec "cd #{File.dirname(__FILE__)} nanoc compile"
-  exec "cd #{File.dirname(__FILE__)} rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
+  exec "cd #{File.dirname(__FILE__)} && nanoc compile"
+  exec "cd #{File.dirname(__FILE__)} && rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
 end
 
 desc "Commit, push, and deploy. Use at your own risk."
