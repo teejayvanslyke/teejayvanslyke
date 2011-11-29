@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CURRENT_DIR=`pwd`
+cd ~/src/tjvanslyke.com
+bundle exec rake $@
+cd $CURRENT_DIR
+
+

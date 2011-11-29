@@ -19,24 +19,30 @@ title:
   `mvim #{path}` if body == ''
 end
 
+desc "Create a new post and open it in MacVim"
 task :new_post do
   new_post
 end
 
+desc "Clean the working directory"
 task :clean do
-  `cd #{File.dirname(__FILE__)}/content/posts && git clean -f`
+  exec "`cd #{File.dirname(__FILE__)}/content/posts && git clean -f`"
 end
 
+desc "Commit changes and provide default commit message"
 task :commit do
-  `cd #{File.dirname(__FILE__)} && git add . && git commit -am "Automatic commit"`
+  exec "`cd #{File.dirname(__FILE__)} && git add . && git commit -am \"Automatic commit\"`"
 end
 
+desc "Push changes to master branch."
 task :push do
-  `cd #{File.dirname(__FILE__)} && git push origin master`
+  exec "cd #{File.dirname(__FILE__)} && git push origin master"
 end
 
+desc "Deploy to production from local output"
 task :deploy do
-  `rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/ `
+  exec "cd #{File.dirname(__FILE__)} nanoc compile"
+  exec "cd #{File.dirname(__FILE__)} rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
 end
 
 namespace :tweets do

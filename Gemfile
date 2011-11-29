@@ -9,4 +9,5 @@ gem 'haml'
 gem 'pismo'
 gem 'builder'
 gem 'twitter'
+gem 'rake'
 
