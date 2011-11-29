@@ -17,7 +17,7 @@ def share_url(url)
   %{<div class="share_url">
     <div class="thumbnail"><img src="#{thumbnail_for_url(url)}"/></div>
     <div class="title"><a href="#{url}">#{pismo.title}</a></div>
-    <div class="description">#{pismo.description}</div>
+    <div class="description"><p><small>#{pismo.description}</small></p></div>
     </div>}
 end
 

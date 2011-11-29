@@ -15,9 +15,17 @@
 
     <div class="post container">
 
-      <h1><%= @item[:title] %></h1>
+      <div class="row">
+        <div class="span12">
 
-      <%= yield%>
+          <h1><%= @item[:title] %></h1>
+
+          <%= yield %>
+        </div>
+
+        <div class="span4">
+          <%= render '/partials/gutter' %>
+        </div>
 
     </div> <!-- /container -->
 

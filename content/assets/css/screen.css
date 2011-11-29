@@ -83,11 +83,18 @@ body.post .post {
   margin-top:40px;
 }
 
+body.post .gutter {
+  margin-top:40px;
+}
+
 body.post .post h1,
 body.album .album h1 {
   padding-top:30px;
 }
 
+.gutter img {
+  max-width: 100%;
+}
 
 footer {
 background-color: #EEE;
