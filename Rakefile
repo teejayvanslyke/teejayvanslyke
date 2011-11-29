@@ -45,6 +45,9 @@ task :deploy do
   exec "cd #{File.dirname(__FILE__)} rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
 end
 
+desc "Commit, push, and deploy. Use at your own risk."
+task :cpd => [ :commit, :push, :deploy ] 
+
 namespace :tweets do
   task :import do
     require 'twitter'
