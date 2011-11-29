@@ -36,6 +36,7 @@ end
 
 desc "Push changes to master branch."
 task :push do
+  puts "here"
   exec "cd #{File.dirname(__FILE__)} && git push origin master"
 end
 
