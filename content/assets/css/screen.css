@@ -8,6 +8,8 @@ span.date {
 }
 
 .masthead {
+  background-color: #0074ae;
+
 background:-webkit-gradient(linear,
 right top, left bottom,
 color-stop(0.01,#A839B2),
