@@ -26,29 +26,27 @@ end
 
 desc "Clean the working directory"
 task :clean do
-  exec "`cd #{File.dirname(__FILE__)}/content/posts && git clean -f`"
+  system "`cd #{File.dirname(__FILE__)}/content/posts && git clean -f`"
 end
 
 desc "Commit changes and provide default commit message"
 task :commit do
-  exec "cd #{File.dirname(__FILE__)} && git add . && git commit -am \"Automatic commit\""
+  system "cd #{File.dirname(__FILE__)} && git add . && git commit -am \"Automatic commit\""
 end
 
 desc "Push changes to master branch."
 task :push do
-  puts "here"
-  exec "cd #{File.dirname(__FILE__)} && git push origin master"
+  system "cd #{File.dirname(__FILE__)} && git push origin master"
 end
 
 desc "Deploy to production from local output"
 task :deploy do
-  exec "cd #{File.dirname(__FILE__)} && nanoc compile"
-  exec "cd #{File.dirname(__FILE__)} && rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
+  system "cd #{File.dirname(__FILE__)} && nanoc compile"
+  system "cd #{File.dirname(__FILE__)} && rsync -arvuz ./output/ deploy@bop.fm:/var/www/tjvanslyke.com/"
 end
 
 desc "Commit, push, and deploy. Use at your own risk."
-task :cpd => [ :commit, :push, :deploy ] do
-end
+task :cpd => [ :commit, :push, :deploy ]
 
 namespace :tweets do
   task :import do
