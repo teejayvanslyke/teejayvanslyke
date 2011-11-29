@@ -24,6 +24,8 @@ task :new_post do
   new_post
 end
 
+task :tweet => [ :new_post, :cpd ]
+
 desc "Clean the working directory"
 task :clean do
   system "`cd #{File.dirname(__FILE__)}/content/posts && git clean -f`"
