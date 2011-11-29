@@ -35,7 +35,7 @@ end
 
 desc "Commit changes and provide default commit message"
 task :commit do
-  system "cd #{ROOT} && git add . && git commit -am \"Automatic commit\""
+  system "cd #{ROOT} && nanoc compile && git add . && git commit -am \"Automatic commit\""
 end
 
 desc "Push changes to master branch."
