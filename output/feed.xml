@@ -2,13 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2011-11-29T03:01:37Z</updated>
+  <updated>2011-12-03T03:14:05Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-12-02:/cc84d2aea8512a2fdd8129db7ae89620c58bf04b/</id>
+    <title type="html">Sugar is a poison and should be regulated</title>
+    <published>2011-12-03T03:14:05Z</published>
+    <updated>2011-12-03T03:14:05Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/cc84d2aea8512a2fdd8129db7ae89620c58bf04b/"/>
+    <content type="html">&lt;p&gt;
+  Robert H. Lustig, MD gives a lecture exploring the damage caused by sugary foods:
+&lt;/p&gt;
+&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/dBnniua6-oM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2011-11-28:/ba93bb6a1a4f6909e4cd20d50dd7d0ae85feb2c6/</id>
     <title type="html">Coffehouse hipster technocrats are the linchpins of tomorrow</title>
@@ -106,15 +118,6 @@
     <updated>2011-11-27T07:07:43Z</updated>
     <link rel="alternate" href="http://tjvanslyke.com/ed367d347c43776c5398a62ab6da953b930132ba/"/>
     <content type="html">Stoked I finally built out a new blog site! I'm going to be migrating all of my publishing here shortly and syndicating on both Facebook and Twitter. Stay tuned.
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-11-26:/f2c89f4944791da38c6cb5d09198bdf07a2034e4/</id>
-    <title type="html"></title>
-    <published>2011-11-27T03:49:07Z</published>
-    <updated>2011-11-27T03:49:07Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/f2c89f4944791da38c6cb5d09198bdf07a2034e4/"/>
-    <content type="html">I love watching stoner movies passively while coding. It's a nice moderate distraction for a quiet Saturday night.
 </content>
   </entry>
 </feed>
