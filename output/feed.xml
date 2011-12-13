@@ -2,13 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2011-12-03T03:14:05Z</updated>
+  <updated>2011-12-13T07:12:45Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-12-12:/3277d30f8fd26519262ef90f21fcc3a1074bc662/</id>
+    <title type="html"></title>
+    <published>2011-12-13T07:12:45Z</published>
+    <updated>2011-12-13T07:12:45Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/3277d30f8fd26519262ef90f21fcc3a1074bc662/"/>
+    <content type="html">&lt;p&gt;
+  So I've noticed some things about my inner monologue when reading poorly-written prose:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;strong&gt;If someone misuses the word 'to' in place of 'too', my internal meter speeds up to accommodate the missing 'o'.&lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;em&gt;What's up? Oh not to much.&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;strong&gt;Whenever someone writes in all capital letters, I shout the entire sentence to myself&lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;em&gt;HEY TEEJAY HOW'S IT GOING? I'M GOOD LOVE AUNT SHERRY&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;strong&gt;When someone uses the possessive pronoun "your" in place of the contraction "you're," I want to give my eyeballs paper cuts with acid blotter paper.&lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;em&gt;Boy I bet your glad I took that English class!&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;
+      &lt;strong&gt;And finally, when someone does all three at once, I write blog posts like this one!&lt;/strong&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;em&gt;YOUR REALLY GREAT AND WE SHOULD HANG OUT TO!&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2011-12-02:/cc84d2aea8512a2fdd8129db7ae89620c58bf04b/</id>
     <title type="html">Sugar is a poison and should be regulated</title>
@@ -109,15 +154,6 @@
     <updated>2011-11-27T07:12:24Z</updated>
     <link rel="alternate" href="http://tjvanslyke.com/04a21fa23ce7d846d32639e01a763c197d2c58e2/"/>
     <content type="html">&lt;iframe src="http://player.vimeo.com/video/32397612?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="http://vimeo.com/32397612"&gt;Address Is Approximate&lt;/a&gt; from &lt;a href="http://vimeo.com/user4317458"&gt;The Theory&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-11-26:/ed367d347c43776c5398a62ab6da953b930132ba/</id>
-    <title type="html"></title>
-    <published>2011-11-27T07:07:43Z</published>
-    <updated>2011-11-27T07:07:43Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/ed367d347c43776c5398a62ab6da953b930132ba/"/>
-    <content type="html">Stoked I finally built out a new blog site! I'm going to be migrating all of my publishing here shortly and syndicating on both Facebook and Twitter. Stay tuned.
 </content>
   </entry>
 </feed>
