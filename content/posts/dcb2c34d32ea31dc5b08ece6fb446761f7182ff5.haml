@@ -1,0 +1,26 @@
+---
+kind: article
+created_at: 2011-12-23 15:45:30 -0800
+title: RVM, Ruby 1.9.3, Homebrew and PostgreSQL make me want to kill babies
+---
+
+%p 
+  After much frustration with absymal load times on my Rails 3.1 application when running on Ruby 1.9.2, 
+  I decided it was high time to upgrade to 1.9.3 to take advantage of its new hash-based require scheme. Turns out 
+  it was going to take an entire afternoon because of an issue with the <code>pg</code> gem's configuration. 
+
+%p
+  If you're having the same problem, try the following:
+
+%pre
+
+  $ rvm use 1.9.3-p0
+  $ gem uninstall pg # uninstall all versions
+  $ gem install pg  --with-pg-config=/usr/local/Cellar/postgresql/9.0.4/bin/pg_config
+
+%p
+  Essentially, you need to be explicit about Homebrew's Postgres installation so you don't end up using
+  the default Mac installation. 
+
+%p I hope this helps. Happy holidays!
+
