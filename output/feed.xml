@@ -2,13 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2011-12-13T07:12:45Z</updated>
+  <updated>2012-02-03T22:18:14Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-02-03:/b20cc62a32f1481a91fcd19bcaf831e8ba18ecea/</id>
+    <title type="html">I've been talking about it for a decade. It's time to travel the continent in a van.</title>
+    <published>2012-02-03T22:18:14Z</published>
+    <updated>2012-02-03T22:18:14Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/b20cc62a32f1481a91fcd19bcaf831e8ba18ecea/"/>
+    <content type="html">&lt;p&gt;
+  I have fond memories of dreaming away during my teenage youth at the prospect of one day finding a way
+  to make a living on the road. Of one day building my ideal vessel: A veritable hacker's paradise on wheels.
+  And yet, somehow I've always found a way to excuse myself from the dream's pursuit and realization.
+&lt;/p&gt;
+&lt;p&gt;
+  Well not this year, damnit. That's right. In Summer 2012, I set sail on the open road in a yet-to-be-converted
+  Sprinter van, equipped with most of the amenities of home and bearing one overwhelmingly novel feature no
+  condo or apartment ever could: A V6 engine and a set of wheels.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2011-12-23:/dcb2c34d32ea31dc5b08ece6fb446761f7182ff5/</id>
+    <title type="html">RVM, Ruby 1.9.3, Homebrew and PostgreSQL make me want to kill babies</title>
+    <published>2011-12-23T23:45:30Z</published>
+    <updated>2011-12-23T23:45:30Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/dcb2c34d32ea31dc5b08ece6fb446761f7182ff5/"/>
+    <content type="html">&lt;p&gt;
+  After much frustration with absymal load times on my Rails 3.1 application when running on Ruby 1.9.2,
+  I decided it was high time to upgrade to 1.9.3 to take advantage of its new hash-based require scheme. Turns out
+  it was going to take an entire afternoon because of an issue with the &lt;code&gt;pg&lt;/code&gt; gem's configuration.
+&lt;/p&gt;
+&lt;p&gt;
+  If you're having the same problem, try the following:
+&lt;/p&gt;
+&lt;pre&gt;$ rvm use 1.9.3-p0
+$ gem uninstall pg # uninstall all versions
+$ gem install pg  --with-pg-config=/usr/local/Cellar/postgresql/9.0.4/bin/pg_config&lt;/pre&gt;
+&lt;p&gt;
+  Essentially, you need to be explicit about Homebrew's Postgres installation so you don't end up using
+  the default Mac installation.
+&lt;/p&gt;
+&lt;p&gt;I hope this helps. Happy holidays!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2011-12-12:/3277d30f8fd26519262ef90f21fcc3a1074bc662/</id>
     <title type="html">My inner monologue</title>
@@ -122,38 +164,6 @@
 &lt;p&gt;
   That's so fucking cool.
 &lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-11-27:/2413224cf1c6f2206c3f7156419b68a54fc67acd/</id>
-    <title type="html">We have the capacity for renaissance</title>
-    <published>2011-11-28T01:55:41Z</published>
-    <updated>2011-11-28T01:55:41Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/2413224cf1c6f2206c3f7156419b68a54fc67acd/"/>
-    <content type="html">&lt;p&gt;
-  So frequently I find myself in awe over the tools available for content creation and
-  distribution&amp;dash;tools which might have cost the average worker's annual salary only a decade ago.
-  The Internet has granted nearly everyone the capacity to realize and disseminate the ideas in their hearts and minds
-  in a way we've never known in any culture, ever.
-&lt;/p&gt;
-&lt;p&gt;
-  Why then, do we trend toward consumption-centric use patterns with our new technology? I consider myself prolific,
-  but I still find myself checking my Facebook and Twitter feeds constantly, as if this moment of my life is
-  incomplete. We flock toward the mundane minutae of image macros and top ten lists despite their obvious irrelevance
-  to profound betterment of our lives.
-&lt;/p&gt;
-&lt;p&gt;
-  Each and every one of us has the capacity to create. What will you make today?
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-11-26:/04a21fa23ce7d846d32639e01a763c197d2c58e2/</id>
-    <title type="html"></title>
-    <published>2011-11-27T07:12:24Z</published>
-    <updated>2011-11-27T07:12:24Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/04a21fa23ce7d846d32639e01a763c197d2c58e2/"/>
-    <content type="html">&lt;iframe src="http://player.vimeo.com/video/32397612?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="http://vimeo.com/32397612"&gt;Address Is Approximate&lt;/a&gt; from &lt;a href="http://vimeo.com/user4317458"&gt;The Theory&lt;/a&gt; on &lt;a href="http://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>

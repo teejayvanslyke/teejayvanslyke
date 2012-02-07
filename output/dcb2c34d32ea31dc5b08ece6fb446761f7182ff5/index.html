@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-  <title>My inner monologue</title>
+  <title>RVM, Ruby 1.9.3, Homebrew and PostgreSQL make me want to kill babies</title>
   <meta name="description" content="I believe creativity is the cure to our society's consumer-oriented condition.">
   <meta name="author" content="Teejay VanSlyke">
 
@@ -50,45 +50,24 @@
       <div class="row">
         <div class="span12">
 
-          <h1>My inner monologue</h1>
+          <h1>RVM, Ruby 1.9.3, Homebrew and PostgreSQL make me want to kill babies</h1>
 
           <p>
-  So I've noticed some things about my inner monologue when reading poorly-written prose:
+  After much frustration with absymal load times on my Rails 3.1 application when running on Ruby 1.9.2,
+  I decided it was high time to upgrade to 1.9.3 to take advantage of its new hash-based require scheme. Turns out
+  it was going to take an entire afternoon because of an issue with the <code>pg</code> gem's configuration.
 </p>
-<ul>
-  <li>
-    <p>
-      <strong>If someone misuses the word 'to' in place of 'too', my internal meter speeds up to accommodate the missing 'o'.</strong>
-    </p>
-    <p>
-      <em>What's up? Oh not to much.</em>
-    </p>
-  </li>
-  <li>
-    <p>
-      <strong>Whenever someone writes in all capital letters, I shout the entire sentence to myself</strong>
-    </p>
-    <p>
-      <em>HEY TEEJAY HOW'S IT GOING? I'M GOOD LOVE AUNT SHERRY</em>
-    </p>
-  </li>
-  <li>
-    <p>
-      <strong>When someone uses the possessive pronoun "your" in place of the contraction "you're," I want to give my eyeballs paper cuts with acid blotter paper.</strong>
-    </p>
-    <p>
-      <em>Boy I bet your glad I took that English class!</em>
-    </p>
-  </li>
-  <li>
-    <p>
-      <strong>And finally, when someone does all three at once, I write blog posts like this one!</strong>
-    </p>
-    <p>
-      <em>YOUR REALLY GREAT AND WE SHOULD HANG OUT TO!</em>
-    </p>
-  </li>
-</ul>
+<p>
+  If you're having the same problem, try the following:
+</p>
+<pre>$ rvm use 1.9.3-p0
+$ gem uninstall pg # uninstall all versions
+$ gem install pg  --with-pg-config=/usr/local/Cellar/postgresql/9.0.4/bin/pg_config</pre>
+<p>
+  Essentially, you need to be explicit about Homebrew's Postgres installation so you don't end up using
+  the default Mac installation.
+</p>
+<p>I hope this helps. Happy holidays!</p>
 
         </div>
 
