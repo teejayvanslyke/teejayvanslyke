@@ -1,13 +1,6 @@
 --- 
 title: Music
 ---
-
-- content_for :header do
-  %header.jumbotron.masthead#overview
-    .inner
-      .container
-        %h1 Sometimes I write music. 
-
 %section
   %ul.unstyled.albums
     - @site.albums.each do |album|
