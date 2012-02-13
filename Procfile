@@ -1,0 +1,2 @@
+nanoc: nanoc autocompile
+

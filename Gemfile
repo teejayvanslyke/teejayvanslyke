@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'foreman'
 gem 'nanoc'
 gem 'mime-types'
 gem 'less'
