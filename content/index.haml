@@ -8,9 +8,9 @@ title: Teejay VanSlyke
     .span12
       - @site.sorted_articles.reject {|a| a[:draft]}.each do |article|
         .post
+          %span.date= article[:created_at].strftime('%Y-%m-%d %H:%M')
           %h3
             %a{:href => article.path, :title => article[:title]}= article[:title]
-            %span.date= article[:created_at].strftime('%Y-%m-%d %H:%M')
           .body= article.compiled_content
     .span4
       = render '/partials/gutter'

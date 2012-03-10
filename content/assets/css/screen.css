@@ -4,8 +4,18 @@
 
 
 span.date {
-  font-size: 0.85em;
-  color: #ccc;
+  font-weight: 200;
+  font-size: 1.0em;
+  color: #999;
+  display: block;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 200;
+}
+h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
 }
 
 .masthead {
