@@ -2,13 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-02-03T22:18:14Z</updated>
+  <updated>2012-02-29T17:02:32Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-02-29:/a-grand-lifestyle-experiment/</id>
+    <title type="html">A grand lifestyle experiment</title>
+    <published>2012-02-29T17:02:32Z</published>
+    <updated>2012-02-29T17:02:32Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/a-grand-lifestyle-experiment/"/>
+    <content type="html">&lt;p&gt;
+  My friends are doing their best to support me. My girlfriend has been a guiding light through the process.
+  My parents think I'm insane. Regardless of opinion, I'm now living in a 1995 Winnebago Rialta.
+&lt;/p&gt;
+&lt;h4&gt;Fat and unable to move&lt;/h4&gt;
+&lt;p&gt;
+  I was getting fat. Not around the waistline -- around my apartment. With two bicycles (down from four), three
+  24"+ computer monitors, two computer workstations, numerous gadgets, a small studio's worth of music production
+  gear, and a closet full of clothes I never wore, I was destined to live life reluctantly renewing leases for fear
+  of moving on. &lt;em&gt;What would I do with all this stuff?&lt;/em&gt; The idea terrified me. It terrified me so much that
+  I'd have nightmares about never being able to leave Portland. You know, the ones where Sam Adams erects a wall
+  around the city and David Hasselhof tries to save us. Or something.
+&lt;/p&gt;
+&lt;h4&gt;Down by the river&lt;/h4&gt;
+&lt;p&gt;
+  Rewind back to 2002. A simpler time. A time where a 17-year-old high school senior could make his daily allowance
+  working for the local supermarket and dream about one day living in a van. &lt;em&gt;&amp;quot;I could go anywhere, anytime!&amp;quot;&lt;/em&gt;,
+  I'd think to myself. &lt;em&gt;&amp;quot;I could even install a computer inside, and wardrive for fresh wi-fi hotspots around town!&amp;quot;&lt;/em&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+  But alas, vans cost thousands of dollars, and I didn't have any credit... or thousands of dollars. Dreams crushed.
+&lt;/p&gt;
+&lt;h4&gt;A fear of flight&lt;/h4&gt;
+&lt;p&gt;
+  When I was in my early twenties, I'd fly everywhere without a thought. In 2008 I flew to and from Europe three
+  times in the course of only a few weeks. I loved to fly. But then...
+&lt;/p&gt;
+&lt;p&gt;
+  Then this pesky part of my brain called my frontal lobe developed. All of the sudden flying was for the birds,
+  stepping too close to the edge of cliffs was a death wish, and earthquakes were common in Portland, Oregon. And so
+  ended my era of easy, fast transcontinental travel.
+&lt;/p&gt;
+&lt;p&gt;
+  Forever stranded 3,000 miles away from home, with an unnerving desire to see something different when I awaken in the morning,
+  I decided it was time to fulfill my thkjeenage pipe dream. And so far, I've never been more fulfilled by a decision in my life.
+&lt;/p&gt;
+&lt;h4&gt;Criminally small&lt;/h4&gt;
+&lt;p&gt;
+  Perusing the zoning ordinances for most urban areas, you'll find that the minimum square footage for a residence is somewhere in the
+  vicinity of 400 square feet. You'll also find that (in Portland, at least) parking your motorhome on the street overnight is illegal.
+  And then there's the city's camping laws, which prohibit camping in a private yard for longer than 14 consecutive days. In my opinion,
+  these laws do more to disturb the peace than protect it.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-02-03:/b20cc62a32f1481a91fcd19bcaf831e8ba18ecea/</id>
     <title type="html">I've been talking about it for a decade. It's time to travel the continent in a van.</title>
@@ -106,64 +157,6 @@ $ gem install pg  --with-pg-config=/usr/local/Cellar/postgresql/9.0.4/bin/pg_con
   Robert H. Lustig, MD gives a lecture exploring the damage caused by sugary foods:
 &lt;/p&gt;
 &lt;iframe width="420" height="315" src="http://www.youtube.com/embed/dBnniua6-oM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-11-28:/ba93bb6a1a4f6909e4cd20d50dd7d0ae85feb2c6/</id>
-    <title type="html">Coffehouse hipster technocrats are the linchpins of tomorrow</title>
-    <published>2011-11-29T03:01:37Z</published>
-    <updated>2011-11-29T03:01:37Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/ba93bb6a1a4f6909e4cd20d50dd7d0ae85feb2c6/"/>
-    <content type="html">&lt;div class='pull-right'&gt;
-  &lt;iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=FFFFFF&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=00438A&amp;t=teevan-20&amp;o=1&amp;p=8&amp;l=as1&amp;m=amazon&amp;f=ifr&amp;ref=qf_sp_asin_til&amp;asins=1591844096" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;
-  My brother stumbled upon my last post,
-  &lt;a href="/2413224cf1c6f2206c3f7156419b68a54fc67acd/"&gt;We have the capacity for renaissance&lt;/a&gt;,
-  and suggested I read Seth Godin's book &lt;em&gt;Linchpin&lt;/em&gt;.
-  Only thirty-some-odd pages into it and I'm realizing he's preaching
-  what I so-humbly prophetized five years ago: My generation's affluence
-  depends not upon employment, following, or obedience, but upon
-  self-reliance, leadership, and challenging the status quo. For the first time in
-  our industrial society, Godin proclaims, the proletariat owns the means of production.
-&lt;/p&gt;
-&lt;p&gt;
-  In my last days of my undergraduate study, I held an internship at a small software
-  company in Ithaca, New York. When I decided to up and move across the country to Portland,
-  I was bold enough to inquire about telecommuting. They said yes.
-&lt;/p&gt;
-&lt;p&gt;
-  What an exciting, new prospect! I had heard of transcriptionists and architects taking their work home with them,
-  but the idea that I could work among a team of four engineers sitting in a seat
-  3,000 miles and three timezones away seemed like a fantasy. This was in 2007 a time when VoIP was in its
-  barely-useful infancy. Source control systems were hosted on dedicated servers and lacked the social facilities
-  which make GitHub such a joy to use.
-&lt;/p&gt;
-&lt;p&gt;
-  Moving to Portland, in retrospect, was like sailing the maiden voyage of a vessel to a new world.
-  One free from the shackles of 9-5 work schedules, daily commutes, lacking office kitchen facilities,
-  distracting water cooler jabber, and most importantly, &lt;em&gt;showing up for work&lt;/em&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  My parents' generation was the Worker Bee Generation. Throughout my childhood,
-  my parents preached higher education not as a means for academic enrichment, but
-  as a means toward gainful employment. It's not their fault they were wrong to assume
-  polite obedience and good grades would bear our generation's livings. It is our
-  responsibility to adjust our attitudes and act in accordance with our brave new economy.
-&lt;/p&gt;
-&lt;p&gt;
-  We are thoughtworkers. Whereas a steel worker's hands are easily replaced by another's hands, the
-  thoughtworker's mind is irreplaceable and irreplicable. Manual and clerical labor are mere &lt;em&gt;facilities&lt;/em&gt;
-  to assist creative people to realize their visions.
-&lt;/p&gt;
-&lt;p&gt;
-  We are the new elite. We have the power to shift opinion, to automate businesses, to create and topple
-  entire industries with our minds and some circuitry. And we're doing it from your neighborhood coffee shop,
-  your cocktail bar, your park's picnic table, and the beach.
-&lt;/p&gt;
-&lt;p&gt;
-  That's so fucking cool.
-&lt;/p&gt;
 </content>
   </entry>
 </feed>
