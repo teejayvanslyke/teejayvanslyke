@@ -2,13 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-02-29T17:02:32Z</updated>
+  <updated>2012-03-12T18:32:53Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-03-12:/i-want-your-driveway/</id>
+    <title type="html">I want your driveway</title>
+    <published>2012-03-12T18:32:53Z</published>
+    <updated>2012-03-12T18:32:53Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/i-want-your-driveway/"/>
+    <content type="html">&lt;p&gt;
+  Friends, family, friends of family, family of friends:
+&lt;/p&gt;
+&lt;div style='font-size: 4em; line-height: 2em'&gt;I WANT YOUR DRIVEWAY&lt;/div&gt;
+&lt;p&gt;
+  This spring and summer, I'll be trekking across our great nation in search of the American Dream, or something.
+  As much as I'll enjoy campgrounds some of the time, I'd love it if I could park my gorgeous land yacht in your
+  driveway, wherever you may be. Please comment if you'd like to host me, if only for a night! We'll figure something
+  out I'm sure.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-02-29:/a-grand-lifestyle-experiment/</id>
     <title type="html">A grand lifestyle experiment</title>
@@ -49,7 +67,7 @@
 &lt;/p&gt;
 &lt;p&gt;
   Forever stranded 3,000 miles away from home, with an unnerving desire to see something different when I awaken in the morning,
-  I decided it was time to fulfill my thkjeenage pipe dream. And so far, I've never been more fulfilled by a decision in my life.
+  I decided it was time to fulfill my teenage pipe dream. And so far, I've never been more fulfilled by a decision in my life.
 &lt;/p&gt;
 &lt;h4&gt;Criminally small&lt;/h4&gt;
 &lt;p&gt;
@@ -167,18 +185,6 @@ $ gem install pg  --with-pg-config=/usr/local/Cellar/postgresql/9.0.4/bin/pg_con
     &lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-12-02:/cc84d2aea8512a2fdd8129db7ae89620c58bf04b/</id>
-    <title type="html">Sugar is a poison and should be regulated</title>
-    <published>2011-12-03T03:14:05Z</published>
-    <updated>2011-12-03T03:14:05Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/cc84d2aea8512a2fdd8129db7ae89620c58bf04b/"/>
-    <content type="html">&lt;p&gt;
-  Robert H. Lustig, MD gives a lecture exploring the damage caused by sugary foods:
-&lt;/p&gt;
-&lt;iframe width="420" height="315" src="http://www.youtube.com/embed/dBnniua6-oM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 </content>
   </entry>
 </feed>
