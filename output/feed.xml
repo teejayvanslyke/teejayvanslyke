@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-03-21T18:32:53Z</updated>
+  <updated>2012-03-21T18:33:53Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-03-21:/a-jasmine-matcher-for-backbone-js-event-expectations/</id>
+    <title type="html">A Jasmine matcher for Backbone.js Event Expectations</title>
+    <published>2012-03-21T18:33:53Z</published>
+    <updated>2012-03-21T18:33:53Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/a-jasmine-matcher-for-backbone-js-event-expectations/"/>
+    <content type="html">&lt;p&gt;
+  I wanted to be able to eloquently test Backbone.js event chains, so I wrote a custom matcher:
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;script src="https://gist.github.com/2152540.js?file=gistfile1.coffee"&gt;&lt;/script&gt;
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-03-21:/a-leak-is-a-good-excuse-for-bamboo/</id>
     <title type="html">A leak is a good excuse for bamboo.</title>
@@ -158,30 +172,6 @@
   Sprinter van, equipped with most of the amenities of home and bearing one overwhelmingly novel feature no
   condo or apartment ever could: A V6 engine and a set of wheels.
 &lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2011-12-23:/dcb2c34d32ea31dc5b08ece6fb446761f7182ff5/</id>
-    <title type="html">RVM, Ruby 1.9.3, Homebrew and PostgreSQL make me want to kill babies</title>
-    <published>2011-12-23T23:45:30Z</published>
-    <updated>2011-12-23T23:45:30Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/dcb2c34d32ea31dc5b08ece6fb446761f7182ff5/"/>
-    <content type="html">&lt;p&gt;
-  After much frustration with absymal load times on my Rails 3.1 application when running on Ruby 1.9.2,
-  I decided it was high time to upgrade to 1.9.3 to take advantage of its new hash-based require scheme. Turns out
-  it was going to take an entire afternoon because of an issue with the &lt;code&gt;pg&lt;/code&gt; gem's configuration.
-&lt;/p&gt;
-&lt;p&gt;
-  If you're having the same problem, try the following:
-&lt;/p&gt;
-&lt;pre&gt;$ rvm use 1.9.3-p0
-$ gem uninstall pg # uninstall all versions
-$ gem install pg  --with-pg-config=/usr/local/Cellar/postgresql/9.0.4/bin/pg_config&lt;/pre&gt;
-&lt;p&gt;
-  Essentially, you need to be explicit about Homebrew's Postgres installation so you don't end up using
-  the default Mac installation.
-&lt;/p&gt;
-&lt;p&gt;I hope this helps. Happy holidays!&lt;/p&gt;
 </content>
   </entry>
 </feed>
