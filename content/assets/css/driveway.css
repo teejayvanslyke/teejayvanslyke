@@ -5,6 +5,7 @@ html.driveway, body.driveway {
   height: 480px;
   font-weight: 300;
   letter-spacing:-0.05em;
+  text-shadow: 0 0.2em 0.1em #ccc;
 }
 
 .centered { 
