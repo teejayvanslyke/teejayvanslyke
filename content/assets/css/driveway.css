@@ -1,0 +1,27 @@
+html.driveway, body.driveway {
+  overflow: hidden;
+}
+.scroll-block {
+  height: 480px;
+  font-weight: 300;
+  letter-spacing:-0.05em;
+}
+
+.centered { 
+  text-align: center;
+  line-height: 480px;
+}
+.scroll-block .ginormous{ 
+  font-size: 16em;
+}
+.scroll-block .huge { 
+  font-size: 10em;
+}
+.scroll-block .large { 
+  font-size: 2em;
+}
+
+section.driveway {
+  height: 480px;
+  overflow: scroll;
+}
