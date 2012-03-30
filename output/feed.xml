@@ -2,13 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-03-21T18:33:53Z</updated>
+  <updated>2012-03-29T13:10:08Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-03-29:/youre-not-living-and-youre-doing-it-wrong/</id>
+    <title type="html">You're not living and you're doing it wrong</title>
+    <published>2012-03-29T13:10:08Z</published>
+    <updated>2012-03-29T13:10:08Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/youre-not-living-and-youre-doing-it-wrong/"/>
+    <content type="html">&lt;p&gt;
+  I use Twitter predominantly to keep up with my other tech-saavy friends and colleagues. One
+  trend I notice among this crowd is their (our?) continuing tendency to blog about The Next
+  Big Thing in technology, as if its mere conception will vastly improve the lives of its users.
+  We're not talking about a new cancer treatment, an anti-aging medication, an abundant energy source.
+  Nope, we're talking about some new app that plugs into your Twitters to make it talk to your Instagrams
+  and ensure your Facebooks are kept in sync. And goddamnit, I don't fucking care anymore.
+&lt;/p&gt;
+&lt;h4&gt;Meta is misery&lt;/h4&gt;
+&lt;p&gt;
+  Technology is beautiful. It allows us to move at speeds unimaginable a century ago, communicate
+  with almost anyone the world over instantly, and cure or prevent once pandemic-scale diseases. Talking
+  about technology is healthy; it creates a diverse, useful community, without which we could not evolve
+  our efforts. But I, like so many of my colleagues, have fallen to the plight of the Great Meta: Spending
+  time (your valuable, precious, short lifetime) encouraging and criticizing current technology trends in
+  an effort to be the coolest kid on the Internet. This practice is downright absurd, and should be banished
+  from the face of the Internet for the good of humanity. Create and use technology to enrich your life,
+  and let that be that. You're not making the world a better place by creating a new social network platform,
+  no matter how much that sweet VC money fools you into thinking so.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-03-28:/reflections-on-a-month-living-small/</id>
+    <title type="html">Reflections on a month living small</title>
+    <published>2012-03-28T20:31:13Z</published>
+    <updated>2012-03-28T20:31:13Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/reflections-on-a-month-living-small/"/>
+    <content type="html">&lt;p&gt;
+  It's been about a month since I began moving my life into the tiny RV I now call home. It's not
+  a stretch to say that the last month of my life is probably in my top five life-changing experiences,
+  right up there with moving out of my parents' house. Never has my daily consideration shifted so much
+  in the direction of frugality and resourcefulness.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-03-25:/stuff/</id>
+    <title type="html">Stuff</title>
+    <published>2012-03-25T19:29:22Z</published>
+    <updated>2012-03-25T19:29:22Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/stuff/"/>
+    <content type="html">&lt;p&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-03-21:/a-jasmine-matcher-for-backbone-js-event-expectations/</id>
     <title type="html">A Jasmine matcher for Backbone.js Event Expectations</title>
@@ -63,114 +114,6 @@
   The installation is still a work in progress, but I have a hunch the improvement will be night and day.
   I don't know what kind of masochist wants carpet installed in their home, but I'm glad to make a swift exit
   from that club.
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-03-12:/i-want-your-driveway/</id>
-    <title type="html">I want your driveway</title>
-    <published>2012-03-12T18:32:53Z</published>
-    <updated>2012-03-12T18:32:53Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/i-want-your-driveway/"/>
-    <content type="html">&lt;p&gt;
-  Friends, family, friends of family, family of friends: I want your driveway!
-&lt;/p&gt;
-&lt;p&gt;
-  This spring and summer, I'll be trekking across our great nation in search of the American Dream, or something.
-  As much as I'll enjoy campgrounds some of the time, I'd love it if I could park my gorgeous land yacht in your
-  driveway, wherever you may be. Please comment if you'd like to host me, if only for a night! We'll figure something
-  out I'm sure.
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-02-29:/a-grand-lifestyle-experiment/</id>
-    <title type="html">A grand lifestyle experiment</title>
-    <published>2012-02-29T17:02:32Z</published>
-    <updated>2012-02-29T17:02:32Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/a-grand-lifestyle-experiment/"/>
-    <content type="html">&lt;p&gt;
-  My friends are doing their best to support me. My girlfriend has been a guiding light through the process.
-  My parents think I'm insane. Regardless of opinion, I'm now living in a 1995 Winnebago Rialta.
-&lt;/p&gt;
-&lt;h4&gt;Fat and unable to move&lt;/h4&gt;
-&lt;p&gt;
-  I was getting fat. Not around the waistline -- around my apartment. With two bicycles (down from four), three
-  24"+ computer monitors, two computer workstations, numerous gadgets, a small studio's worth of music production
-  gear, and a closet full of clothes I never wore, I was destined to live life reluctantly renewing leases for fear
-  of moving on. &lt;em&gt;What would I do with all this stuff?&lt;/em&gt; The idea terrified me. It terrified me so much that
-  I'd have nightmares about never being able to leave Portland. You know, the ones where Sam Adams erects a wall
-  around the city and David Hasselhof tries to save us. Or something.
-&lt;/p&gt;
-&lt;h4&gt;Down by the river&lt;/h4&gt;
-&lt;p&gt;
-  Rewind back to 2002. A simpler time. A time where a 17-year-old high school senior could make his daily allowance
-  working for the local supermarket and dream about one day living in a van. &lt;em&gt;&amp;quot;I could go anywhere, anytime!&amp;quot;&lt;/em&gt;,
-  I'd think to myself. &lt;em&gt;&amp;quot;I could even install a computer inside, and wardrive for fresh wi-fi hotspots around town!&amp;quot;&lt;/em&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-  But alas, vans cost thousands of dollars, and I didn't have any credit... or thousands of dollars. Dreams crushed.
-&lt;/p&gt;
-&lt;h4&gt;A fear of flight&lt;/h4&gt;
-&lt;p&gt;
-  When I was in my early twenties, I'd fly everywhere without a thought. In 2008 I flew to and from Europe three
-  times in the course of only a few weeks. I loved to fly. But then...
-&lt;/p&gt;
-&lt;p&gt;
-  Then this pesky part of my brain called my frontal lobe developed. All of the sudden flying was for the birds,
-  stepping too close to the edge of cliffs was a death wish, and earthquakes were common in Portland, Oregon. And so
-  ended my era of easy, fast transcontinental travel.
-&lt;/p&gt;
-&lt;p&gt;
-  Forever stranded 3,000 miles away from home, with an unnerving desire to see something different when I awaken in the morning,
-  I decided it was time to fulfill my teenage pipe dream. And so far, I've never been more fulfilled by a decision in my life.
-&lt;/p&gt;
-&lt;h4&gt;Criminally small&lt;/h4&gt;
-&lt;p&gt;
-  Perusing the zoning ordinances for most urban areas, you'll find that the minimum square footage for a residence is somewhere in the
-  vicinity of 400 square feet. You'll also find that (in Portland, at least) parking your motorhome on the street overnight is illegal.
-  And then there's the city's camping laws, which prohibit camping in a private yard for longer than 14 consecutive days. In my opinion,
-  these laws do more to disturb the peace than protect it.
-&lt;/p&gt;
-&lt;p&gt;
-  So, we'll see what happens. The worst that can come of this is I have to move my house, which, at this point, involves putting it in drive.
-  I'm making it a point to be very respectful to my neighbors and yard-mates, so hopefully it won't be a problem for the short duration I
-  plan to remain in Portland.
-&lt;/p&gt;
-&lt;h4&gt;You say RV. I say land yacht.&lt;/h4&gt;
-&lt;p&gt;
-  If you think I'm sacrificing comfort or style living in less than 100 square feet, think again. I've only had my RV for a week, and already
-  I've installed a Bluetooth-ready car stereo, assembled a custom computer workstation made out of an IKEA kitchen table, a memory foam mattress,
-  a magnetic spice rack with magnetic on-wall storage for metallic tools, an area rug, 4G wireless Internet access, and LED lighting. This makes
-  my RV less a trashy mobile home and more a classy land yacht, ready for adventure and equipped for my live/work lifestyle.
-&lt;/p&gt;
-&lt;p&gt;
-  I cannot take credit for my inspiration in this endeavor, though. Most of the reassurance that "everything is going to be okay" comes from
-  &lt;a href="http://tynan.com"&gt;Tynan&lt;/a&gt;, who wrote an excellent book about &lt;a href="http://www.amazon.com/Tiniest-Mansion-Live-Luxury-ebook/dp/B006XLK2LW"&gt;living
-  in a small RV&lt;/a&gt;. And then there's &lt;a href="http://livinginrv.com"&gt;Mikko Kemppe&lt;/a&gt;, who coined the phrase &lt;em&gt;Urban Mobile Lifestyle&lt;/em&gt; and lives in a
-  Winnebago Era. He hasn't updated his site in awhile, so I'm curious what he's up to now.
-&lt;/p&gt;
-&lt;p&gt;
-  So there you have it. I'm not sure what's to come of my grand experiment, but I can tell you it'll be more exciting than sitting at home
-  watching reruns of &lt;em&gt;It's Always Sunny In Philadelphia&lt;/em&gt;. Not that I won't miss The Gang...
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-02-03:/b20cc62a32f1481a91fcd19bcaf831e8ba18ecea/</id>
-    <title type="html">I've been talking about it for a decade. It's time to travel the continent in a van.</title>
-    <published>2012-02-03T22:18:14Z</published>
-    <updated>2012-02-03T22:18:14Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/b20cc62a32f1481a91fcd19bcaf831e8ba18ecea/"/>
-    <content type="html">&lt;p&gt;
-  I have fond memories of dreaming away during my teenage youth at the prospect of one day finding a way
-  to make a living on the road. Of one day building my ideal vessel: A veritable hacker's paradise on wheels.
-  And yet, somehow I've always found a way to excuse myself from the dream's pursuit and realization.
-&lt;/p&gt;
-&lt;p&gt;
-  Well not this year, damnit. That's right. In Summer 2012, I set sail on the open road in a yet-to-be-converted
-  Sprinter van, equipped with most of the amenities of home and bearing one overwhelmingly novel feature no
-  condo or apartment ever could: A V6 engine and a set of wheels.
 &lt;/p&gt;
 </content>
   </entry>
