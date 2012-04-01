@@ -2,13 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-03-29T13:10:08Z</updated>
+  <updated>2012-03-31T20:20:26Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-03-31:/welcome-to-walmart-would-you-like-some-fucking-chamomile/</id>
+    <title type="html">Welcome to Walmart. Would you like some fucking chamomile?</title>
+    <published>2012-03-31T20:20:26Z</published>
+    <updated>2012-03-31T20:20:26Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/welcome-to-walmart-would-you-like-some-fucking-chamomile/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img alt='Walmart in Yreka' src='/assets/images/walmart-parking-lot-03-31-2012.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  Today I embarked on the first leg of my journey to find America or some nice weather
+  or whatever the hell I'm looking for barrelling down Interstate 5 at a whopping 45-65 MPH
+  (my VW is a 4-cylinder; give me a break). I set my sights on the Mt. Shasta area of
+  Northern California as a reasonable stopping point, and I sought to cross one particular
+  nagging American dream off my very long bucket list. Tonight, I'm sleeping at Walmart.
+&lt;/p&gt;
+&lt;p&gt;
+  So far, my experience has been nothing but&amp;hellip;what I thought it would be. There's the overweight employees
+  and patrons, not entirely unkempt but as 'kempt' as required by Sir Sam Walton. And then
+  there's the haggard old woman waving hello to the greeter at the front door. Yreka is a
+  town of fewer than eight thousand; I suppose everyone knows your name in a place like this.
+&lt;/p&gt;
+&lt;p&gt;
+  It's a bizarre feeling to drive into a Walmart parking lot and then realize you've got your
+  entire house with you. As soon as I pulled in, I cranked on the propane and put on a pot of
+  tea. Chamomile, to put me fast asleep to catch the first crack of sunlight pouring over the
+  mountain. A Walmart patron might have suggested I take some 5-Hour Energy and push through
+  till dawn, but I think I'll take their pimply-nosed complexion as a clear sign that sleep
+  is a better option.
+&lt;/p&gt;
+&lt;p&gt;
+  Here's to a good night's rest.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-03-29:/youre-not-living-and-youre-doing-it-wrong/</id>
     <title type="html">You're not living and you're doing it wrong</title>
@@ -71,49 +106,6 @@
 &lt;/p&gt;
 &lt;p&gt;
   &lt;script src="https://gist.github.com/2152540.js?file=gistfile1.coffee"&gt;&lt;/script&gt;
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-03-21:/a-leak-is-a-good-excuse-for-bamboo/</id>
-    <title type="html">A leak is a good excuse for bamboo.</title>
-    <published>2012-03-21T18:32:53Z</published>
-    <updated>2012-03-21T18:32:53Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/a-leak-is-a-good-excuse-for-bamboo/"/>
-    <content type="html">&lt;p&gt;
-  It's been raining and hovering around 40&amp;deg;F for the past two weeks straight here in Portland.
-  As a result, my trusted land yacht (RV) has faced the plight of condensation in all its orifices.
-  And so, I figured, my wet carpet must surely be a result of it raining inside, right?
-&lt;/p&gt;
-&lt;p&gt;
-  Wrong.
-&lt;/p&gt;
-&lt;p&gt;
-  The plastic tubing connecting my water pump to the faucet had sprung a slow leak, and was dripping
-  water all over the inside of my kitchenette unit, down onto the carpet in front of my bed. I'd
-  impressed myself countless times with my seeming natural handyman talent (this kid deals in bits and
-  bytes typically), but this one was too much stress for me to handle.
-&lt;/p&gt;
-&lt;p&gt;
-  My trusty Craigslist contractor came to the rescue, but had a caveat: The carpets needed to be ripped
-  out. With that much water seeping through to the subfloor, chances of salvaging the wood below with
-  the carpets in place were slim. And so, reluctantly, I started the process I had hoped to put off
-  until I reached sunnier pastures. It was time to go bamboo.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;iframe width="420" height="315" src="http://www.youtube.com/embed/Hn0_QVXuXuk?wmode=transparent" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;h4&gt;Wood Jerry! Wood!&lt;/h4&gt;
-&lt;p&gt;
-  At the inception of my &lt;a href="/a-grand-lifestyle-experiment"&gt;grand lifestyle experiment&lt;/a&gt;, I decided
-  I wanted to remodel most of my RV with gorgeous hardwoods from &lt;a href="http://bamboorevolution.com"&gt;Bamboo Revolution&lt;/a&gt;.
-  Their work is most prominent in the interior of &lt;a href="http://coava.myshopify.com"&gt;Coava Roasters&lt;/a&gt;,
-  with which they happen to share a space. When I saw it, I fell in love.
-&lt;/p&gt;
-&lt;p&gt;
-  The installation is still a work in progress, but I have a hunch the improvement will be night and day.
-  I don't know what kind of masochist wants carpet installed in their home, but I'm glad to make a swift exit
-  from that club.
 &lt;/p&gt;
 </content>
   </entry>
