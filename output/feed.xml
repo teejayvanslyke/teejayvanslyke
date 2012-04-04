@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-04-03T00:38:24Z</updated>
+  <updated>2012-04-04T05:38:24Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
@@ -10,11 +10,53 @@
     <uri>http://tjvanslyke.com</uri>
   </author>
   <entry>
-    <id>tag:tjvanslyke.com,2012-04-02:/coostal-forest-bliss-in-big-sur/</id>
+    <id>tag:tjvanslyke.com,2012-04-03:/detour-to-monterey/</id>
+    <title type="html">Detour to Monterey</title>
+    <published>2012-04-04T05:38:24Z</published>
+    <updated>2012-04-04T05:38:24Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/detour-to-monterey/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img src='/assets/images/laguna-seca-04-03-2012.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  I awoke bright and early this morning&amp;mdash;5:30 is the earliest I've woken up voluntarily in years.
+  After committing a couple hours of work, I packed up the RV and headed out. My first stop was one of
+  two gas stations in Big Sur. And at only $5.25 per gallon, it was quite the bargain. The shopkeepers
+  had a certain rural charm and genuine friendly demeanor that I'm not sure I've experienced elswhere.
+&lt;/p&gt;
+&lt;p&gt;
+  My trip was to be simple in form, but burdensome in execution. Two hours driving, according to Google Maps,
+  will carry an automobile from Big Sur to San Luis Obispo. What Google &lt;em&gt;didn't&lt;/em&gt; know about was the
+  rockslide and road closure I'd encounter a quarter of the way there.
+&lt;/p&gt;
+&lt;p&gt;
+  US-1 runs along the perimeter of the Pacific coast. Outlets are sparse: There are stretches where one can drive
+  forty miles without encountering a road leading inland. I was on one of those very stretches when
+  I reached a &amp;quot;Road Closed&amp;quot; sign and a portly woman informing me (in that very same rural charm
+  and friendly demeanor) that a rock the size of a large vehicle had fallen square into the highway, and
+  that it was to be dynamited later that day.
+&lt;/p&gt;
+&lt;p&gt;
+  And so, I set off in the northward direction, anxiously steering the windy, hilly intestine of the California
+  coast. Since I enjoyed my grocery shopping experience in Monterey, I figured I'd set up shop in the area for the week.
+  Monterey itself is quite a lot like all the California cities I've visited: Bright, car-crowded, noisy, yet still
+  charming. I was tempted to try spending the night in my RV on a city street, but my waste tanks needed emptying
+  and I wanted to retire to a peaceful place after the day's driving and working. I worked at a local coffee shop,
+  bought enough groceries to last the rest of the week, and headed to Laguna Seca Recreation Area.
+&lt;/p&gt;
+&lt;p&gt;
+  Despite sharing land with a race track, Laguna Seca is a gorgeous
+  hilltop campground with full hookups and just about the best view out your window you've ever seen. I'm very much
+  looking forward to spending my workday atop a hill in the peaceful sunshine.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-04-02:/coastal-forest-bliss-in-big-sur/</id>
     <title type="html">Coastal forest bliss in Big Sur</title>
     <published>2012-04-03T00:38:24Z</published>
     <updated>2012-04-03T00:38:24Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/coostal-forest-bliss-in-big-sur/"/>
+    <link rel="alternate" href="http://tjvanslyke.com/coastal-forest-bliss-in-big-sur/"/>
     <content type="html">&lt;p&gt;
   &lt;img src='/assets/images/big-sur-04-02-2012.jpg' /&gt;
 &lt;/p&gt;
@@ -136,15 +178,6 @@
   right up there with moving out of my parents' house. Never has my daily consideration shifted so much
   in the direction of frugality and resourcefulness.
 &lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-03-25:/stuff/</id>
-    <title type="html">Stuff</title>
-    <published>2012-03-25T19:29:22Z</published>
-    <updated>2012-03-25T19:29:22Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/stuff/"/>
-    <content type="html">&lt;p&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
