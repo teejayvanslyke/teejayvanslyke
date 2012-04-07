@@ -2,13 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-04-04T05:38:24Z</updated>
+  <updated>2012-04-05T04:49:24Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-04-04:/cycling-at-laguna-seca/</id>
+    <title type="html">Cycling at Laguna Seca</title>
+    <published>2012-04-05T04:49:24Z</published>
+    <updated>2012-04-05T04:49:24Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/cycling-at-laguna-seca/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img src='/assets/images/laguna-seca-04-04-2012.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  Winds battered the side of my van through the night, perched
+  atop a hill in Monterey County. I awoke to a rainy windshield,
+  a crisp, dewey morning with a glowing potential to blossom
+  into a beautiful sunny afternoon.
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-04-03:/detour-to-monterey/</id>
     <title type="html">Detour to Monterey</title>
@@ -22,7 +40,7 @@
   I awoke bright and early this morning&amp;mdash;5:30 is the earliest I've woken up voluntarily in years.
   After committing a couple hours of work, I packed up the RV and headed out. My first stop was one of
   two gas stations in Big Sur. And at only $5.25 per gallon, it was quite the bargain. The shopkeepers
-  had a certain rural charm and genuine friendly demeanor that I'm not sure I've experienced elswhere.
+  had a certain rural charm and genuine friendly demeanor that I'm not sure I've experienced elsewhere.
 &lt;/p&gt;
 &lt;p&gt;
   My trip was to be simple in form, but burdensome in execution. Two hours driving, according to Google Maps,
@@ -163,20 +181,6 @@
   from the face of the Internet for the good of humanity. Create and use technology to enrich your life,
   and let that be that. You're not making the world a better place by creating a new social network platform,
   no matter how much that sweet VC money fools you into thinking so.
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-03-28:/reflections-on-a-month-living-small/</id>
-    <title type="html">Reflections on a month living small</title>
-    <published>2012-03-28T20:31:13Z</published>
-    <updated>2012-03-28T20:31:13Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/reflections-on-a-month-living-small/"/>
-    <content type="html">&lt;p&gt;
-  It's been about a month since I began moving my life into the tiny RV I now call home. It's not
-  a stretch to say that the last month of my life is probably in my top five life-changing experiences,
-  right up there with moving out of my parents' house. Never has my daily consideration shifted so much
-  in the direction of frugality and resourcefulness.
 &lt;/p&gt;
 </content>
   </entry>
