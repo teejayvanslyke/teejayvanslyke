@@ -33,6 +33,11 @@ task :clean do
   system "`cd #{ROOT}/content/posts && git clean -f`"
 end
 
+desc "Run the development server"
+task :server do
+  system "cd #{ROOT} && bundle exec nanoc autocompile -p 3030"
+end
+
 desc "Commit changes and provide default commit message"
 task :commit do
   system "cd #{ROOT} && nanoc compile && git add . && git commit -am \"Automatic commit\""
