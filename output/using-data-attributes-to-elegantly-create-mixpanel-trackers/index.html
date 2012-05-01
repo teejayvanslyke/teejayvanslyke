@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="I believe creativity is the cure to our society's consumer-oriented condition.">
+  <title>Using HTML data attributes to elegantly create Mixpanel trackers</title>
+  <meta name="description" content="Rather than use Mixpanel's track_links method (which is ugly, IMHO), I show you how to use data attributes to create Mixpanel trackers on links.">
   <meta name="author" content="Teejay VanSlyke">
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -51,9 +51,30 @@
       <div class="row">
         <div class="span12">
 
-          <h1></h1>
+          <h1>Using HTML data attributes to elegantly create Mixpanel trackers</h1>
 
-          Stoked I finally built out a new blog site! I'm going to be migrating all of my publishing here shortly and syndicating on both Facebook and Twitter. Stay tuned.
+          <p>
+  I've been using <a href="http://mixpanel.com">Mixpanel</a> to track user behavior on one of my projects, and sought a more elegant way to track link clicks than the <code>track_links</code>
+  method the standard API provides. Instead, I'd like to be able to specify the tracker's name and properties as HTML attributes.
+</p>
+<p>
+  Simply paste this snippet into your document ready block to get started:
+</p>
+<p>
+  <script src="https://gist.github.com/2569284.js?file=gistfile1.coffee"></script>
+</p>
+<p>
+  Then, on any links you'd like to track, simply provide the <code>data-mixpanel-tracker</code> attribute:
+</p>
+<pre>&lt;a href=&quot;/moon&quot; data-mixpanel-tracker=&quot;he chose to go to the moon&quot;&gt;Go to the Moon!&lt;/a&gt;</pre>
+<p>
+  Specify custom properties in JSON using the <code>data-mixpanel-properties</code> attribute:
+</p>
+<pre>&lt;a href=&quot;/moon&quot; data-mixpanel-tracker=&quot;he chose to go to the moon&quot; data-mixpanel-properties=&quot;{agency: 'nasa', mission: 'apollo 13'}&quot;&gt;Go to the Moon!&lt;/a&gt;</pre>
+<p>
+  This snippet will automatically redirect the user to the link's <code>href</code> after 300ms, so no
+  need to worry if the Mixpanel request failed. Happy tracking!
+</p>
 
 
           <div id="disqus_thread"></div>

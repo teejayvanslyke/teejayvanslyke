@@ -2,13 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-04-26T21:48:00Z</updated>
+  <updated>2012-05-01T17:16:00Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-05-01:/using-data-attributes-to-elegantly-create-mixpanel-trackers/</id>
+    <title type="html">Using HTML data attributes to elegantly create Mixpanel trackers</title>
+    <published>2012-05-01T17:16:00Z</published>
+    <updated>2012-05-01T17:16:00Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/using-data-attributes-to-elegantly-create-mixpanel-trackers/"/>
+    <content type="html">&lt;p&gt;
+  I've been using &lt;a href="http://mixpanel.com"&gt;Mixpanel&lt;/a&gt; to track user behavior on one of my projects, and sought a more elegant way to track link clicks than the &lt;code&gt;track_links&lt;/code&gt;
+  method the standard API provides. Instead, I'd like to be able to specify the tracker's name and properties as HTML attributes.
+&lt;/p&gt;
+&lt;p&gt;
+  Simply paste this snippet into your document ready block to get started:
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;script src="https://gist.github.com/2569284.js?file=gistfile1.coffee"&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  Then, on any links you'd like to track, simply provide the &lt;code&gt;data-mixpanel-tracker&lt;/code&gt; attribute:
+&lt;/p&gt;
+&lt;pre&gt;&amp;lt;a href=&amp;quot;/moon&amp;quot; data-mixpanel-tracker=&amp;quot;he chose to go to the moon&amp;quot;&amp;gt;Go to the Moon!&amp;lt;/a&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+  Specify custom properties in JSON using the &lt;code&gt;data-mixpanel-properties&lt;/code&gt; attribute:
+&lt;/p&gt;
+&lt;pre&gt;&amp;lt;a href=&amp;quot;/moon&amp;quot; data-mixpanel-tracker=&amp;quot;he chose to go to the moon&amp;quot; data-mixpanel-properties=&amp;quot;{agency: 'nasa', mission: 'apollo 13'}&amp;quot;&amp;gt;Go to the Moon!&amp;lt;/a&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+  This snippet will automatically redirect the user to the link's &lt;code&gt;href&lt;/code&gt; after 300ms, so no
+  need to worry if the Mixpanel request failed. Happy tracking!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-04-26:/a-holistic-approach-to-happiness/</id>
     <title type="html">A holistic approach to happiness</title>
@@ -221,31 +251,6 @@
   their way is the right way. It's a certainty they're trying to take your money, and it's a near certainty
   that they feel the same longing and entrapment as you do when you listen to them. I've found
   a new kind of fulfillment, and it comes from within.
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-04-04:/cycling-at-laguna-seca/</id>
-    <title type="html">Cycling at Laguna Seca</title>
-    <published>2012-04-05T04:49:24Z</published>
-    <updated>2012-04-05T04:49:24Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/cycling-at-laguna-seca/"/>
-    <content type="html">&lt;p&gt;
-  &lt;img src='/assets/images/laguna-seca-04-04-2012.jpg' /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  Winds battered the side of my van through the night, perched
-  atop a hill in Monterey County. I awoke to a rainy windshield,
-  a crisp, dewey morning with a glowing potential to blossom
-  into a beautiful sunny afternoon.
-&lt;/p&gt;
-&lt;p&gt;
-  I spent Thursday and Friday working and cycling. The Laguna Seca
-  Recreation Area is home to the Mazda Laguna Seca raceway, which served
-  as a veritable road cyclist's utopia with its maze of paved and barely-traveled
-  access roads around the campus. For two days, I cheerfully alternated
-  between cycling and working every few hours. I hardly spoke to a soul, but this
-  solidarity gave me new perspective.
 &lt;/p&gt;
 </content>
   </entry>

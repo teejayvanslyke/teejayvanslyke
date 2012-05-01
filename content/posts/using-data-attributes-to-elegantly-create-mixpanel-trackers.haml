@@ -1,0 +1,35 @@
+---
+kind: article
+created_at: 2012-05-01 09:16:00 -0800
+title: Using HTML data attributes to elegantly create Mixpanel trackers
+description: Rather than use Mixpanel's track_links method (which is ugly, IMHO), I show you how to use data attributes to create Mixpanel trackers on links.
+---
+
+%p
+  I've been using <a href="http://mixpanel.com">Mixpanel</a> to track user behavior on one of my projects, and sought a more elegant way to track link clicks than the <code>track_links</code> 
+  method the standard API provides. Instead, I'd like to be able to specify the tracker's name and properties as HTML attributes. 
+
+%p
+  Simply paste this snippet into your document ready block to get started:
+
+%p
+  <script src="https://gist.github.com/2569284.js?file=gistfile1.coffee"></script>
+
+%p
+  Then, on any links you'd like to track, simply provide the <code>data-mixpanel-tracker</code> attribute:
+
+%pre
+  :escaped
+    <a href="/moon" data-mixpanel-tracker="he chose to go to the moon">Go to the Moon!</a>
+
+%p
+  Specify custom properties in JSON using the <code>data-mixpanel-properties</code> attribute:
+
+%pre
+  :escaped
+    <a href="/moon" data-mixpanel-tracker="he chose to go to the moon" data-mixpanel-properties="{agency: 'nasa', mission: 'apollo 13'}">Go to the Moon!</a>
+
+%p
+  This snippet will automatically redirect the user to the link's <code>href</code> after 300ms, so no 
+  need to worry if the Mixpanel request failed. Happy tracking!
+
