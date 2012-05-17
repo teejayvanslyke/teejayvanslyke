@@ -11,4 +11,5 @@ gem 'pismo'
 gem 'builder'
 gem 'twitter'
 gem 'rake'
+gem 'kramdown'
 
