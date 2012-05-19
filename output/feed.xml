@@ -2,13 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-05-17T19:40:09Z</updated>
+  <updated>2012-05-19T17:25:09Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-05-19:/what-ive-learned-after-three-months-living-tiny/</id>
+    <title type="html">What I've learned after three months living tiny</title>
+    <published>2012-05-19T17:25:09Z</published>
+    <updated>2012-05-19T17:25:09Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/what-ive-learned-after-three-months-living-tiny/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img src='/assets/images/what-ive-learned-after-three-months-living-tiny.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  It's been about three months since my girlfriend and I trekked to Beaverton by bus
+  to pick up the RV that I now call home. Since then, I've gone on a wild two-week
+  roadtrip in my own house, transformed a modest RV interior into a luxurious palace on
+  wheels, and learned so much about how to make the most of 100 square feet.
+&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;strong&gt;When you live in a tiny space, clutter's effects are amplified.&lt;/strong&gt;
+    When I lived in my loft apartment, weeks would go by without giving the place a
+    good decluttering. Bottles and cans from parties weeks ago would remain on my giant
+    countertop. If I ate popcorn the night before, you'd likely find the remnants in my
+    giant bowl sitting on my coffee table. In the RV, most surfaces serve many purposes,
+    so there &lt;em&gt;simply isn't room&lt;/em&gt; for clutter. I do my dishes within a day
+    &lt;em&gt;because I only have one plate.&lt;/em&gt; Everything has its right place, and if it
+    doesn't, its misplacement will reveal itself as soon as I try to drive my house
+    away and need to find a place to stow it.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;When resources are limited, you curb your usage subconsciously.&lt;/strong&gt;
+    My RV holds 20 gallons of fresh water and 19 gallons of waste, which is just enough
+    to live one week comfortably before going to the dump station. Because of this
+    inconvenience, I find myself turning off the faucet to conserve water more than I
+    did in a brick-and-mortar home. It's amusing how barbaric and selfish we actually
+    are when it comes to conservation, but I'll admit it took knowing my own supply
+    is limited before I'd make a concerted effort in curbing my usage.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;My life is generally richer and more experience-driven.&lt;/strong&gt;
+    When you live in 100 square feet, you're not occupied with the temptation to buy
+    a new, swanky piece of furniture. Since I moved into the RV, I've found myself
+    more eager to leave the house to explore, since I've stripped my house of frivolty
+    and responsibility. No space for a couch means I'm less likely to vegetate during
+    the daytime.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;A small space is dirt cheap to maintain!&lt;/strong&gt;
+    When I lived in my loft apartment, I was paying $1239/mo in rent, between $20-$100
+    in electricity per month (it had electric forced air heat), and varying amounts
+    in water and sewer usage. In the RV, my monthly expenses are $100/mo for my parking
+    spot, about $25/mo for electricity, about $10/mo for propane, and $40/mo for waste
+    disposal. That puts my monthly base living expenses at $175!
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;A small space is cozy.&lt;/strong&gt;
+    My RV is just a downright pleasant place to be. Most people assume because I have
+    such a small space that I'm not comfortable. I think the opposite is true. My
+    walls are closer together. Rather than the cold, vast cavern my loft often felt like,
+    my RV feels like a small, warm cocoon.
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+  Okay, so you're probably thinking there &lt;em&gt;must&lt;/em&gt; be some serious drawbacks to tiny
+  living. "Don't you wish you had more room once in awhile?" "Doesn't living in your car
+  get old?" "Don't you wish you had a shower in your house?" Sometimes these thoughts
+  enter my mind. But in all honesty, the feeling of self-sufficiency, resourcefulness,
+  and ingenuity I derive from this lifestyle far outweigh the drawbacks. Quite frankly, I'm
+  happier than I've ever been.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;em&gt;
+    If you're interested in tiny living in an RV but don't know how to get started, drop
+    me a line! &lt;a href="mailto:teejay.vanslyke+rv@gmail.com"&gt;teejay.vanslyke+rv@gmail.com&lt;/a&gt;
+  &lt;/em&gt;
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-05-17:/our-automobile-epidemic/</id>
     <title type="html">Our automobile epidemic</title>
@@ -205,70 +281,5 @@
     <updated>2012-04-21T02:49:53Z</updated>
     <link rel="alternate" href="http://tjvanslyke.com/the-lost-art-of-doing-nothing/"/>
     <content type="html"></content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-04-10:/affluence-transience-and-identity/</id>
-    <title type="html">Affluence, transience and identity</title>
-    <published>2012-04-11T05:45:14Z</published>
-    <updated>2012-04-11T05:45:14Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/affluence-transience-and-identity/"/>
-    <content type="html">&lt;p&gt;
-  I've been living out of my tiny RV for two months. My comfort level with the
-  arrangement is growing steadily, to the point where I almost always get a good
-  night's sleep in my vehicle. But there's still a nagging uncertainty amidst my
-  gratification that I'll be caught and prosecuted for my behavior, the likes of
-  which bears no harm upon others and has &lt;em&gt;less&lt;/em&gt; of an environmental impact
-  than a normal, modern living arrangement.
-&lt;/p&gt;
-&lt;p&gt;
-  When I was in San Luis Obispo, I decided that its downtown core was much too alluring
-  to spend my time driving between it and a campground on the outskirts of town. And so,
-  despite its illegality, I spent the night in my RV parked on the street beside a
-  law firm. I made sure my presence wouldn't upset anyone and kept my profile low. I
-  awoke peacefully and didn't have any issues.
-&lt;/p&gt;
-&lt;p&gt;
-  The next morning over coffee, I executed a quick web search for &amp;quot;RV parking
-  in San Luis Obispo&amp;quot; and came across &lt;a href="http://www.sanluisobispo.com/2012/04/10/2023709/lawsuit-san-luis-obispo-homeless.html"&gt;this article&lt;/a&gt;.
-  Turns out, SLO has enacted an ordinance banning RV camping from their streets in
-  an effort to combat vagrantism and the drugs and violence that come with it. Yet
-  another instance of combating a problem by enacting more laws, rather than approaching
-  it with discretion and common sense.
-&lt;/p&gt;
-&lt;p&gt;
-  And so, I had three options. I could continue to spend my nights on city streets
-  and risk being harassed by the police, I could find a campground on the outskirts of
-  SLO and pay $45/night for 100 square feet of cement in an area with no amenities or
-  attractions, or I could realize how unwelcome I felt and head home. I headed home.
-&lt;/p&gt;
-&lt;p&gt;
-  Here in Portland, we're constantly at odds with how to deal with homelessness and
-  vagrantism. Our downtown core is littered with their trash and our shelters have
-  lines longer than swanky brunch cafes on a late Sunday morning. And yet, we continue
-  to uphold laws prohibiting camping on public grounds and ordinances prohibiting
-  long-term camping on private lots. In my short experience as a vagabond, my most striking
-  observation was that my ability to be productive was drastically reduced when
-  faced with the question of where I would sleep that night.
-&lt;/p&gt;
-&lt;p&gt;
-  Now that I'm back in Portland and sitting pretty in my girlfriend's driveway while contributing
-  my share of rent each month, I'm reminded that I'm still living an illegal lifestyle.
-  Because of zoning ordinances in our city and most others, I've effectively erected a
-  second domicile in a lot zoned for single-family occupancy, which if used regularly,
-  constitutes a zoning violation. Luckily, I've got a laundry list of alibis if the city
-  asks any questions. &amp;quot;This is my mobile office and I live in the house with my
-  girlfriend&amp;quot; is what I'm sticking with for now. But the fact that I even have to
-  &lt;em&gt;consider&lt;/em&gt; having an alibi for completely harmless behavior (and in a time of
-  increasing rent fees, one solution to the affordable housing problem) makes me cringe.
-  Why should it be illegal for me to occupy a perfectly suitable dwelling on private property?
-&lt;/p&gt;
-&lt;p&gt;
-  My RV lifestyle has granted me new perspective on homelessness and vagrantism.
-  Despite my affluence and ability to get a hotel room or rent a house at a moment's notice,
-  my reluctance to do those things means I face many of the same problems and vulnerabilities.
-  I seek to live a happy, peaceful existence and have chosen minimalism as my path. It's too
-  bad it's illegal for me to do so.
-&lt;/p&gt;
-</content>
   </entry>
 </feed>
