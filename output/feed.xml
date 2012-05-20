@@ -2,13 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-05-19T17:25:09Z</updated>
+  <updated>2012-05-20T02:39:09Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-05-19:/help-me-park-my-house/</id>
+    <title type="html">Help me park my house!</title>
+    <published>2012-05-20T02:39:09Z</published>
+    <updated>2012-05-20T02:39:09Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/help-me-park-my-house/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img src='/assets/images/help-me-park-my-house.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  I've decided that, based on location and other factors, I'd like to find another spot to park my
+  tiny RV in Portland. Preferably, I'd like to be somewhere within the following boundaries:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;N:&lt;/strong&gt;
+    South of Killingsworth St, east of Interstate Ave, north of Tillamook St.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;NE:&lt;/strong&gt;
+    South of Killingsworth St, north of Tillamook St.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;SE:&lt;/strong&gt;
+    North of Powell Blvd, west of 12th Ave, east of Cesar Chavez Blvd
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  All I would ask is to use your electricity (via extension cord), to shower in your bathroom, and to use
+  your laundry machines (if present). My RV is only 20'8", so it only takes up slightly more room than a
+  standard parking spot. It's also downright adorable (pictured above).
+&lt;/p&gt;
+&lt;p&gt;
+  Though what I'm envisioning is an arrangement as an auxiliary dwelling alongside an existing residence,
+  I'd also be open to a spot in a parking lot, etc if I were close enough to a facility for bathing.
+&lt;/p&gt;
+&lt;p&gt;
+  Please spread the word! I'm willing to pay whatever the landowner or tenants think is fair. I'm quiet,
+  considerate, and clean. Thank you for your support!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-05-19:/what-ive-learned-after-three-months-living-tiny/</id>
     <title type="html">What I've learned after three months living tiny</title>
@@ -273,13 +315,5 @@
   &lt;strong&gt;tl;dr&lt;/strong&gt; Eat your fucking vegetables and be here now.
 &lt;/p&gt;
 </content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-04-20:/the-lost-art-of-doing-nothing/</id>
-    <title type="html">The lost art of doing nothing</title>
-    <published>2012-04-21T02:49:53Z</published>
-    <updated>2012-04-21T02:49:53Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/the-lost-art-of-doing-nothing/"/>
-    <content type="html"></content>
   </entry>
 </feed>
