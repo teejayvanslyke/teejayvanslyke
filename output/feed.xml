@@ -2,13 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-05-20T02:39:09Z</updated>
+  <updated>2012-05-29T04:54:09Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-05-28:/random-acts-of-aggression/</id>
+    <title type="html">Random acts of aggression</title>
+    <published>2012-05-29T04:54:09Z</published>
+    <updated>2012-05-29T04:54:09Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/random-acts-of-aggression/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img src='/assets/images/random-acts-of-aggression-05-28-2012.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  The general consensus is that Portland is a relatively safe and tolerant city. Most of the time, my beliefs,
+  appearance, and behavior are tolerated and accepted by most people. Either that or they're passive-aggressively keeping
+  their mouths shut. Either way, altercations rarely arise, and when they do, they're resolved swiftly
+  and peacefully.
+&lt;/p&gt;
+&lt;p&gt;
+  On Sunday, May 27, 2012, at approximately 3:00 pm, my faith in those convictions was shattered as I looked
+  the fender of a speeding red convertible in the eye, contemplating, if only for a fraction of a second, the possibility  that my life might be cut short by an unmeditated act of aggression.
+  that my life might be cut short by an unmeditated act of aggression. I was (and still am) reluctant to make the details of this incident public for my own safety, but I cannot help
+  but share a synopsis as a friendly reminder that such aggression can happen here, too.
+&lt;/p&gt;
+&lt;p&gt;
+  As I approached an intersection by bicycle, two cars queued in the lane
+  beside me, followed by a third. As soon as the signal turned green, I continued through.
+  The motorist in the first car stopped in order to yield to my right of way before proceeding with her right turn. I
+  continued approximately 200 feet, when I heard a loud bang from behind.
+&lt;/p&gt;
+&lt;p&gt;
+  The third car, a red convertible, had rear-ended the second car. Instead of pulling off the street to exchange
+  insurance information, the red convertible proceeded to swerve out of the right lane into the left lane, pass both
+  the other cars back into the right lane, and aggressively run me off the road, his front
+  bumper well into the bicycle lane. Did he believe it to be my fault he rear-ended another car?
+  Did he just not have an insurance policy? What perverse cowardice
+  could drive someone to such aggression?
+&lt;/p&gt;
+&lt;p&gt;
+  The next day, as I was walking down the sidewalk on my way to the grocery store, a teenager yelled &amp;quot;Faggot!&amp;quot;
+  out the window of his SUV as he sped by. Boy, he sure must have felt empowered, him and his big SUV and his homophobic
+  slurs. I wish that poor, deprived, wandering soul the best of luck, because despite his bigoted demeanor, my own
+  self-love and improvement-oriented attitude mean I'll live a happier, healthier life than the lowlife aggressor. While
+  he digs outward, I dig inward.
+&lt;/p&gt;
+&lt;p&gt;
+  Aggression is the outward reflection of a person's insecurities and fears. The aggressor sees something in his victim,
+  whether it be social status, intellectual ability, self-confidence, or physical prowess, which he either lacks or believes
+  he lacks. Instead of looking inward and asking how he can possess the qualities of his victim, he chooses to belittle
+  his victim's weaknesses. So, the next time you're a victim of aggression or bullying, just remember that it just means
+  your aggressor is probably wrought with insecurity and misery because your stride is just that much better than his.
+  Just don't get run over in the process.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-05-19:/help-me-park-my-house/</id>
     <title type="html">Help me park my house!</title>
@@ -231,88 +283,6 @@
 &lt;p&gt;
   This snippet will automatically redirect the user to the link's &lt;code&gt;href&lt;/code&gt; after 300ms, so no
   need to worry if the Mixpanel request failed. Happy tracking!
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-04-26:/a-holistic-approach-to-happiness/</id>
-    <title type="html">A holistic approach to happiness</title>
-    <published>2012-04-26T21:48:00Z</published>
-    <updated>2012-04-26T21:48:00Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/a-holistic-approach-to-happiness/"/>
-    <content type="html">&lt;p&gt;
-  &lt;img src='/assets/images/salad-04-26-2012.jpg' /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  March was a turbulent month for my body and mind. I had just terminated the lease on my
-  apartment in Portland and was in the process of moving into a tiny RV. Every day was rendered
-  more burdensome by persistent rain, gloomy skies, and an unnerving sense that the rabbit hole
-  of my anguish would burrow ever-deeper.
-&lt;/p&gt;
-&lt;p&gt;
-  And so, I set out on the open road in a blaze of escapist glory, thinking I was destined
-  to find happiness outside myself. At first, the distraction of the road combined with the
-  glimmer of sunshine provided me with the fulfillment I so craved. But, as with all stints of
-  pleasure, it was short-lived and transient.
-&lt;/p&gt;
-&lt;p&gt;
-  When I returned to Portland, I sought to properly investigate the source of my anguish.
-  Why did I find myself in a constant state of yearning and escapism? It wasn't my friends, nor
-  my surroundings, nor the weather, nor my work. I had tailored each of those to my liking--moreso
-  than for most people have the opportunity or will. If none of those things, then &lt;em&gt;what&lt;/em&gt;?
-&lt;/p&gt;
-&lt;div class='pull-right'&gt;
-  &lt;iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=FFFFFF&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=00438A&amp;t=tjva-20&amp;o=1&amp;p=8&amp;l=as1&amp;m=amazon&amp;f=ifr&amp;ref=tf_til&amp;asins=B0053ZHZI2" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;
-  Fast-forward to this weekend. Within a 24-hour span, I discovered a film and a book, the likes of
-  which would change my life. The film is the recently released, critically-acclaimed &lt;em&gt;Forks Over Knives&lt;/em&gt;.
-  In it, the documentarian examines &lt;em&gt;The China Study&lt;/em&gt;, the famed 2004 book examining the relationship between
-  the consumption of animal products and illness, in the context of the Western diet.
-&lt;/p&gt;
-&lt;p&gt;
-  I was well-aware my diet wasn't optimal, but I knew my attentiveness toward what I put in my gullet was more than
-  most Americans, so I thought little of it. But when I realized that certain foods, in adequate daily quantities, could
-  reverse diseases like cancer, multiple sclerosis, and coronary artery disease, I was astonished and sought to completely
-  revamp my diet to meet and exceed those criteria.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;em&gt;Forks Over Knives&lt;/em&gt; evangelizes a strict vegan diet and claims meat, dairy, and even fish are not necessary for, and
-  often detrimental to, a healthy, disease-preventitive diet. Being a curious little bugger, I never let one driver steer me
-  down the street. After all, veganism is generally regarded as a veritable tightrope walk to get adequate levels of B vitamins,
-  and essential amino acids. Dr. Terry Wahls, a now-recovering multiple sclerosis patient, gave a &lt;a href="http://www.youtube.com/KLjgBLwH3Wc"&gt;TED talk&lt;/a&gt; detailing the diet
-  she used to kickstart her brain and find her way out of a wheelchair and walking again.
-&lt;/p&gt;
-&lt;p&gt;
-  Now, rather than eating out for two or more meals per day, I go to the grocery store shortly after waking up each morning,
-  buy a bunch of dark leafy greens, one colored vegetable, one bunch of herbs, two pieces of fruit, and a bag of seeds or
-  nuts of my choosing. All of this becomes the basis for two heaping servings of raw salad. You probably think I'm malnourished,
-  but I've never felt so alert and alive. My craving for &amp;quot;mood enhancers&amp;quot; like caffeine, alcohol and cannabis have
-  diminished substantially, almost to the point where I find their use to yield a net negative effect.
-&lt;/p&gt;
-&lt;p&gt;Okay, so I've got my body on the path to proper nourishment. On to my spirit...&lt;/p&gt;
-&lt;div class='pull-right'&gt;
-  &lt;iframe src="http://rcm.amazon.com/e/cm?t=tjva-20&amp;o=1&amp;p=8&amp;l=as1&amp;asins=1577314808&amp;ref=tf_til&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=00438A&amp;bc1=FFFFFF&amp;bg1=FFFFFF&amp;f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;
-  Enter &lt;em&gt;The Power of Now&lt;/em&gt; by Eckart Tolle. Typically I don't gravitate toward mainstream
-  bestsellers as the source for great inspiration, but there are always exceptions. This is a big one. Tolle
-  has re-taught me the duality of being and self, a distinction I hadn't forgotten but one I had certainly
-  neglected in my daily life. Whenever I find myself becoming anxious, fearful, or stressed, I focus my
-  attention to the beauty of the moment I'm living. After all, the past and future only exist as recollections
-  and projections in our minds.
-&lt;/p&gt;
-&lt;p&gt;
-  This led to another realization, the likes of which Tolle couldn't have discussed in his 1999 book but stares
-  me straight in the face in our twenty-first century age. If past and future are mere products of ego, if self and identity
-  are ailments of our own making, then what does social media represent in that context? The ultimate manifestation
-  of our egos in digital form? Are all the texts, tweets, status updates, and constant social noise causing us
-  anxiety of which we're hardly aware? Does the comment I receive on my Facebook post, pushed straight to my phone
-  and ready for my consumption the instant it is published, the most iconic example of &lt;em&gt;non&lt;/em&gt;-presence,
-  &lt;em&gt;non&lt;/em&gt;-attentiveness, and unconscious living imaginable?
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;strong&gt;tl;dr&lt;/strong&gt; Eat your fucking vegetables and be here now.
 &lt;/p&gt;
 </content>
   </entry>

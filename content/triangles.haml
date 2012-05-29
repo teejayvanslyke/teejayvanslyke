@@ -1,0 +1,37 @@
+%style
+  :sass
+    .viewport
+      margin-top: 60px
+    .triangle
+      width: 0
+      height: 0
+      position: absolute
+      &.up
+        border-left: 20px solid transparent
+        border-right: 20px solid transparent
+        border-bottom: 20px solid green
+
+      &.down 
+        border-left: 20px solid transparent
+        border-right: 20px solid transparent
+        border-top: 20px solid green
+
+      &.left
+        border-top: 20px solid transparent
+        border-bottom: 20px solid transparent
+        border-right: 20px solid green
+
+      &.right
+        border-top: 20px solid transparent
+        border-bottom: 20px solid transparent
+        border-left: 20px solid green
+
+.viewport
+  .triangle.up
+  .triangle.down
+  .triangle.left
+  .triangle.right
+  .triangle.up
+  .triangle.down
+  .triangle.up
+  .triangle.down
