@@ -2,6 +2,24 @@
   padding: 12px 0;
 }
 
+.logo {
+  text-align: center;
+  margin: 64px 0;
+}
+
+p, li {
+  color: #303030;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  color: #909090;
+}
+
+a:hover {
+  color: #606060;
+}
 
 span.date {
   font-weight: 200;
@@ -58,7 +76,6 @@ text-shadow: 0 4px 4px rgba(0, 0, 0, .3);
 text-outline: 1px 1px black;
 }
 
-section { margin-top:109px;} 
 
 .post .body img { 
   max-width: 100%;
@@ -131,10 +148,17 @@ ul.albums li {
 
 
 
-.nav li {
-  font-size: 2em;
+.gutter ul li {
+  font-size: 16px;
+  line-height: 24px;
+
 }
 
+.gutter li.header {
+  text-transform: uppercase;
+  margin: 16px 0 8px 0;
+  color: #303030;
+}
 
 ol.tracklist {
   border: 1px solid #DDD;

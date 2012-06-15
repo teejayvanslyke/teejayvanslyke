@@ -3,19 +3,16 @@
   <%= render '/partials/default/head' %>
   <body class="post">
 
-    <div class="topbar">
-      <div class="fill">
-        <div class="container">
-          <a class="brand" href="/"><img src="/assets/images/logo.png"/></a>
-					<%= render '/partials/default/nav'%>
-        </div>
-      </div>
-
+    <div class="logo">
+      <a href="/"><img src="/assets/images/header-460.png"/></a>
     </div>
-
     <div class="post container">
 
       <div class="row">
+        <div class="span4">
+          <%= render '/partials/gutter' %>
+        </div>
+
         <div class="span12">
 
           <h1><%= @item[:title] %></h1>
@@ -37,10 +34,6 @@
          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-        </div>
-
-        <div class="span4">
-          <%= render '/partials/gutter' %>
         </div>
 
       </div>
