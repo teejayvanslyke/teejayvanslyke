@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-06-15T21:48:00Z</updated>
+  <updated>2012-06-15T21:49:00Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
@@ -10,13 +10,39 @@
     <uri>http://tjvanslyke.com</uri>
   </author>
   <entry>
+    <id>tag:tjvanslyke.com,2012-06-15:/its-friday-find-concerts-tonight-in-portland/</id>
+    <title type="html">Find out what's up tonight with Localpulse. Available for iOS.</title>
+    <published>2012-06-15T21:49:00Z</published>
+    <updated>2012-06-15T21:49:00Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/its-friday-find-concerts-tonight-in-portland/"/>
+    <content type="html">&lt;p&gt;
+  You might be familiar with &lt;a href="http://localpul.se"&gt;Localpulse&lt;/a&gt;, my rich map of music events in Portland, Oregon.
+  Today I'm proud to announce the Localpulse iOS app.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href='http://localpul.se/ios'&gt;
+    &lt;img alt='Localpulse for iOS' src='http://localpul.se/images/screenshot1.png' /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  Localpulse for iOS has all the features of the web application in your pocket. It's your one-stop guide to
+  what's going on &lt;em&gt;right now&lt;/em&gt;. Just $1.99.
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href="http://localpul.se/ios"&gt;More info&lt;/a&gt;
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <id>tag:tjvanslyke.com,2012-06-15:/elias-moniker-the-a-k-a-is-on-sale/</id>
     <title type="html">Elias Moniker MP3 download is on sale for just $4.99!</title>
     <published>2012-06-15T21:48:00Z</published>
     <updated>2012-06-15T21:48:00Z</updated>
     <link rel="alternate" href="http://tjvanslyke.com/elias-moniker-the-a-k-a-is-on-sale/"/>
     <content type="html">&lt;p&gt;
-  &lt;img src='http://eliasmoniker.com.s3.amazonaws.com/images/cover.png' /&gt;
+  &lt;a href='http://eliasmoniker.com'&gt;
+    &lt;img alt='Elias Moniker: The A.K.A.' src='http://eliasmoniker.com.s3.amazonaws.com/images/cover.png' /&gt;
+  &lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
   I'm proud to announce that, after months of being unavailable for high-quality MP3 download, Elias Moniker's
@@ -148,82 +174,6 @@
 &lt;p&gt;
   Please spread the word! I'm willing to pay whatever the landowner or tenants think is fair. I'm quiet,
   considerate, and clean. Thank you for your support!
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-05-19:/what-ive-learned-after-three-months-living-tiny/</id>
-    <title type="html">What I've learned after three months living tiny</title>
-    <published>2012-05-19T17:25:09Z</published>
-    <updated>2012-05-19T17:25:09Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/what-ive-learned-after-three-months-living-tiny/"/>
-    <content type="html">&lt;p&gt;
-  &lt;img src='/assets/images/what-ive-learned-after-three-months-living-tiny.jpg' /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  It's been about three months since my girlfriend and I trekked to Beaverton by bus
-  to pick up the RV that I now call home. Since then, I've gone on a wild two-week
-  roadtrip in my own house, transformed a modest RV interior into a luxurious palace on
-  wheels, and learned so much about how to make the most of 100 square feet.
-&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;strong&gt;When you live in a tiny space, clutter's effects are amplified.&lt;/strong&gt;
-    When I lived in my loft apartment, weeks would go by without giving the place a
-    good decluttering. Bottles and cans from parties weeks ago would remain on my giant
-    countertop. If I ate popcorn the night before, you'd likely find the remnants in my
-    giant bowl sitting on my coffee table. In the RV, most surfaces serve many purposes,
-    so there &lt;em&gt;simply isn't room&lt;/em&gt; for clutter. I do my dishes within a day
-    &lt;em&gt;because I only have one plate.&lt;/em&gt; Everything has its right place, and if it
-    doesn't, its misplacement will reveal itself as soon as I try to drive my house
-    away and need to find a place to stow it.
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;When resources are limited, you curb your usage subconsciously.&lt;/strong&gt;
-    My RV holds 20 gallons of fresh water and 19 gallons of waste, which is just enough
-    to live one week comfortably before going to the dump station. Because of this
-    inconvenience, I find myself turning off the faucet to conserve water more than I
-    did in a brick-and-mortar home. It's amusing how barbaric and selfish we actually
-    are when it comes to conservation, but I'll admit it took knowing my own supply
-    is limited before I'd make a concerted effort in curbing my usage.
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;My life is generally richer and more experience-driven.&lt;/strong&gt;
-    When you live in 100 square feet, you're not occupied with the temptation to buy
-    a new, swanky piece of furniture. Since I moved into the RV, I've found myself
-    more eager to leave the house to explore, since I've stripped my house of frivolty
-    and responsibility. No space for a couch means I'm less likely to vegetate during
-    the daytime.
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;A small space is dirt cheap to maintain!&lt;/strong&gt;
-    When I lived in my loft apartment, I was paying $1239/mo in rent, between $20-$100
-    in electricity per month (it had electric forced air heat), and varying amounts
-    in water and sewer usage. In the RV, my monthly expenses are $100/mo for my parking
-    spot, about $25/mo for electricity, about $10/mo for propane, and $40/mo for waste
-    disposal. That puts my monthly base living expenses at $175!
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;A small space is cozy.&lt;/strong&gt;
-    My RV is just a downright pleasant place to be. Most people assume because I have
-    such a small space that I'm not comfortable. I think the opposite is true. My
-    walls are closer together. Rather than the cold, vast cavern my loft often felt like,
-    my RV feels like a small, warm cocoon.
-  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-  Okay, so you're probably thinking there &lt;em&gt;must&lt;/em&gt; be some serious drawbacks to tiny
-  living. "Don't you wish you had more room once in awhile?" "Doesn't living in your car
-  get old?" "Don't you wish you had a shower in your house?" Sometimes these thoughts
-  enter my mind. But in all honesty, the feeling of self-sufficiency, resourcefulness,
-  and ingenuity I derive from this lifestyle far outweigh the drawbacks. Quite frankly, I'm
-  happier than I've ever been.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;em&gt;
-    If you're interested in tiny living in an RV but don't know how to get started, drop
-    me a line! &lt;a href="mailto:teejay.vanslyke+rv@gmail.com"&gt;teejay.vanslyke+rv@gmail.com&lt;/a&gt;
-  &lt;/em&gt;
 &lt;/p&gt;
 </content>
   </entry>
