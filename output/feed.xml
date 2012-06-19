@@ -2,13 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-06-15T21:49:00Z</updated>
+  <updated>2012-06-19T18:45:14Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-06-19:/announcing-my-ebook-series/</id>
+    <title type="html">Announcing my brand new ebook series!</title>
+    <published>2012-06-19T18:45:14Z</published>
+    <updated>2012-06-19T18:45:14Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/announcing-my-ebook-series/"/>
+    <content type="html">&lt;a href='http://minifybook.com'&gt;
+  &lt;img alt='Minify: A 21st Century Guide to Living a Happier Life with Less' src='http://minifybook.com/assets/images/minify-book.png' style='border-radius: 4px' width='340' /&gt;
+&lt;/a&gt;
+&lt;a href='http://makesomethingtoday.me'&gt;
+  &lt;img alt="Make Something Today: Harness your Inner Creativity and Be Happier than You've Ever Been" src='http://makesomethingtoday.me/assets/images/cover.png' style='border-radius: 4px' width='340' /&gt;
+&lt;/a&gt;
+&lt;p&gt;
+  Over the past few months, I've been busy authoring two brand new lifestyle ebooks on minimalism and creativity. I'm excited
+  to share my experiences with you. Click the book covers above for more information about each!
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;em&gt;Minify&lt;/em&gt; will teach you how to take inventory of your possessions, your time, your work, and your money and streamline each to maximize your life’s experience.
+&lt;/p&gt;
+&lt;p&gt;
+  In &lt;em&gt;Make Something Today&lt;/em&gt;, I provide an in-depth analysis of the positive life-changing effects of creativity on the brain.
+&lt;/p&gt;
+&lt;p&gt;
+  Both will be available this summer. Stay tuned, and subscribe to the mailing lists to stay informed!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-06-15:/its-friday-find-concerts-tonight-in-portland/</id>
     <title type="html">Find out what's up tonight with Localpulse. Available for iOS.</title>
@@ -26,7 +53,7 @@
 &lt;/p&gt;
 &lt;p&gt;
   Localpulse for iOS has all the features of the web application in your pocket. It's your one-stop guide to
-  what's going on &lt;em&gt;right now&lt;/em&gt;. Just $1.99.
+  what's going on &lt;em&gt;right now&lt;/em&gt;. Just $1.99. You can download it today.
 &lt;/p&gt;
 &lt;p&gt;
   &lt;a href="http://localpul.se/ios"&gt;More info&lt;/a&gt;
@@ -132,48 +159,6 @@
   his victim's weaknesses. So, the next time you're a victim of aggression or bullying, just remember that it just means
   your aggressor is probably wrought with insecurity and misery because your stride is just that much better than his.
   Just don't get run over in the process.
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-05-19:/help-me-park-my-house/</id>
-    <title type="html">Help me park my house!</title>
-    <published>2012-05-20T02:39:09Z</published>
-    <updated>2012-05-20T02:39:09Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/help-me-park-my-house/"/>
-    <content type="html">&lt;p&gt;
-  &lt;img src='/assets/images/help-me-park-my-house.jpg' /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  I've decided that, based on location and other factors, I'd like to find another spot to park my
-  tiny RV in Portland. Preferably, I'd like to be somewhere within the following boundaries:
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;strong&gt;N:&lt;/strong&gt;
-    South of Killingsworth St, east of Interstate Ave, north of Tillamook St.
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;NE:&lt;/strong&gt;
-    South of Killingsworth St, north of Tillamook St.
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;strong&gt;SE:&lt;/strong&gt;
-    North of Powell Blvd, west of 12th Ave, east of Cesar Chavez Blvd
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-  All I would ask is to use your electricity (via extension cord), to shower in your bathroom, and to use
-  your laundry machines (if present). My RV is only 20'8", so it only takes up slightly more room than a
-  standard parking spot. It's also downright adorable (pictured above).
-&lt;/p&gt;
-&lt;p&gt;
-  Though what I'm envisioning is an arrangement as an auxiliary dwelling alongside an existing residence,
-  I'd also be open to a spot in a parking lot, etc if I were close enough to a facility for bathing.
-&lt;/p&gt;
-&lt;p&gt;
-  Please spread the word! I'm willing to pay whatever the landowner or tenants think is fair. I'm quiet,
-  considerate, and clean. Thank you for your support!
 &lt;/p&gt;
 </content>
   </entry>
