@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-  <title>Using HTML data attributes to elegantly create Mixpanel trackers</title>
-  <meta name="description" content="Rather than use Mixpanel's track_links method (which is ugly, IMHO), I show you how to use data attributes to create Mixpanel trackers on links.">
+  <title>Why I quit Facebook</title>
+  <meta name="description" content="Yesterday I deleted my Facebook account. Today I'm happier than ever, despite the occasional twitch.">
   <meta name="author" content="Teejay VanSlyke">
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -23,7 +23,7 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  <link rel="image_src" href="/assets/images/meta_image.png"/>
+  <link rel="image_src" href="/assets/images/why-i-quit-facebook-morpheus.jpeg"/>
 </head>
 
   <body class="post">
@@ -60,29 +60,53 @@
 
         <div class="span12">
 
-          <h1>Using HTML data attributes to elegantly create Mixpanel trackers</h1>
+          <h1>Why I quit Facebook</h1>
 
           <p>
-  I've been using <a href="http://mixpanel.com">Mixpanel</a> to track user behavior on one of my projects, and sought a more elegant way to track link clicks than the <code>track_links</code>
-  method the standard API provides. Instead, I'd like to be able to specify the tracker's name and properties as HTML attributes.
+  <img alt='You take the blue pill -- the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill -- you stay in Wonderland and I show you how deep the rabbit-hole goes.' src='/assets/images/why-i-quit-facebook-morpheus.jpeg' />
 </p>
 <p>
-  Simply paste this snippet into your document ready block to get started:
+  The other day, I authored a blog post entitled <em>Stop Driving Now</em>, which was effectively an
+  angry rant fueled by the actions of aggressive motorists on my ride home that afternoon. Smugly,
+  I posted it on Facebook, hoping it would attract attention. It did. I was ostracized (rightly) as
+  an angry asshole. Comment after comment filled the link post until I finally decided to delete
+  it. But another thing happened: I became consumed with the opinions of my peers. I had a hard time
+  sleeping that night because I knew that my post had offended someone. And it was far from the
+  first time this had happened.
 </p>
 <p>
-  <script src="https://gist.github.com/2569284.js?file=gistfile1.coffee"></script>
+  A few weeks earlier, I encountered a post by an acquaintance thinking of joining the Marines.
+  Being in staunch opposition to joining the military as a career choice, I voiced my concern
+  with hope that I might change her mind. After all, the opinion of a relative stranger
+  couldn't hurt, could it?
 </p>
 <p>
-  Then, on any links you'd like to track, simply provide the <code>data-mixpanel-tracker</code> attribute:
+  It could. An hour and 30 comments later, I had alienated myself from people I hadn't even
+  met. Despite never having shared an experience to substantiate resistance, I created a
+  situation which left everyone feeling exhausted and vulnerable.
 </p>
-<pre>&lt;a href=&quot;/moon&quot; data-mixpanel-tracker=&quot;he chose to go to the moon&quot;&gt;Go to the Moon!&lt;/a&gt;</pre>
 <p>
-  Specify custom properties in JSON using the <code>data-mixpanel-properties</code> attribute:
+  Social media is my generation's sitcoms. Replace Jerry, Elaine, George and Kramer with four
+  people you met at a bar a year ago, and you've effectively captured the level of triviality
+  our Facebook feeds provide us. Even seemingly noble pursuits, whether the <a href="http://newsfeed.time.com/2012/06/03/anti-gay-group-slams-jcpenneys-over-fathers-day-ad/">JCPenney fathers day</a>
+  ad or the <a href="http://arstechnica.com/tech-policy/2012/06/angry-internet-lawyer-sues-the-oatmeal-bears-and-cancer-research/">Oatmeal fundraiser</a>,
+  have no bearing on the life we lead outside of Facebook and are better digested outside a
+  public forum.
 </p>
-<pre>&lt;a href=&quot;/moon&quot; data-mixpanel-tracker=&quot;he chose to go to the moon&quot; data-mixpanel-properties=&quot;{agency: 'nasa', mission: 'apollo 13'}&quot;&gt;Go to the Moon!&lt;/a&gt;</pre>
 <p>
-  This snippet will automatically redirect the user to the link's <code>href</code> after 300ms, so no
-  need to worry if the Mixpanel request failed. Happy tracking!
+  I've chosen to take the red pill and see how deep the rabbit hole of real life goes.
+  See you on the other side.
+</p>
+<p>
+  <em>
+    If you're ready to take the plunge and delete your Facebook account permanently, visit
+    this page in the Facebook Help Center:
+  </em>
+  <em>
+    <a href='http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CFwQFjAA&amp;url=http%3A%2F%2Fwww.facebook.com%2Fhelp%2F%3Ffaq%3D224562897555674&amp;ei=W6_kT5OfMIPQ2wWM4sHaCQ&amp;usg=AFQjCNHnmOXrbJ_X6UQlwBxhJF_pqcJWcA&amp;sig2=uj7vFV9q2_5TE6QTw8H9vA'>
+      How do I permanently delete my account?
+    </a>
+  </em>
 </p>
 
 
