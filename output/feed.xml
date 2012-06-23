@@ -2,13 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-06-22T18:28:09Z</updated>
+  <updated>2012-06-23T21:30:00Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-06-23:/build-a-24-hour-startup/</id>
+    <title type="html">Building a 24-hour startup</title>
+    <published>2012-06-23T21:30:00Z</published>
+    <updated>2012-06-23T21:30:00Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/build-a-24-hour-startup/"/>
+    <content type="html">&lt;p&gt;
+  &lt;img alt='' src='/assets/images/24-hour-startup-clock.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  It's becoming easier and faster than ever to bring an idea to market. Unfortunately,
+  too many could-be entrepreneurs are busy crafting ideas that are everything to everyone
+  instead of something to someone. And, in the fervor of implementation, we become overwhelmed
+  and give up altogether. Sound familiar?
+&lt;/p&gt;
+&lt;p&gt;
+  This week, I launched two new products. Yes, you read that right. I &lt;em&gt;launched&lt;/em&gt; two
+  products, and they're available for purchase &lt;em&gt;right now&lt;/em&gt;. Both conceived, implemented, and
+  marketed in less than a week. Are they fully-featured? No, not really. Will they provide
+  value? Yes, in fact, I'm already using both myself. A product providing value already
+  in the marketplace is worth so much more than a so-called "fully featured" product years
+  into development that still has yet to find a customer.
+&lt;/p&gt;
+&lt;p&gt;
+  There are a few criteria which separate 24-hour startups from their behemoth never-launched
+  cousins:
+&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Build a product you would buy yourself, and sell it at a price you'd pay.&lt;/strong&gt;
+    &lt;p&gt;
+      I cannot stress this enough. If you're your own customer, you've just eliminated months
+      of market research and collaboration prior to bringing the product to market. And, if
+      you're willing to pay money for something you've built, you're more likely to execute
+      effectively and others are more likely to click 'Purchase'.
+    &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Build the minimum saleable version &amp;dash; No more.&lt;/strong&gt;
+    &lt;p&gt;
+      Build a product that does one thing really, really well. A laundry list of features
+      is no good if all of them are implemented poorly. Build the smallest saleable component
+      of your product now, and take it to market immediately. Your customers will lead the way
+      for the rest.
+    &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Build a product which, if no units are sold, can be leveraged for other products.&lt;/strong&gt;
+    &lt;p&gt;
+      When I built my &lt;a href="http://panacheicons.com"&gt;Panache!&lt;/a&gt; icon set product, I knew
+      the likelyhood of becoming filthy stinking rich from icons was nil. But I was tired of
+      using the same old icons and glyphs for my projects and wanted to give my work a unique
+      flare. So, I outsourced their production to an &lt;a href="http://elance.com"&gt;Elance&lt;/a&gt;
+      freelance designer and watched as my icons poured into my inbox. As soon as I made them
+      available for sale, I immediately started in on &lt;a href="http://moolarb.com"&gt;Moola&lt;/a&gt;
+      and leveraged the same icons on its marketing page.
+    &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Build a product that requires minimal support and infrastructure.&lt;/strong&gt;
+    &lt;p&gt;
+      Software-as-a-service requires recurring billing infrastructure which sometimes takes
+      as long to implement and test as the core product itself. Digital products, on the other
+      hand, can be distributed using a one-off pricing model with no need for tracking
+      account payments, upgrades, or cancellations. This allows you to start charging credit
+      cards sooner rather than later.
+    &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+  I hope my success building microproducts will inspire you to craft your own. If you're
+  looking for a quick way to bootstrap your new microenterprise, check out
+  &lt;a href="http://moolarb.com"&gt;Moola&lt;/a&gt;, my Ruby web framework for accepting credit card
+  payments in just ten lines of code. It includes a Getting Started guide with instructions
+  for taking payments using &lt;a href="http://stripe.com"&gt;Stripe&lt;/a&gt; and deploying on
+  &lt;a href="http://heroku.com"&gt;Heroku&lt;/a&gt;. Good luck!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-06-22:/why-i-quit-facebook/</id>
     <title type="html">Why I quit Facebook</title>
@@ -138,31 +217,6 @@
 &lt;/p&gt;
 &lt;p&gt;
   &lt;a href="http://eliasmoniker.com"&gt;Get your copy today!&lt;/a&gt;
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-06-12:/disable-volume-buttons-on-ios-using-activator/</id>
-    <title type="html">Disable volume buttons on iOS using Activator</title>
-    <published>2012-06-13T03:33:53Z</published>
-    <updated>2012-06-13T03:33:53Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/disable-volume-buttons-on-ios-using-activator/"/>
-    <content type="html">&lt;p&gt;
-  The other night, I stumbled while holding my iPad and knocked my volume-up button such that it now sticks, meaning the
-  volume indicator is now stuck on-screen. Luckily, I devised a way to disable both volume buttons using the Cydia-based app
-  Activator.
-&lt;/p&gt;
-&lt;p&gt;
-  To enable this hack, you'll need a jailbroken iOS device, the latest version of Cydia, and to have the Activator app installed.
-&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Inside Activator, tap 'Anywhere'.&lt;/li&gt;
-  &lt;li&gt;Scroll to the bottom of the list to 'Volume Buttons'.&lt;/li&gt;
-  &lt;li&gt;Tap each item in the 'Volume Buttons' section and select 'Do Nothing'&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
-  Your volume indicator should disappear and you just saved yourself a trip to the Apple Store, or worse, the cost of a new
-  iPad.
 &lt;/p&gt;
 </content>
   </entry>
