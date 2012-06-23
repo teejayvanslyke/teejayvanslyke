@@ -69,12 +69,14 @@
     <published>2012-06-19T18:45:14Z</published>
     <updated>2012-06-19T18:45:14Z</updated>
     <link rel="alternate" href="http://tjvanslyke.com/announcing-my-ebook-series/"/>
-    <content type="html">&lt;a href='http://minifybook.com'&gt;
-  &lt;img alt='Minify: A 21st Century Guide to Living a Happier Life with Less' src='http://minifybook.com/assets/images/minify-book.png' style='border-radius: 4px' width='340' /&gt;
-&lt;/a&gt;
-&lt;a href='http://makesomethingtoday.me'&gt;
-  &lt;img alt="Make Something Today: Harness your Inner Creativity and Be Happier than You've Ever Been" src='http://makesomethingtoday.me/assets/images/cover.png' style='border-radius: 4px' width='340' /&gt;
-&lt;/a&gt;
+    <content type="html">&lt;p&gt;
+  &lt;a href='http://minifybook.com'&gt;
+    &lt;img alt='Minify: A 21st Century Guide to Living a Happier Life with Less' src='http://minifybook.com/assets/images/minify-book.png' style='border-radius: 4px' width='270' /&gt;
+  &lt;/a&gt;
+  &lt;a href='http://makesomethingtoday.me'&gt;
+    &lt;img alt="Make Something Today: Harness your Inner Creativity and Be Happier than You've Ever Been" src='http://makesomethingtoday.me/assets/images/cover.png' style='border-radius: 4px' width='270' /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;
   Over the past few months, I've been busy authoring two brand new lifestyle ebooks on minimalism and creativity. I'm excited
   to share my experiences with you. Click the book covers above for more information about each!

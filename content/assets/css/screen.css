@@ -1,10 +1,13 @@
+body {
+  background: url(/assets/images/grid_noise.png);
+}
 .topbar .fill {
   padding: 12px 0;
 }
 
 .logo {
   text-align: center;
-  margin: 64px 0;
+  padding: 64px 0;
 }
 
 p, li {
@@ -14,11 +17,15 @@ p, li {
 }
 
 a {
-  color: #909090;
+  color: #2E3192;
 }
 
 a:hover {
-  color: #606060;
+  color: #00AEEF;
+}
+
+h3 a {
+  color: #2E3192;
 }
 
 span.date {
@@ -146,6 +153,10 @@ ul.albums li {
   height: 180px;
 }
 
+.gutter {
+  padding-left: 48px;
+}
+
 
 
 .gutter ul li {
@@ -157,7 +168,12 @@ ul.albums li {
 .gutter li.header {
   text-transform: uppercase;
   margin: 16px 0 8px 0;
-  color: #303030;
+  color: #606060;
+}
+
+.gutter li small {
+  font-size: 12px;
+  line-height: 12px;
 }
 
 ol.tracklist {
