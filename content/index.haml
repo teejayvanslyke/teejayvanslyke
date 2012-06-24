@@ -9,6 +9,9 @@ title: Teejay VanSlyke
       - @site.sorted_articles.reject {|a| a[:draft]}.each do |article|
         .post
           %span.date= article[:created_at].strftime('%Y %m %d')
+          .pull-right
+            <a href="https://twitter.com/share?url=#{article.path}&text=#{article[:title]}: http://tjvanslyke.com#{article.path}" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           %h3
             %a{:href => article.path, :title => article[:title]}= article[:title]
           .body= article.compiled_content
