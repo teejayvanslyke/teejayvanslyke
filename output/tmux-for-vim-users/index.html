@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-  <title>Find out what's up tonight with Localpulse. Available for iOS.</title>
-  <meta name="description" content="It's Friday night! Find out what's going on in Portland with the Localpulse app for iPhone and iPod Touch.">
+  <title>Tmux for Vim users</title>
+  <meta name="description" content="Tmux is a terminal multiplexer with a more elegant configuration and powerful featureset than GNU Screen. Here I teach you how to change your keybinds to behave more like Vim.">
   <meta name="author" content="Teejay VanSlyke">
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -23,7 +23,7 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  <link rel="image_src" href="http://localpul.se/images/screenshot1.png"/>
+  <link rel="image_src" href="/assets/images/meta_image.png"/>
 </head>
 
   <body class="post">
@@ -39,23 +39,65 @@
             <a href="https://twitter.com/share?url=#{article.path}&text=#{article[:title]}: http://tjvanslyke.com#{article.path}" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
-          <h2>Find out what's up tonight with Localpulse. Available for iOS.</h2>
+          <h2>Tmux for Vim users</h2>
 
           <p>
-  You might be familiar with <a href="http://localpul.se">Localpulse</a>, my rich map of music events in Portland, Oregon.
-  Today I'm proud to announce the Localpulse iOS app.
+  <a href="http://tmux.sourceforge.net">Tmux</a> is a terminal multiplexer with a more elegant configuration
+  and more powerful feature set than GNU Screen. Tmuxinator is a layout manager for tmux which makes managing complex
+  tmux sessions easy. If you work on several projects at once like I do, <a href="https://github.com/aziz/tmuxinator/">Tmuxinator</a>
+  allows you to run several tmux session
+  configurations at once, meaning switching contexts is as easy as typing a shell command. Tmux also allows full customization
+  of its keyboard shortcuts, meaning if you're accustomed to Vim's keybindings, you can enable yourself to feel right at home.
+  There are plenty of tmux <a href="http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/">tutorials online</a>, so
+  check those out for details about setting up your environment. Instead, I'd like to go over the contents of my `.tmux.conf`
+  file so you're able to get comfortable in tmux quickly as a seasoned Vim user.
 </p>
 <p>
-  <a href='http://localpul.se/ios'>
-    <img alt='Localpulse for iOS' src='http://localpul.se/images/screenshot1.png' />
-  </a>
+  First, I set the tmux prefix key combination to <code>Ctrl+A</code> instead of the default <code>Ctrl+B</code>. This means that the prefix key
+  combination can be pressed using only your left hand. And, if you remap your <code>Caps Lock</code> key to trigger <code>Ctrl</code>
+  instead, both keys are right next to one another, making it easy to switch panes, create new ones, etc.
 </p>
+<pre>set -g prefix C-a</pre>
 <p>
-  Localpulse for iOS has all the features of the web application in your pocket. It's your one-stop guide to
-  what's going on <em>right now</em>. Just $1.99. You can download it today.
+  Next, I set the history limit to 100000 lines. This allows scrolling back as far as you'll ever need using <code>Ctrl+A [</code>.
 </p>
+<pre>set-option -g history-limit 100000</pre>
 <p>
-  <a href="http://localpul.se/ios">More info</a>
+  There are a couple settings that make Vim itself more pleasant to use inside of tmux. To ensure keyboard shortcuts inside Vim
+  still work, we need to enable XTerm keybindings. And to be sure Vim's colors aren't distorted, we enable 256 color mode:
+</p>
+<pre>setw -g xterm-keys on
+set-option -g default-terminal &quot;screen-256color&quot;</pre>
+<p>
+  The default keybindings for splitting windows are poorly defined in the <code>%</code> key. To provide more memorable shortcuts,
+  I've bound them to <code>|</code> and <code>-</code> for vertical and horizontal splits, respectively. This means you can press
+  <code>Ctrl+A |</code> to split your current pane into two vertically, and <code>Ctrl+A -</code> to split it horizontally.
+</p>
+<pre>bind-key | split-window -h 
+bind-key - split-window</pre>
+<p>
+  Next, to match Vim's <code>/</code> search, I enable the vi key mode.
+</p>
+<pre>setw -g mode-keys vi # I especially like being able to search with /,? when in copy-mode</pre>
+<p>
+  One of my most commonly used Vim features is the <code>Ctrl+W</code> pane navigation commands.
+  These allow easy navigation between all your visible editor panes. This behavior can be mimicked
+  in tmux by binding the <code>hjkl</code> keys to the <code>select-pane</code> command:
+</p>
+<pre>unbind-key j
+bind-key j select-pane -D 
+
+unbind-key k
+bind-key k select-pane -U
+
+unbind-key h
+bind-key h select-pane -L
+
+unbind-key l
+bind-key l select-pane -R</pre>
+<p>
+  Vim and Tmux are elegant tools on their own, but a veritable developer utopia when used together. I love my new terminal
+  environment and can't wait to put it to work for me. Cheers!
 </p>
 
 

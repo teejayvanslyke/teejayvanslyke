@@ -1,0 +1,85 @@
+---
+kind: article
+created_at: 2012-07-01 17:18:09 -0800
+title: Tmux for Vim users
+description: Tmux is a terminal multiplexer with a more elegant configuration and powerful featureset than GNU Screen. Here I teach you how to change your keybinds to behave more like Vim.
+---
+
+%p
+  <a href="http://tmux.sourceforge.net">Tmux</a> is a terminal multiplexer with a more elegant configuration 
+  and more powerful feature set than GNU Screen. Tmuxinator is a layout manager for tmux which makes managing complex 
+  tmux sessions easy. If you work on several projects at once like I do, <a href="https://github.com/aziz/tmuxinator/">Tmuxinator</a>
+  allows you to run several tmux session
+  configurations at once, meaning switching contexts is as easy as typing a shell command. Tmux also allows full customization 
+  of its keyboard shortcuts, meaning if you're accustomed to Vim's keybindings, you can enable yourself to feel right at home.
+  There are plenty of tmux <a href="http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/">tutorials online</a>, so 
+  check those out for details about setting up your environment. Instead, I'd like to go over the contents of my `.tmux.conf` 
+  file so you're able to get comfortable in tmux quickly as a seasoned Vim user.
+
+%p
+  First, I set the tmux prefix key combination to <code>Ctrl+A</code> instead of the default <code>Ctrl+B</code>. This means that the prefix key 
+  combination can be pressed using only your left hand. And, if you remap your <code>Caps Lock</code> key to trigger <code>Ctrl</code>
+  instead, both keys are right next to one another, making it easy to switch panes, create new ones, etc.
+
+%pre
+  :escaped
+    set -g prefix C-a
+
+%p
+  Next, I set the history limit to 100000 lines. This allows scrolling back as far as you'll ever need using <code>Ctrl+A [</code>.
+
+
+%pre
+  :escaped
+    set-option -g history-limit 100000
+
+%p
+  There are a couple settings that make Vim itself more pleasant to use inside of tmux. To ensure keyboard shortcuts inside Vim 
+  still work, we need to enable XTerm keybindings. And to be sure Vim's colors aren't distorted, we enable 256 color mode:
+
+%pre
+  :escaped
+    setw -g xterm-keys on
+    set-option -g default-terminal "screen-256color"
+
+%p
+  The default keybindings for splitting windows are poorly defined in the <code>%</code> key. To provide more memorable shortcuts,
+  I've bound them to <code>|</code> and <code>-</code> for vertical and horizontal splits, respectively. This means you can press 
+  <code>Ctrl+A |</code> to split your current pane into two vertically, and <code>Ctrl+A -</code> to split it horizontally. 
+
+%pre
+  :escaped
+    bind-key | split-window -h 
+    bind-key - split-window
+
+%p
+  Next, to match Vim's <code>/</code> search, I enable the vi key mode.
+
+%pre
+  :escaped
+    setw -g mode-keys vi # I especially like being able to search with /,? when in copy-mode
+
+%p
+  One of my most commonly used Vim features is the <code>Ctrl+W</code> pane navigation commands. 
+  These allow easy navigation between all your visible editor panes. This behavior can be mimicked 
+  in tmux by binding the <code>hjkl</code> keys to the <code>select-pane</code> command:
+
+%pre
+  :escaped
+    unbind-key j
+    bind-key j select-pane -D 
+
+    unbind-key k
+    bind-key k select-pane -U
+
+    unbind-key h
+    bind-key h select-pane -L
+
+    unbind-key l
+    bind-key l select-pane -R
+
+%p
+  Vim and Tmux are elegant tools on their own, but a veritable developer utopia when used together. I love my new terminal 
+  environment and can't wait to put it to work for me. Cheers!
+
+

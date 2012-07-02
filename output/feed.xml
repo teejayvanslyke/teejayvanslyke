@@ -2,13 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-06-23T21:30:00Z</updated>
+  <updated>2012-07-02T01:18:09Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-07-01:/tmux-for-vim-users/</id>
+    <title type="html">Tmux for Vim users</title>
+    <published>2012-07-02T01:18:09Z</published>
+    <updated>2012-07-02T01:18:09Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/tmux-for-vim-users/"/>
+    <content type="html">&lt;p&gt;
+  &lt;a href="http://tmux.sourceforge.net"&gt;Tmux&lt;/a&gt; is a terminal multiplexer with a more elegant configuration
+  and more powerful feature set than GNU Screen. Tmuxinator is a layout manager for tmux which makes managing complex
+  tmux sessions easy. If you work on several projects at once like I do, &lt;a href="https://github.com/aziz/tmuxinator/"&gt;Tmuxinator&lt;/a&gt;
+  allows you to run several tmux session
+  configurations at once, meaning switching contexts is as easy as typing a shell command. Tmux also allows full customization
+  of its keyboard shortcuts, meaning if you're accustomed to Vim's keybindings, you can enable yourself to feel right at home.
+  There are plenty of tmux &lt;a href="http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/"&gt;tutorials online&lt;/a&gt;, so
+  check those out for details about setting up your environment. Instead, I'd like to go over the contents of my `.tmux.conf`
+  file so you're able to get comfortable in tmux quickly as a seasoned Vim user.
+&lt;/p&gt;
+&lt;p&gt;
+  First, I set the tmux prefix key combination to &lt;code&gt;Ctrl+A&lt;/code&gt; instead of the default &lt;code&gt;Ctrl+B&lt;/code&gt;. This means that the prefix key
+  combination can be pressed using only your left hand. And, if you remap your &lt;code&gt;Caps Lock&lt;/code&gt; key to trigger &lt;code&gt;Ctrl&lt;/code&gt;
+  instead, both keys are right next to one another, making it easy to switch panes, create new ones, etc.
+&lt;/p&gt;
+&lt;pre&gt;set -g prefix C-a&lt;/pre&gt;
+&lt;p&gt;
+  Next, I set the history limit to 100000 lines. This allows scrolling back as far as you'll ever need using &lt;code&gt;Ctrl+A [&lt;/code&gt;.
+&lt;/p&gt;
+&lt;pre&gt;set-option -g history-limit 100000&lt;/pre&gt;
+&lt;p&gt;
+  There are a couple settings that make Vim itself more pleasant to use inside of tmux. To ensure keyboard shortcuts inside Vim
+  still work, we need to enable XTerm keybindings. And to be sure Vim's colors aren't distorted, we enable 256 color mode:
+&lt;/p&gt;
+&lt;pre&gt;setw -g xterm-keys on
+set-option -g default-terminal &amp;quot;screen-256color&amp;quot;&lt;/pre&gt;
+&lt;p&gt;
+  The default keybindings for splitting windows are poorly defined in the &lt;code&gt;%&lt;/code&gt; key. To provide more memorable shortcuts,
+  I've bound them to &lt;code&gt;|&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt; for vertical and horizontal splits, respectively. This means you can press
+  &lt;code&gt;Ctrl+A |&lt;/code&gt; to split your current pane into two vertically, and &lt;code&gt;Ctrl+A -&lt;/code&gt; to split it horizontally.
+&lt;/p&gt;
+&lt;pre&gt;bind-key | split-window -h 
+bind-key - split-window&lt;/pre&gt;
+&lt;p&gt;
+  Next, to match Vim's &lt;code&gt;/&lt;/code&gt; search, I enable the vi key mode.
+&lt;/p&gt;
+&lt;pre&gt;setw -g mode-keys vi # I especially like being able to search with /,? when in copy-mode&lt;/pre&gt;
+&lt;p&gt;
+  One of my most commonly used Vim features is the &lt;code&gt;Ctrl+W&lt;/code&gt; pane navigation commands.
+  These allow easy navigation between all your visible editor panes. This behavior can be mimicked
+  in tmux by binding the &lt;code&gt;hjkl&lt;/code&gt; keys to the &lt;code&gt;select-pane&lt;/code&gt; command:
+&lt;/p&gt;
+&lt;pre&gt;unbind-key j
+bind-key j select-pane -D 
+
+unbind-key k
+bind-key k select-pane -U
+
+unbind-key h
+bind-key h select-pane -L
+
+unbind-key l
+bind-key l select-pane -R&lt;/pre&gt;
+&lt;p&gt;
+  Vim and Tmux are elegant tools on their own, but a veritable developer utopia when used together. I love my new terminal
+  environment and can't wait to put it to work for me. Cheers!
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-06-23:/build-a-24-hour-startup/</id>
     <title type="html">Building a 24-hour startup</title>
@@ -192,31 +258,6 @@
 &lt;/p&gt;
 &lt;p&gt;
   &lt;a href="http://localpul.se/ios"&gt;More info&lt;/a&gt;
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-06-15:/elias-moniker-the-a-k-a-is-on-sale/</id>
-    <title type="html">Elias Moniker MP3 download is on sale for just $4.99!</title>
-    <published>2012-06-15T21:48:00Z</published>
-    <updated>2012-06-15T21:48:00Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/elias-moniker-the-a-k-a-is-on-sale/"/>
-    <content type="html">&lt;p&gt;
-  &lt;a href='http://eliasmoniker.com'&gt;
-    &lt;img alt='Elias Moniker: The A.K.A.' src='http://eliasmoniker.com.s3.amazonaws.com/images/cover.png' /&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  I'm proud to announce that, after months of being unavailable for high-quality MP3 download, Elias Moniker's
-  debut album 'The A.K.A.' is once again available at the reduced sale price of $4.99!
-&lt;/p&gt;
-&lt;p&gt;
-  For those of you unaware, I produced &lt;em&gt;The A.K.A.&lt;/em&gt; in 2011. It's a sinister, dubstep-influenced record and
-  I put my heart and soul into it. Since then I've been on a bit of a musical
-  hiatus with all my other projects, but I'd love to get the album into as many ears as I can.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;a href="http://eliasmoniker.com"&gt;Get your copy today!&lt;/a&gt;
 &lt;/p&gt;
 </content>
   </entry>
