@@ -2,13 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-07-02T01:18:09Z</updated>
+  <updated>2012-07-08T20:31:09Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-07-08:/minify-my-tiny-living-ebook-available-free/</id>
+    <title type="html">My tiny living ebook is now available for free!</title>
+    <published>2012-07-08T20:31:09Z</published>
+    <updated>2012-07-08T20:31:09Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/minify-my-tiny-living-ebook-available-free/"/>
+    <content type="html">&lt;p class='pull-right' style='margin-left: 12px'&gt;
+  &lt;a href='http://minifybook.com'&gt;
+    &lt;img alt='Minify: A 21st Century Guide to Living a Happier Life with Less' src='http://minifybook.com/assets/images/minify-book.png' style='border-radius: 4px' width='270' /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  I've just put the finishing touches on &lt;a href="http://minifybook.com"&gt;Minify&lt;/a&gt;, my short ebook about my transition to living in
+  a tiny RV, and am happy to announce that it's now available for free download. Some highlights:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Curate your possessions to a Few Wonderful Things.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Learn how living in a tiny house, apartment, or RV can save you thousands of dollars per year.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Make delicious, nutritious meals in your simple kitchen.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Enact simple principles to encourage tranquility in all aspects of your life.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Practical advice for those interested in minimalism, frugal living, and tiny living alike.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  Head over to the book's website to grab your copy today: &lt;a href="http://minifybook.com"&gt;Minify: A 21st Century Guide to Living a Happier Life With Less&lt;/a&gt;
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-07-01:/tmux-for-vim-users/</id>
     <title type="html">Tmux for Vim users</title>
@@ -234,30 +271,6 @@ bind-key l select-pane -R&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;
   Both will be available this summer. Stay tuned, and subscribe to the mailing lists to stay informed!
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-06-15:/its-friday-find-concerts-tonight-in-portland/</id>
-    <title type="html">Find out what's up tonight with Localpulse. Available for iOS.</title>
-    <published>2012-06-15T21:49:00Z</published>
-    <updated>2012-06-15T21:49:00Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/its-friday-find-concerts-tonight-in-portland/"/>
-    <content type="html">&lt;p&gt;
-  You might be familiar with &lt;a href="http://localpul.se"&gt;Localpulse&lt;/a&gt;, my rich map of music events in Portland, Oregon.
-  Today I'm proud to announce the Localpulse iOS app.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;a href='http://localpul.se/ios'&gt;
-    &lt;img alt='Localpulse for iOS' src='http://localpul.se/images/screenshot1.png' /&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  Localpulse for iOS has all the features of the web application in your pocket. It's your one-stop guide to
-  what's going on &lt;em&gt;right now&lt;/em&gt;. Just $1.99. You can download it today.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;a href="http://localpul.se/ios"&gt;More info&lt;/a&gt;
 &lt;/p&gt;
 </content>
   </entry>
