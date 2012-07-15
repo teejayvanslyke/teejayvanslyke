@@ -1,14 +1,59 @@
 body {
-  background: url(/assets/images/grid_noise.png);
 }
 .topbar .fill {
   padding: 12px 0;
 }
 
+.slideshow {
+  text-align: left;
+  padding: 32px 0;
+}
+
+.slides_container {
+  height: 460px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+.slideshow .slides_container > div {
+  height: 460px;
+  background-color: #fff;
+}
+
+.pagination {
+  display: none;
+}
+
+.slideshow .slides_container div .name {
+  color: #f0f0f0;
+  padding: 18px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  background-color: #000;
+  width: 580px;
+  line-height: 48px;
+  font-size: 36px;
+}
+.slideshow .slides_container div .description {
+  color: #f0f0f0;
+  padding: 18px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  width: 580px;
+  background-color: #000;
+  line-height: 24px;
+  font-size: 16px;
+}
+
 .logo {
   text-align: center;
-  padding: 64px 0;
+  background: url(/assets/images/grid_noise.png);
+  padding: 32px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 32px;
 }
+
+
 
 p, li {
   color: #303030;
