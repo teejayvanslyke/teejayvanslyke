@@ -1,0 +1,110 @@
+$magenta: #F60392;
+$cyan: #01AEEF;
+$yellow: #FFF300;
+$green: #00A550;
+$red: #ED1D25;
+$blue: #303393;
+$background_darkness: 10%;
+
+body {
+  background: url(/assets/images/overlay.png) #222;
+  clear: both;
+  overflow: auto;
+}
+
+.block-container {
+  margin: 0 auto;
+}
+
+.block {
+  width: 235px;
+  height: 235px;
+  float: left;
+  margin: 8px;
+  border-radius: 16px;
+  border-width: 8px;
+  border-style: solid;
+  overflow: auto;
+  border-color: #303030;
+  background-color: darken(#303030, $background_darkness);
+  p { color: white; }
+  background-image: url(/assets/images/overlay-50.png);
+  cursor: pointer;
+}
+
+.block4 {
+  cursor: default;
+  width: 500px;
+  height: 500px;
+  p { color: lighten(#303030, 70%); }
+}
+
+.title {
+  img {
+    width: 100%;
+  }
+  overflow: hidden;
+}
+
+.magenta {
+  border-color: $magenta;
+  background-color: darken($magenta, $background_darkness);
+}
+
+.cyan {
+  border-color: $cyan;
+  background-color: darken($cyan, $background_darkness);
+}
+
+.yellow {
+  border-color: $yellow;
+  background-color: darken($yellow, $background_darkness);
+}
+
+.green {
+  border-color: $green;
+  background-color: darken($green, $background_darkness);
+}
+
+.red {
+  border-color: $red;
+  background-color: darken($red, $background_darkness);
+}
+
+.blue {
+  border-color: $blue;
+  background-color: darken($blue, 5%);
+}
+
+.block h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 16px 16px 0 16px;
+}
+.block h3 a { 
+  color: white;
+}
+.block p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 16px 0 16px;
+}
+
+.block:hover .back {
+  display: block;
+}
+.block .back {
+  display: none;
+}
+.block:hover .front {
+  display: none;
+}
+.block .front {
+  display: block;
+}
+
+h3 span.date {
+  display: block;
+  font-size: 0.5em;
+}

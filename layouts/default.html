@@ -3,17 +3,10 @@
   <%= render '/partials/default/head' %>
 
   <body class="<%= item.identifier.gsub('/','') %>">
-    <div class="logo">
-      <a href="/"><img src="/assets/images/header-460.png"/></a>
+    <div class="title">
+      <a href="/"><img src="/assets/images/header-script.png"/></a>
     </div>
 
-    <%= @item[:content_for_header] %>
-
-    <div class="container">
-      <%= yield%>
-    </div> <!-- /container -->
-
-    <%= render '/partials/footer' %>
-
+    <%= yield%>
   </body>
 </html>

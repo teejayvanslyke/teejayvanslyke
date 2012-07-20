@@ -1,0 +1,89 @@
+body {
+  background: url(/assets/images/overlay.png) #222222;
+  clear: both;
+  overflow: auto; }
+
+.block-container {
+  margin: 0 auto; }
+
+.block {
+  width: 235px;
+  height: 235px;
+  float: left;
+  margin: 8px;
+  border-radius: 16px;
+  border-width: 8px;
+  border-style: solid;
+  overflow: auto;
+  border-color: #303030;
+  background-color: #171717;
+  background-image: url(/assets/images/overlay-50.png);
+  cursor: pointer; }
+  .block p {
+    color: white; }
+
+.block4 {
+  cursor: default;
+  width: 500px;
+  height: 500px; }
+  .block4 p {
+    color: #e3e3e3; }
+
+.title {
+  overflow: hidden; }
+  .title img {
+    width: 100%; }
+
+.magenta {
+  border-color: #f60392;
+  background-color: #c40274; }
+
+.cyan {
+  border-color: #01aeef;
+  background-color: #0189bc; }
+
+.yellow {
+  border-color: #fff300;
+  background-color: #ccc200; }
+
+.green {
+  border-color: #00a550;
+  background-color: #007237; }
+
+.red {
+  border-color: #ed1d25;
+  background-color: #c71017; }
+
+.blue {
+  border-color: #303393;
+  background-color: #2a2c80; }
+
+.block h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 16px 16px 0 16px; }
+
+.block h3 a {
+  color: white; }
+
+.block p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 16px 0 16px; }
+
+.block:hover .back {
+  display: block; }
+
+.block .back {
+  display: none; }
+
+.block:hover .front {
+  display: none; }
+
+.block .front {
+  display: block; }
+
+h3 span.date {
+  display: block;
+  font-size: 0.5em; }

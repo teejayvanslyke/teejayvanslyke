@@ -14,23 +14,23 @@ compile '/assets/less/*' do
   filter :bootstrap if @item.identifier.gsub('/assets/less/','').chop == 'bootstrap'
 end
 
-compile '/assets/css/*' do
-  filter :rainpress
-end
-
 compile '/assets/js/*/' do
    # minify JS :)
    if $use_minified_js then
      filter :shellcmd, "java -jar js/js-compiler.jar"
    end
 end
+compile '/assets/sass/*/' do
+  filter :sass, :syntax => :scss
+end
+
+route '/assets/sass/*/' do
+  item.identifier.chop + '.css' # so that the /assets/style/screen/ item is compiled to /assets/style/screen.css
+end
+
 
 compile '/assets/*/' do
   # don't compile
-end
-
-route '/assets/css/*/' do
-  @item.identifier.chop + '.' + @item[:extension]
 end
 
 route '/assets/js/*/' do

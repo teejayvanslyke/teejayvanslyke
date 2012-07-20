@@ -3,17 +3,25 @@ site_name:
 title: Teejay VanSlyke
 ---
 
-%section 
-  .row
-    .span10
-      - @site.sorted_articles.reject {|a| a[:draft]}.each do |article|
-        .post
-          %span.date= article[:created_at].strftime('%Y %m %d')
-          .pull-right
-            <a href="https://twitter.com/share?url=#{article.path}&text=#{article[:title]}: http://tjvanslyke.com#{article.path}" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          %h3
-            %a{:href => article.path, :title => article[:title]}= article[:title]
-          .body= article.compiled_content
-    .span6
-      = render '/partials/gutter'
+.block-container
+  - article = @site.sorted_articles.reject {|a| a[:draft]}.first
+  %div{class: "block block4"}
+    %h3
+      %a{:href => article.path, :title => article[:title]}= article[:title]
+      %span.date= article[:created_at].strftime('%Y %m %d')
+    .body= article.compiled_content
+
+  - @site.sorted_articles.reject {|a| a[:draft]}.each_with_index do |article, index|
+    - next if index == 0
+    %div{class: "block #{%w(cyan magenta green red blue)[index % 5]} #{"block4" if index == 0}"}
+      /%span.date= article[:created_at].strftime('%Y %m %d')
+      /.pull-right
+      /  <a href="https://twitter.com/share?url=#{article.path}&text=#{article[:title]}: http://tjvanslyke.com#{article.path}" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
+      /  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      .front
+        %h3
+          %a{:href => article.path, :title => article[:title]}= article[:title]
+      .back
+        %p 
+          = article[:description]
+

@@ -2,13 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-07-08T20:31:09Z</updated>
+  <updated>2012-07-14T17:41:00Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-07-14:/listen-to-others-for-fun-and-profit/</id>
+    <title type="html">Listen to others for fun and profit</title>
+    <published>2012-07-14T17:41:00Z</published>
+    <updated>2012-07-14T17:41:00Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/listen-to-others-for-fun-and-profit/"/>
+    <content type="html">&lt;p class='pull-right'&gt;
+  &lt;iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=171717&amp;IS2=1&amp;bg1=171717&amp;fc1=ffffff&amp;lc1=2E31AC&amp;t=tjva-20&amp;o=1&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B006M9T8NI" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  By &lt;a href="http://tynan.com"&gt;Tynan&lt;/a&gt;'s recommendation, I downloaded &lt;a href="http://sebastianmarshall.com"&gt;Sebastian Marshall&lt;/a&gt;'s ebook &lt;em&gt;Ikigai&lt;/em&gt;.
+  He poses that leading a meaningful life is a very different ambition from the all-too-commonly sought-after notion of &amp;quot;happiness&amp;quot;. Too often,
+  according to Marshall, we seek happiness as the pinnacle of human experience, without first considering its self-involved implications.
+&lt;/p&gt;
+&lt;p class='pull-left'&gt;
+  &lt;iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=171717&amp;IS2=1&amp;bg1=171717&amp;fc1=ffffff&amp;lc1=2E3192&amp;t=tjva-20&amp;o=1&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=067142517X" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  In Ikigai, Sebastian makes several reading recommendations, one of which I took immediately. &lt;em&gt;How to Win Friends &amp;amp; Influence People&lt;/em&gt; by
+  Dale Carnegie, evidently, is a classic guide to human interpersonal relationships. Though the book is extensive and draws several practical points about
+  successful interpersonal relationships by example, it all really boils down to the Golden Rule: &lt;em&gt;Do unto others as you would have them do to you.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  What does that mean, exactly? The notion that we should treat others as we prefer to be treated is abstract and difficult to make actionable.
+  We feel most valued, most respected, and most connected when our own interests are put first. So, in order to elicit that feeling in others,
+  we need only put their concerns above ours.
+&lt;/p&gt;
+&lt;p&gt;
+  I'm on a trip to Brooklyn this week and have been using my being surrounded by eight million strangers as fodder for my social engineering exploits. So far,
+  my experiments have validated Carnegie's hypotheses swimmingly. I used to have a bad habit of interrupting others mid-sentence, of concocting a retort
+  before my conversational companion had finished their thoughts. This week, I've focused on reversing that pattern.
+&lt;/p&gt;
+&lt;p&gt;
+  On the plane ride here, I was seated next to a bearded fellow reading a book in Hebrew. I leaned over and asked if it was the Torah. He explained to me that
+  it was actually the New Testament of the Bible. Interested, I prodded further, and he revealed to me that he was a creationist. Rather than condemn his
+  beliefs as stifling progress and disrupting scientific education, I chose to listen. And, as I listened, I realized this man was actually more intelligent
+  and more informed about science than I was. Even if I didn't leave the conversation convinced that his point of view was correct, I left it feeling
+  humbled about my own.
+&lt;/p&gt;
+&lt;p&gt;
+  I've made a point to ask more questions in place of my own rhetoric. People love to talk about themselves. And, if the foundation of our lives is other
+  people, it follows that we should be fascinated and humbled by all of them one way or another. If you listen, you find that every single person you talk to
+  has something valuable to say.
+&lt;/p&gt;
+&lt;p&gt;
+  And that's exactly why I advocate this approach. It's one thing to be an altruist, but that's not in our nature. What &lt;em&gt;is&lt;/em&gt; in our nature is
+  to change behavior in order to obtain value. And, given that all value, whether economic, social, or political, is derived from other people, it follows
+  that we want them to value our company. It's just a matter of cherishing theirs first.
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-07-08:/minify-my-tiny-living-ebook-available-free/</id>
     <title type="html">My tiny living ebook is now available for free!</title>
@@ -242,35 +293,6 @@ bind-key l select-pane -R&lt;/pre&gt;
       How do I permanently delete my account?
     &lt;/a&gt;
   &lt;/em&gt;
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-06-19:/announcing-my-ebook-series/</id>
-    <title type="html">Announcing my brand new ebook series!</title>
-    <published>2012-06-19T18:45:14Z</published>
-    <updated>2012-06-19T18:45:14Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/announcing-my-ebook-series/"/>
-    <content type="html">&lt;p&gt;
-  &lt;a href='http://minifybook.com'&gt;
-    &lt;img alt='Minify: A 21st Century Guide to Living a Happier Life with Less' src='http://minifybook.com/assets/images/minify-book.png' style='border-radius: 4px' width='270' /&gt;
-  &lt;/a&gt;
-  &lt;a href='http://makesomethingtoday.me'&gt;
-    &lt;img alt="Make Something Today: Harness your Inner Creativity and Be Happier than You've Ever Been" src='http://makesomethingtoday.me/assets/images/cover.png' style='border-radius: 4px' width='270' /&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  Over the past few months, I've been busy authoring two brand new lifestyle ebooks on minimalism and creativity. I'm excited
-  to share my experiences with you. Click the book covers above for more information about each!
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;em&gt;Minify&lt;/em&gt; will teach you how to take inventory of your possessions, your time, your work, and your money and streamline each to maximize your life’s experience.
-&lt;/p&gt;
-&lt;p&gt;
-  In &lt;em&gt;Make Something Today&lt;/em&gt;, I provide an in-depth analysis of the positive life-changing effects of creativity on the brain.
-&lt;/p&gt;
-&lt;p&gt;
-  Both will be available this summer. Stay tuned, and subscribe to the mailing lists to stay informed!
 &lt;/p&gt;
 </content>
   </entry>
