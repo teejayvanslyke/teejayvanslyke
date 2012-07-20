@@ -7,12 +7,12 @@ body {
   margin: 0 auto; }
 
 .block {
-  width: 235px;
-  height: 235px;
+  width: 177px;
+  height: 177px;
   float: left;
-  margin: 8px;
-  border-radius: 16px;
-  border-width: 8px;
+  margin: 4px;
+  border-radius: 8px;
+  border-width: 4px;
   border-style: solid;
   overflow: auto;
   border-color: #303030;
@@ -24,10 +24,26 @@ body {
 
 .block4 {
   cursor: default;
-  width: 500px;
-  height: 500px; }
+  width: 370px;
+  height: 370px; }
   .block4 p {
     color: #e3e3e3; }
+  .block4 img {
+    width: 100%; }
+
+.block16, .block-fluid {
+  cursor: default;
+  width: 756px;
+  height: 756px; }
+  .block16 p, .block-fluid p {
+    color: #e3e3e3; }
+  .block16 img, .block-fluid img {
+    width: 100%; }
+
+.block-fluid {
+  margin: 16px;
+  width: inherit;
+  height: inherit; }
 
 .title {
   overflow: hidden; }
@@ -59,18 +75,33 @@ body {
   background-color: #2a2c80; }
 
 .block h3 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  padding: 16px 16px 0 16px; }
-
-.block h3 a {
+  line-height: 16px;
+  padding: 16px 16px 0 16px;
   color: white; }
 
 .block p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
   padding: 12px 16px 0 16px; }
+
+.block16 h3, .block-fluid h3 {
+  font-size: 24px;
+  line-height: 24px; }
+.block16 p, .block-fluid p {
+  font-size: 16px;
+  line-height: 24px; }
+
+.block-fluid .pull-right {
+  margin-right: 16px;
+  margin-top: 16px; }
+.block-fluid #disqus_thread {
+  margin: 16px; }
+.block-fluid .dsq-brlink {
+  display: none; }
+.block-fluid img {
+  width: inherit; }
 
 .block:hover .back {
   display: block; }
