@@ -1,10 +1,6 @@
 body {
-  background: url(/assets/images/overlay.png) #222222;
-  clear: both;
+  background: url(/assets/images/overlay.png) #333333;
   overflow: auto; }
-
-.block-container {
-  margin: 0 auto; }
 
 .block {
   width: 177px;
@@ -15,17 +11,29 @@ body {
   border-width: 4px;
   border-style: solid;
   overflow: auto;
-  border-color: #303030;
-  background-color: #171717;
   background-image: url(/assets/images/overlay-50.png);
-  cursor: pointer; }
-  .block p {
+  cursor: pointer;
+  background-color: #232323;
+  border-color: #171717; }
+  .block a {
     color: white; }
+  .block p, .block li {
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 8px 0 8px; }
+  .block pre {
+    margin: 16px;
+    background-color: #303030;
+    color: #fff; }
+  .block code {
+    background-color: #303030;
+    color: #fff; }
 
 .block4 {
   cursor: default;
   width: 370px;
-  height: 370px; }
+  height: inherit; }
   .block4 p {
     color: #e3e3e3; }
   .block4 img {
@@ -34,11 +42,16 @@ body {
 .block16, .block-fluid {
   cursor: default;
   width: 756px;
-  height: 756px; }
-  .block16 p, .block-fluid p {
-    color: #e3e3e3; }
+  height: inherit; }
+  .block16 a, .block-fluid a {
+    color: white; }
+  .block16 p, .block16 li, .block-fluid p, .block-fluid li {
+    margin: 16px;
+    color: #b0b0b0; }
+  .block16 h3, .block-fluid h3 {
+    margin: 16px; }
   .block16 img, .block-fluid img {
-    width: 100%; }
+    max-width: 100%; }
 
 .block-fluid {
   margin: 16px;
@@ -51,40 +64,46 @@ body {
     width: 100%; }
 
 .magenta {
-  border-color: #f60392;
-  background-color: #c40274; }
+  background-color: #c40274;
+  border-color: #aa0265; }
+  .magenta:hover {
+    background-color: #dd0383;
+    border-color: #c40274; }
 
 .cyan {
-  border-color: #01aeef;
-  background-color: #0189bc; }
-
-.yellow {
-  border-color: #fff300;
-  background-color: #ccc200; }
+  background-color: #0189bc;
+  border-color: #0177a3; }
+  .cyan:hover {
+    background-color: #019cd6;
+    border-color: #0189bc; }
 
 .green {
-  border-color: #00a550;
-  background-color: #007237; }
+  background-color: #007237;
+  border-color: #00592b; }
+  .green:hover {
+    background-color: #008b44;
+    border-color: #007237; }
 
 .red {
-  border-color: #ed1d25;
-  background-color: #c71017; }
+  background-color: #c71017;
+  border-color: #b00e14; }
+  .red:hover {
+    background-color: #df121a;
+    border-color: #c71017; }
 
 .blue {
-  border-color: #303393;
-  background-color: #2a2c80; }
+  background-color: #23266d;
+  border-color: #1d1f59; }
+  .blue:hover {
+    background-color: #2a2c80;
+    border-color: #23266d; }
 
 .block h3 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  padding: 16px 16px 0 16px;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 24px;
+  padding: 8px 8px 0 8px;
   color: white; }
-
-.block p {
-  font-size: 12px;
-  line-height: 16px;
-  padding: 12px 16px 0 16px; }
 
 .block16 h3, .block-fluid h3 {
   font-size: 24px;
@@ -97,7 +116,7 @@ body {
   margin-right: 16px;
   margin-top: 16px; }
 .block-fluid #disqus_thread {
-  margin: 16px; }
+  margin: 16px 24px; }
 .block-fluid .dsq-brlink {
   display: none; }
 .block-fluid img {

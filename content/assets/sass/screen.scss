@@ -4,16 +4,24 @@ $yellow: #FFF300;
 $green: #00A550;
 $red: #ED1D25;
 $blue: #303393;
-$background_darkness: 10%;
+$background_darkness: 5%;
+
+@mixin block($color) {
+  background-color: darken($color, 10%);
+  border-color: darken(darken($color, $background_darkness), 10%);
+
+  &:hover {
+    background-color: darken($color, 5%);
+    border-color: darken(darken($color, $background_darkness), 5%);
+  }
+}
 
 body {
-  background: url(/assets/images/overlay.png) #222;
-  clear: both;
+  background: url(/assets/images/overlay.png) #333;
   overflow: auto;
 }
 
 .block-container {
-  margin: 0 auto;
 }
 
 .block {
@@ -25,26 +33,47 @@ body {
   border-width: 4px;
   border-style: solid;
   overflow: auto;
-  border-color: #303030;
-  background-color: darken(#303030, $background_darkness);
-  p { color: white; }
   background-image: url(/assets/images/overlay-50.png);
   cursor: pointer;
+
+  a {
+    color: white;
+  }
+  p, li{
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 8px 0 8px;
+  }
+  pre {
+    margin: 16px;
+    background-color: #303030;
+    color: #fff;
+  }
+  code {
+    background-color: #303030;
+    color: #fff;
+  }
+
+  background-color: darken(#303030, 5%);
+  border-color: darken(darken(#303030, $background_darkness), 5%);
 }
 
 .block4 {
   cursor: default;
   width: 370px;
-  height: 370px;
+  height: inherit;
   p { color: lighten(#303030, 70%); }
   img { width: 100%; }
 }
 .block16, .block-fluid {
   cursor: default;
   width: 756px;
-  height: 756px;
-  p { color: lighten(#303030, 70%); }
-  img { width: 100%; }
+  height: inherit;
+  a { color: white }
+  p,li { margin: 16px; color: lighten(#303030, 50%); }
+  h3 { margin: 16px; }
+  img { max-width: 100%; }
 }
 .block-fluid {
   margin: 16px;
@@ -59,47 +88,18 @@ body {
   overflow: hidden;
 }
 
-.magenta {
-  border-color: $magenta;
-  background-color: darken($magenta, $background_darkness);
-}
-
-.cyan {
-  border-color: $cyan;
-  background-color: darken($cyan, $background_darkness);
-}
-
-.yellow {
-  border-color: $yellow;
-  background-color: darken($yellow, $background_darkness);
-}
-
-.green {
-  border-color: $green;
-  background-color: darken($green, $background_darkness);
-}
-
-.red {
-  border-color: $red;
-  background-color: darken($red, $background_darkness);
-}
-
-.blue {
-  border-color: $blue;
-  background-color: darken($blue, 5%);
-}
+.magenta { @include block($magenta) }
+.cyan { @include block($cyan) }
+.green { @include block($green) }
+.red { @include block($red) }
+.blue { @include block($blue) }
 
 .block h3 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  padding: 16px 16px 0 16px;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 24px;
+  padding: 8px 8px 0 8px;
   color: white;
-}
-.block p {
-  font-size: 12px;
-  line-height: 16px;
-  padding: 12px 16px 0 16px;
 }
 .block16, .block-fluid  {
   h3 {
@@ -118,7 +118,7 @@ body {
     margin-top: 16px;
   }
   #disqus_thread {
-    margin: 16px;
+    margin: 16px 24px;
   }
   .dsq-brlink {
     display: none;
