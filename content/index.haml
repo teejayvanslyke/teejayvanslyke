@@ -3,40 +3,36 @@ site_name:
 title: Teejay VanSlyke
 ---
 
-.block-container
-  - article = @site.sorted_articles.reject {|a| a[:draft]}.first
-  %div{class: "block block16"}
-    %h3
-      %a{:href => article.path, :title => article[:title]}= article[:title]
-      %span.date= article[:created_at].strftime('%Y %m %d')
-    .body= article.compiled_content
-
-  %div{class: "block block4"}
-    %a{href:"http://makesomethingtoday.me", title: "Make Something Today"}
-      %img{src: "http://makesomethingtoday.me/assets/images/cover.png", alt:"Make Something Today"}/
+.wrapper
+  .block-container
+    %div{class: "block block4"}
+      %a{href:"http://makesomethingtoday.me", title: "Make Something Today"}
+        %img{src: "http://makesomethingtoday.me/assets/images/cover.png", alt:"Make Something Today"}/
 
 
-  %div{class: "block block4"}
-    %a{href:"http://minifybook.com", title: "Minify: A 21st Century Guide to Living a Happier Life with Less"}
-      %img{src: "http://minifybook.com/assets/images/minify-book.png", alt:"Minify"}/
+    %div{class: "block block4"}
+      %a{href:"http://minifybook.com", title: "Minify: A 21st Century Guide to Living a Happier Life with Less"}
+        %img{src: "http://minifybook.com/assets/images/minify-book.png", alt:"Minify"}/
 
-  %div{class: "block block4"}
-    %a{href:"http://eliasmoniker.com", title: "Elias Moniker: The A.K.A."}
-      %img{src: "http://eliasmoniker.com.s3.amazonaws.com/images/cover5.jpeg", alt: "Elias Moniker: The A.K.A."}/
+    %div{class: "block block4"}
+      %a{href:"http://eliasmoniker.com", title: "Elias Moniker: The A.K.A."}
+        %img{src: "http://eliasmoniker.com.s3.amazonaws.com/images/cover5.jpeg", alt: "Elias Moniker: The A.K.A."}/
 
 
-  - @site.sorted_articles.reject {|a| a[:draft]}.each_with_index do |article, index|
-    - next if index == 0
-    %a{:href => article.path, :title => article[:title]}
-      %div{class: "block #{%w(cyan magenta green red blue)[index % 5]} #{"block4" if index == 0}"}
-        /%span.date= article[:created_at].strftime('%Y %m %d')
-        /.pull-right
-        /  <a href="https://twitter.com/share?url=#{article.path}&text=#{article[:title]}: http://tjvanslyke.com#{article.path}" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
-        /  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        .front
-          %h3
-            = article[:title]
-        .back
-          %p 
-            = article[:description]
+    - @site.sorted_articles.reject {|a| a[:draft]}.each_with_index do |article, index|
+      - next if index == 0
+      %a{:href => article.path, :title => article[:title]}
+        %div{class: "block #{%w(cyan magenta green red blue)[index % 5]} #{"block4" if index == 0}"}
+          %span.date= article[:created_at].strftime('%Y %m %d')
+          /.pull-right
+          /  <a href="https://twitter.com/share?url=#{article.path}&text=#{article[:title]}: http://tjvanslyke.com#{article.path}" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none">Tweet</a>
+          /  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          .front
+            %h3
+              = article[:title]
+          .back
+            %p 
+              = article[:description]
+
+    = render 'partials/info'
 

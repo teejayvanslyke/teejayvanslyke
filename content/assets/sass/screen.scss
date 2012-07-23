@@ -17,24 +17,36 @@ $background_darkness: 5%;
 }
 
 body {
-  background: url(/assets/images/overlay.png) #333;
+  background: url(/assets/images/overlay.png) #111;
   overflow: auto;
 }
 
+.wrapper {
+  margin: 0 auto;
+}
+
 .block-container {
+  clear: both;
+  margin: 0 auto;
 }
 
 .block {
   width: 177px;
-  height: 177px;
   float: left;
   margin: 4px;
   border-radius: 8px;
   border-width: 4px;
   border-style: solid;
-  overflow: auto;
   background-image: url(/assets/images/overlay-50.png);
   cursor: pointer;
+
+  span.date {
+    display: block;
+    color: white;
+    font-size: 11px;
+    margin: 4px 8px;
+    margin-bottom: 0;
+  }
 
   a {
     color: white;
@@ -43,7 +55,7 @@ body {
     color: white;
     font-size: 16px;
     line-height: 16px;
-    padding: 8px 8px 0 8px;
+    padding: 4px;
   }
   pre {
     margin: 16px;
@@ -62,14 +74,11 @@ body {
 .block4 {
   cursor: default;
   width: 370px;
-  height: inherit;
   p { color: lighten(#303030, 70%); }
   img { width: 100%; }
 }
-.block16, .block-fluid {
+.block4, .block-fluid {
   cursor: default;
-  width: 756px;
-  height: inherit;
   a { color: white }
   p,li { margin: 16px; color: lighten(#303030, 50%); }
   h3 { margin: 16px; }
@@ -98,7 +107,7 @@ body {
   font-size: 24px;
   font-weight: 200;
   line-height: 24px;
-  padding: 8px 8px 0 8px;
+  padding: 8px;
   color: white;
 }
 .block16, .block-fluid  {
@@ -126,21 +135,10 @@ body {
   img { width: inherit; }
 }
 
-.block:hover .back {
-  display: block;
-}
 .block .back {
-  display: none;
-}
-.block:hover .front {
   display: none;
 }
 .block .front {
   display: block;
-}
-
-h3 span.date {
-  display: block;
-  font-size: 0.5em;
 }
 

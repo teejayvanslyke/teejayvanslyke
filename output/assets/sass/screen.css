@@ -1,27 +1,38 @@
 body {
-  background: url(/assets/images/overlay.png) #333333;
+  background: url(/assets/images/overlay.png) #111111;
   overflow: auto; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.block-container {
+  clear: both;
+  margin: 0 auto; }
 
 .block {
   width: 177px;
-  height: 177px;
   float: left;
   margin: 4px;
   border-radius: 8px;
   border-width: 4px;
   border-style: solid;
-  overflow: auto;
   background-image: url(/assets/images/overlay-50.png);
   cursor: pointer;
   background-color: #232323;
   border-color: #171717; }
+  .block span.date {
+    display: block;
+    color: white;
+    font-size: 11px;
+    margin: 4px 8px;
+    margin-bottom: 0; }
   .block a {
     color: white; }
   .block p, .block li {
     color: white;
     font-size: 16px;
     line-height: 16px;
-    padding: 8px 8px 0 8px; }
+    padding: 4px; }
   .block pre {
     margin: 16px;
     background-color: #303030;
@@ -32,25 +43,22 @@ body {
 
 .block4 {
   cursor: default;
-  width: 370px;
-  height: inherit; }
+  width: 370px; }
   .block4 p {
     color: #e3e3e3; }
   .block4 img {
     width: 100%; }
 
-.block16, .block-fluid {
-  cursor: default;
-  width: 756px;
-  height: inherit; }
-  .block16 a, .block-fluid a {
+.block4, .block-fluid {
+  cursor: default; }
+  .block4 a, .block-fluid a {
     color: white; }
-  .block16 p, .block16 li, .block-fluid p, .block-fluid li {
+  .block4 p, .block4 li, .block-fluid p, .block-fluid li {
     margin: 16px;
     color: #b0b0b0; }
-  .block16 h3, .block-fluid h3 {
+  .block4 h3, .block-fluid h3 {
     margin: 16px; }
-  .block16 img, .block-fluid img {
+  .block4 img, .block-fluid img {
     max-width: 100%; }
 
 .block-fluid {
@@ -102,7 +110,7 @@ body {
   font-size: 24px;
   font-weight: 200;
   line-height: 24px;
-  padding: 8px 8px 0 8px;
+  padding: 8px;
   color: white; }
 
 .block16 h3, .block-fluid h3 {
@@ -122,18 +130,8 @@ body {
 .block-fluid img {
   width: inherit; }
 
-.block:hover .back {
-  display: block; }
-
 .block .back {
-  display: none; }
-
-.block:hover .front {
   display: none; }
 
 .block .front {
   display: block; }
-
-h3 span.date {
-  display: block;
-  font-size: 0.5em; }
