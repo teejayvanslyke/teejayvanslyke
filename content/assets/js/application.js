@@ -1,22 +1,25 @@
 $(function() {
-  $('.block-container').masonry({
-    itemSelector: '.block',
-    isFitWidth: true,
-    columnWidth: 193
+  var container = $('.block-container')
+  function runMasonry() {
+    container.imagesLoaded(function() { 
+      container.masonry({
+        itemSelector: '.block',
+        isFitWidth: true,
+        columnWidth: 193
+      });
+    });
+  }
+
+  $.getJSON("http://twitter.com/statuses/user_timeline/teejayvanslyke.json?callback=?", function(data) {
+     $("#tweet .body p").html(data[0].text);
   });
 
+  runMasonry();
+
   $('.block-link').click(function() {
-    $(this).find('.block').css({
-      position: 'fixed',
-      zIndex: '100000'
-    }).animate({
-      top: '0px',
-      left: '0px',
-      width: '100%',
-      height: '100%'
-    }, function() {
-      $(this).find('.back').fadeIn();
-    });
+    $(this).find('.block').addClass('block4').removeClass('cyan magenta green red blue')
+    $(this).find('.body').show()
+    runMasonry();
 
     return false;
   });

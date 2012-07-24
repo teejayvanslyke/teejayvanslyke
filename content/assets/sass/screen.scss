@@ -52,7 +52,7 @@ body {
 
   span.date, span.label {
     display: block;
-    color: white;
+    color: darken(white, 10%);
     font-size: 11px;
     margin: 4px 12px;
     padding: 4px 0;
@@ -60,7 +60,7 @@ body {
     background: inherit;
   }
 
-  span.label.latest {
+  span.label.date {
     border-bottom: 1px solid #333;
     border-radius: 0;
   }
@@ -68,21 +68,25 @@ body {
   a {
     color: white;
   }
-  p, li, span {
-    opacity: 0.85;
-    color: white;
+  p, li, span, h4 {
+    color: darken(white, 30%);
     font-size: 16px;
     line-height: 24px;
     padding: 4px;
+  }
+  h4 {
+    font-weight: 400;
   }
   span.date {
     padding: 0;
     opacity: 0.75;
   }
   pre {
-    margin: 16px;
+    margin: 8px;
     background-color: #303030;
     color: #fff;
+    overflow: auto;
+    white-space: nowrap;
   }
   code {
     background-color: #303030;
@@ -98,7 +102,7 @@ body {
   border-color: darken(darken(#303030, $background_darkness), 5%);
 }
 
-.block4 {
+.block4, .block-title {
   cursor: default;
   width: 370px;
   h3 {
@@ -111,13 +115,38 @@ body {
   }
   cursor: default;
   a { color: white }
-  p { 
+  p, h4 { 
     text-align: justify;
     font-size: 13px;
     line-height: 24px;
     padding: 4px;
-    margin: 4px 8px;
+    margin: 2px 8px;
   }
+
+  li {
+    text-align: justify;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 2px;
+  }
+
+  ul, ol {
+    margin: 2px 16px 2px 32px;
+  }
+
+  h4 {
+    color: white;
+    font-size: 16px;
+  }
+  li p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.block-title {
+  float: left;
+  text-align: center;
+  img { width: 80%; }
 }
 .block4, .block-fluid {
 }
@@ -129,6 +158,12 @@ body {
     width: 80%;
   }
   overflow: hidden;
+}
+
+.post {
+  img {
+    border-top: 0;
+  }
 }
 
 .magenta { @include block($magenta) }
@@ -169,14 +204,9 @@ body {
   img { width: inherit; }
 }
 
-.block .back {
-  display: none;
+.block .body {
   margin: 0 auto;
-  width: 370px;
-  height: 100%;
-  overflow: auto;
 }
-.block .front {
+.block4 .body {
   display: block;
 }
-

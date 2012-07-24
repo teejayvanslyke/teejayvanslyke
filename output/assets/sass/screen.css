@@ -27,54 +27,76 @@ body {
   border-color: #171717; }
   .block span.date, .block span.label {
     display: block;
-    color: white;
+    color: #e6e6e6;
     font-size: 11px;
     margin: 4px 12px;
     padding: 4px 0;
     margin-bottom: 0;
     background: inherit; }
-  .block span.label.latest {
+  .block span.label.date {
     border-bottom: 1px solid #333;
     border-radius: 0; }
   .block a {
     color: white; }
-  .block p, .block li, .block span {
-    opacity: 0.85;
-    color: white;
+  .block p, .block li, .block span, .block h4 {
+    color: #b3b3b3;
     font-size: 16px;
     line-height: 24px;
     padding: 4px; }
+  .block h4 {
+    font-weight: 400; }
   .block span.date {
     padding: 0;
     opacity: 0.75; }
   .block pre {
-    margin: 16px;
+    margin: 8px;
     background-color: #303030;
-    color: #fff; }
+    color: #fff;
+    overflow: auto;
+    white-space: nowrap; }
   .block code {
     background-color: #303030;
     color: #fff; }
   .block.info p, .block.info li {
     line-height: 16px; }
 
-.block4 {
+.block4, .block-title {
   cursor: default;
   width: 370px;
   cursor: default; }
-  .block4 h3 {
+  .block4 h3, .block-title h3 {
     margin-left: 4px;
     margin-top: 8px; }
-  .block4 img {
+  .block4 img, .block-title img {
     max-width: 100%;
     border-top: 1px solid #101010; }
-  .block4 a {
+  .block4 a, .block-title a {
     color: white; }
-  .block4 p {
+  .block4 p, .block4 h4, .block-title p, .block-title h4 {
     text-align: justify;
     font-size: 13px;
     line-height: 24px;
     padding: 4px;
-    margin: 4px 8px; }
+    margin: 2px 8px; }
+  .block4 li, .block-title li {
+    text-align: justify;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 2px; }
+  .block4 ul, .block4 ol, .block-title ul, .block-title ol {
+    margin: 2px 16px 2px 32px; }
+  .block4 h4, .block-title h4 {
+    color: white;
+    font-size: 16px; }
+  .block4 li p, .block-title li p {
+    margin: 0;
+    padding: 0; }
+
+.block-title {
+  float: left;
+  text-align: center; }
+  .block-title img {
+    width: 80%; }
 
 .title {
   text-align: center;
@@ -82,6 +104,9 @@ body {
   overflow: hidden; }
   .title img {
     width: 80%; }
+
+.post img {
+  border-top: 0; }
 
 .magenta {
   background-color: #c40274;
@@ -147,12 +172,8 @@ body {
 .block-fluid img {
   width: inherit; }
 
-.block .back {
-  display: none;
-  margin: 0 auto;
-  width: 370px;
-  height: 100%;
-  overflow: auto; }
+.block .body {
+  margin: 0 auto; }
 
-.block .front {
+.block4 .body {
   display: block; }
