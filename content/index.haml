@@ -6,22 +6,39 @@ title: Teejay VanSlyke
 .wrapper
   .block-container
     %div{class: "block block4"}
+      %span.label 
+        Hi. I'm Teejay. I spend my time designing and developing products, whether 
+        original music, an ebook, or a web application. I believe that creativity is 
+        the cure for our culture's consumption-oriented condition. 
+
+    - article = @site.sorted_articles.reject {|a| a[:draft]}.first
+    %div{class: "block block4"}
+      %span.label.latest
+        Latest
+      %h3
+        = article[:title]
+      .body= article.compiled_content
+
+    %div{class: "block block4"}
+      %span.label Effective creative habits for the 21st century 
       %a{href:"http://makesomethingtoday.me", title: "Make Something Today"}
         %img{src: "http://makesomethingtoday.me/assets/images/cover.png", alt:"Make Something Today"}/
 
 
     %div{class: "block block4"}
+      %span.label My new ebook about tiny living
       %a{href:"http://minifybook.com", title: "Minify: A 21st Century Guide to Living a Happier Life with Less"}
         %img{src: "http://minifybook.com/assets/images/minify-book.png", alt:"Minify"}/
 
     %div{class: "block block4"}
+      %span.label Elias Moniker: The A.K.A.
       %a{href:"http://eliasmoniker.com", title: "Elias Moniker: The A.K.A."}
         %img{src: "http://eliasmoniker.com.s3.amazonaws.com/images/cover5.jpeg", alt: "Elias Moniker: The A.K.A."}/
 
 
     - @site.sorted_articles.reject {|a| a[:draft]}.each_with_index do |article, index|
       - next if index == 0
-      %a{:href => article.path, :title => article[:title]}
+      %a.block-link{:href => article.path, :title => article[:title]}
         %div{class: "block #{%w(cyan magenta green red blue)[index % 5]} #{"block4" if index == 0}"}
           %span.date= article[:created_at].strftime('%Y %m %d')
           /.pull-right
@@ -31,8 +48,7 @@ title: Teejay VanSlyke
             %h3
               = article[:title]
           .back
-            %p 
-              = article[:description]
+            = article.compiled_content
 
     = render 'partials/info'
 

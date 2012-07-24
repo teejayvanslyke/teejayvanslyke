@@ -9,10 +9,13 @@ $background_darkness: 5%;
 @mixin block($color) {
   background-color: darken($color, 10%);
   border-color: darken(darken($color, $background_darkness), 10%);
+  box-shadow: 2px 2px 2px darken(darken($color, $background_darkness), 15%);
 
   &:hover {
     background-color: darken($color, 5%);
     border-color: darken(darken($color, $background_darkness), 5%);
+    h3, p, li {
+    }
   }
 }
 
@@ -25,6 +28,13 @@ body {
   margin: 0 auto;
 }
 
+.block-link {
+  &:hover {
+    text-decoration: none;
+  }
+  cursor: pointer;
+}
+
 .block-container {
   clear: both;
   margin: 0 auto;
@@ -34,28 +44,40 @@ body {
   width: 177px;
   float: left;
   margin: 4px;
-  border-radius: 8px;
+  border-radius: 4px;
   border-width: 4px;
   border-style: solid;
   background-image: url(/assets/images/overlay-50.png);
   cursor: pointer;
 
-  span.date {
+  span.date, span.label {
     display: block;
     color: white;
     font-size: 11px;
-    margin: 4px 8px;
+    margin: 4px 12px;
+    padding: 4px 0;
     margin-bottom: 0;
+    background: inherit;
+  }
+
+  span.label.latest {
+    border-bottom: 1px solid #333;
+    border-radius: 0;
   }
 
   a {
     color: white;
   }
-  p, li{
+  p, li, span {
+    opacity: 0.85;
     color: white;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 24px;
     padding: 4px;
+  }
+  span.date {
+    padding: 0;
+    opacity: 0.75;
   }
   pre {
     margin: 16px;
@@ -66,6 +88,11 @@ body {
     background-color: #303030;
     color: #fff;
   }
+  &.info {
+    p, li { 
+      line-height: 16px;
+    }
+  }
 
   background-color: darken(#303030, 5%);
   border-color: darken(darken(#303030, $background_darkness), 5%);
@@ -74,25 +101,32 @@ body {
 .block4 {
   cursor: default;
   width: 370px;
-  p { color: lighten(#303030, 70%); }
-  img { width: 100%; }
-}
-.block4, .block-fluid {
+  h3 {
+    margin-left: 4px;
+    margin-top: 8px;
+  }
+  img { 
+    max-width: 100%;
+    border-top: 1px solid #101010;
+  }
   cursor: default;
   a { color: white }
-  p,li { margin: 16px; color: lighten(#303030, 50%); }
-  h3 { margin: 16px; }
-  img { max-width: 100%; }
+  p { 
+    text-align: justify;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 4px;
+    margin: 4px 8px;
+  }
 }
-.block-fluid {
-  margin: 16px;
-  width: inherit;
-  height: inherit;
+.block4, .block-fluid {
 }
 
 .title {
+  text-align: center;
+  margin: 24px;
   img {
-    width: 100%;
+    width: 80%;
   }
   overflow: hidden;
 }
@@ -137,6 +171,10 @@ body {
 
 .block .back {
   display: none;
+  margin: 0 auto;
+  width: 370px;
+  height: 100%;
+  overflow: auto;
 }
 .block .front {
   display: block;
