@@ -71,14 +71,14 @@ span.label.date {
 .block {
   width: 177px;
   float: left;
-  margin: 4px;
-  padding: 16px;
+  margin: 8px;
+  padding: 24px;
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
 
   a {
-    color: darken(#8C7E7E, 20%);
+    color: darken(#8C7E7E, 10%);
   }
   p, li, h4 {
     color: #8C7E7E;
@@ -89,7 +89,7 @@ span.label.date {
     font-size: 24px;
     font-weight: 200;
     line-height: 24px;
-    color: darken(#8C7E7E, 20%);
+    color: darken(#8C7E7E, 10%);
   }
 
   h4 {
@@ -114,7 +114,11 @@ span.label.date {
   }
   &.info {
     p, li { 
-      font-size: 13px;
+      color: darken(#F8F7F7, 50%);
+      font-size: 11px;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 0;
       line-height: 24px;
     }
   }
@@ -127,6 +131,8 @@ span.label.date {
   border-color: darken(#ffffff, 10%);
   border-bottom-color: darken(#ffffff, 30%);
   border-bottom-width: 2px;
+
+  box-shadow: 2px 2px 4px darken(#ffffff, 10%);
 }
 
 .block4, .block-title {
