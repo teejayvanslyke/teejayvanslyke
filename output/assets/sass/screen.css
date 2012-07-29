@@ -1,5 +1,5 @@
 body {
-  background: url(/assets/images/overlay.png) #111111;
+  background: url(/assets/images/overlay-white.png) #f4f2f3;
   overflow: auto; }
 
 .wrapper {
@@ -18,66 +18,71 @@ body {
   width: 177px;
   float: left;
   margin: 4px;
-  border-radius: 4px;
-  border-width: 4px;
+  padding: 16px;
+  border-width: 1px;
   border-style: solid;
-  background-image: url(/assets/images/overlay-50.png);
   cursor: pointer;
-  background-color: #232323;
-  border-color: #171717; }
+  background-color: #ffffff;
+  border-color: #e6e6e6;
+  border-bottom-color: #b3b3b3;
+  border-bottom-width: 2px; }
   .block span.date, .block span.label {
     display: block;
-    color: #e6e6e6;
+    color: #807070;
     font-size: 11px;
-    margin: 4px 12px;
-    padding: 4px 0;
+    margin: 0;
+    padding: 0;
     margin-bottom: 0;
     background: inherit; }
   .block span.label.date {
-    border-bottom: 1px solid #333;
+    border-bottom: #e6e6e6;
     border-radius: 0; }
   .block a {
-    color: white; }
+    color: #574d4d; }
   .block p, .block li, .block span, .block h4 {
-    color: #b3b3b3;
+    color: #8C7E7E;
     font-size: 16px;
+    line-height: 24px; }
+  .block h3 {
+    font-size: 24px;
+    font-weight: 200;
     line-height: 24px;
-    padding: 4px; }
+    color: #574d4d; }
   .block h4 {
     font-weight: 400; }
   .block span.date {
     padding: 0;
     opacity: 0.75; }
   .block pre {
-    margin: 8px;
-    background-color: #303030;
-    color: #fff;
+    border-radius: 0;
+    border-color: #e0dcdc;
+    border-bottom-width: 2px;
+    background-color: #F8F7F7;
     overflow: auto;
+    color: #8C7E7E;
     white-space: nowrap; }
   .block code {
-    background-color: #303030;
-    color: #fff; }
+    background-color: #F8F7F7;
+    color: #8C7E7E; }
   .block.info p, .block.info li {
-    line-height: 16px; }
+    font-size: 13px;
+    line-height: 24px; }
+  .block p, .block pre, .block h4, .block h3, .block img {
+    margin: 8px 0; }
 
 .block4, .block-title {
   cursor: default;
   width: 370px;
   cursor: default; }
-  .block4 h3, .block-title h3 {
-    margin-left: 4px;
-    margin-top: 8px; }
   .block4 img, .block-title img {
     max-width: 100%;
     border-top: 1px solid #101010; }
   .block4 a, .block-title a {
-    color: white; }
+    color: #574d4d; }
   .block4 p, .block4 h4, .block-title p, .block-title h4 {
     text-align: justify;
     font-size: 13px;
-    line-height: 24px;
-    padding: 4px;
-    margin: 2px 8px; }
+    line-height: 24px; }
   .block4 li, .block-title li {
     text-align: justify;
     font-size: 13px;
@@ -147,13 +152,6 @@ body {
   .blue:hover {
     background-color: #2a2c80;
     border-color: #23266d; }
-
-.block h3 {
-  font-size: 24px;
-  font-weight: 200;
-  line-height: 24px;
-  padding: 8px;
-  color: white; }
 
 .block16 h3, .block-fluid h3 {
   font-size: 24px;

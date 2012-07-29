@@ -20,7 +20,7 @@ $background_darkness: 5%;
 }
 
 body {
-  background: url(/assets/images/overlay.png) #111;
+  background: url(/assets/images/overlay-white.png) #F4F2F3;
   overflow: auto;
 }
 
@@ -44,36 +44,41 @@ body {
   width: 177px;
   float: left;
   margin: 4px;
-  border-radius: 4px;
-  border-width: 4px;
+  padding: 16px;
+  border-width: 1px;
   border-style: solid;
-  background-image: url(/assets/images/overlay-50.png);
   cursor: pointer;
 
   span.date, span.label {
     display: block;
-    color: darken(white, 10%);
+    color: darken(#F8F7F7, 50%);
     font-size: 11px;
-    margin: 4px 12px;
-    padding: 4px 0;
+    margin: 0;
+    padding: 0;
     margin-bottom: 0;
     background: inherit;
   }
 
   span.label.date {
-    border-bottom: 1px solid #333;
+    border-bottom: darken(white, 10%);
     border-radius: 0;
   }
 
   a {
-    color: white;
+    color: darken(#8C7E7E, 20%);
   }
   p, li, span, h4 {
-    color: darken(white, 30%);
+    color: #8C7E7E;
     font-size: 16px;
     line-height: 24px;
-    padding: 4px;
   }
+  h3 {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24px;
+    color: darken(#8C7E7E, 20%);
+  }
+
   h4 {
     font-weight: 400;
   }
@@ -82,47 +87,51 @@ body {
     opacity: 0.75;
   }
   pre {
-    margin: 8px;
-    background-color: #303030;
-    color: #fff;
+    border-radius: 0;
+    border-color: darken(#f8f7f7, 10%);
+    border-bottom-width: 2px;
+    background-color: #F8F7F7;
     overflow: auto;
+    color: #8C7E7E;
     white-space: nowrap;
   }
   code {
-    background-color: #303030;
-    color: #fff;
+    background-color: #F8F7F7;
+    color: #8C7E7E;
   }
   &.info {
     p, li { 
-      line-height: 16px;
+      font-size: 13px;
+      line-height: 24px;
     }
   }
 
-  background-color: darken(#303030, 5%);
-  border-color: darken(darken(#303030, $background_darkness), 5%);
+  p, pre, h4, h3, img {
+    margin: 8px 0;
+  }
+
+  background-color: #ffffff;
+  border-color: darken(#ffffff, 10%);
+  border-bottom-color: darken(#ffffff, 30%);
+  border-bottom-width: 2px;
 }
 
 .block4, .block-title {
   cursor: default;
   width: 370px;
-  h3 {
-    margin-left: 4px;
-    margin-top: 8px;
-  }
   img { 
     max-width: 100%;
     border-top: 1px solid #101010;
   }
   cursor: default;
-  a { color: white }
+  a {
+    color: darken(#8C7E7E, 20%);
+  }
   p, h4 { 
     text-align: justify;
     font-size: 13px;
     line-height: 24px;
-    padding: 4px;
-    margin: 2px 8px;
   }
-
   li {
     text-align: justify;
     font-size: 13px;
@@ -172,13 +181,6 @@ body {
 .red { @include block($red) }
 .blue { @include block($blue) }
 
-.block h3 {
-  font-size: 24px;
-  font-weight: 200;
-  line-height: 24px;
-  padding: 8px;
-  color: white;
-}
 .block16, .block-fluid  {
   h3 {
     font-size: 24px;
