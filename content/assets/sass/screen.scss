@@ -210,3 +210,26 @@ body {
 .block4 .body {
   display: block;
 }
+
+
+
+
+
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .wrapper {
+    margin: 0;
+  }
+  .block {
+    width: 752px;
+  }
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .wrapper {
+    margin: 0;
+  }
+  .block {
+    width: 496px;
+  }
+}
