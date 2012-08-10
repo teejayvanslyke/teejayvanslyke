@@ -53,15 +53,5 @@ title: Teejay VanSlyke
     = render 'partials/info'
 
 .viewer-overlay
+  .viewer-loader.loader
 .viewer-container
-  .viewer-logo
-    <img src="/assets/images/header-script.png"/>
-  .viewer
-    .loader
-    .viewer-content
-      %span.label.date= article[:created_at].strftime('%Y %m %d')
-      %h2
-        = article[:title]
-      .body= article.compiled_content
-      = render 'partials/disqus'
-

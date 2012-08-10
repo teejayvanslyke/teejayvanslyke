@@ -219,43 +219,43 @@ span.label.date {
   bottom: 0;
   right: 0;
   position: fixed;
-  .viewer-logo {
-    margin: 24px 0;
-    text-align: center;
-    img {
-      width: 50%;
-    }
+}
+.viewer-logo {
+  margin: 24px 0;
+  text-align: center;
+  img {
+    width: 50%;
   }
-  .viewer {
-    position: static;
-    width: 940px;
-    border: 1px solid darken(#ffffff, 10%);
-    border-color: darken(#ffffff, 10%);
-    border-bottom-color: darken(#ffffff, 20%);
-    border-top-width: 0px;
-    border-bottom-width: 2px;
-    margin: 24px auto;
-    background: white;
+}
+.viewer {
+  position: static;
+  width: 940px;
+  border: 1px solid darken(#ffffff, 10%);
+  border-color: darken(#ffffff, 10%);
+  border-bottom-color: darken(#ffffff, 20%);
+  border-top-width: 0px;
+  border-bottom-width: 2px;
+  margin: 24px auto;
+  background: white;
 
-    .viewer-content {
-      padding: 24px;
-      overflow: scroll;
-      h2 {
-        font-size: 24px;
-        font-weight: 200;
-        line-height: 24px;
-        color: #8C7E7E;
-      }
-      p, pre, h2, h4, h3, img {
-        margin: 8px 0;
-      }
-      a {
-        color: darken(#8C7E7E, 20%);
-      }
-      p, li {
-        color: #8C7E7E;
-        line-height: 24px;
-      }
+  .viewer-content {
+    padding: 24px;
+    overflow: scroll;
+    h2 {
+      font-size: 24px;
+      font-weight: 200;
+      line-height: 24px;
+      color: #8C7E7E;
+    }
+    p, pre, h2, h4, h3, img {
+      margin: 8px 0;
+    }
+    a {
+      color: darken(#8C7E7E, 20%);
+    }
+    p, li {
+      color: #8C7E7E;
+      line-height: 24px;
     }
   }
 }

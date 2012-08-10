@@ -2,11 +2,16 @@
 <html lang="en">
   <%= render '/partials/default/head' %>
   <body class="post">
-
-    <span class="label date"><%= @item[:created_at].strftime('%Y %m %d') %></span>
-    <h2><%= @item[:title] %></h2>
-    <div class="body"><%= yield %></div>
-    <%= render 'partials/disqus' %>
-
+    <div class="viewer-logo">
+      <a href="/"><img src="/assets/images/header-script.png" alt="Teejay VanSlyke"/></a>
+    </div>
+    <div class="viewer">
+      <div class="viewer-content">
+        <span class="label date"><%= @item[:created_at].strftime('%Y %m %d') %></span>
+        <h2><%= @item[:title] %></h2>
+        <div class="body"><%= yield %></div>
+        <%= render 'partials/disqus' %>
+      </div>
+    </div>
   </body>
 </html>

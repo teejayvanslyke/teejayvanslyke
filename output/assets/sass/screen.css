@@ -189,36 +189,38 @@ span.label.date {
   bottom: 0;
   right: 0;
   position: fixed; }
-  .viewer-container .viewer-logo {
-    margin: 24px 0;
-    text-align: center; }
-    .viewer-container .viewer-logo img {
-      width: 50%; }
-  .viewer-container .viewer {
-    position: static;
-    width: 940px;
-    border: 1px solid #e6e6e6;
-    border-color: #e6e6e6;
-    border-bottom-color: #cccccc;
-    border-top-width: 0px;
-    border-bottom-width: 2px;
-    margin: 24px auto;
-    background: white; }
-    .viewer-container .viewer .viewer-content {
-      padding: 24px;
-      overflow: scroll; }
-      .viewer-container .viewer .viewer-content h2 {
-        font-size: 24px;
-        font-weight: 200;
-        line-height: 24px;
-        color: #8C7E7E; }
-      .viewer-container .viewer .viewer-content p, .viewer-container .viewer .viewer-content pre, .viewer-container .viewer .viewer-content h2, .viewer-container .viewer .viewer-content h4, .viewer-container .viewer .viewer-content h3, .viewer-container .viewer .viewer-content img {
-        margin: 8px 0; }
-      .viewer-container .viewer .viewer-content a {
-        color: #574d4d; }
-      .viewer-container .viewer .viewer-content p, .viewer-container .viewer .viewer-content li {
-        color: #8C7E7E;
-        line-height: 24px; }
+
+.viewer-logo {
+  margin: 24px 0;
+  text-align: center; }
+  .viewer-logo img {
+    width: 50%; }
+
+.viewer {
+  position: static;
+  width: 940px;
+  border: 1px solid #e6e6e6;
+  border-color: #e6e6e6;
+  border-bottom-color: #cccccc;
+  border-top-width: 0px;
+  border-bottom-width: 2px;
+  margin: 24px auto;
+  background: white; }
+  .viewer .viewer-content {
+    padding: 24px;
+    overflow: scroll; }
+    .viewer .viewer-content h2 {
+      font-size: 24px;
+      font-weight: 200;
+      line-height: 24px;
+      color: #8C7E7E; }
+    .viewer .viewer-content p, .viewer .viewer-content pre, .viewer .viewer-content h2, .viewer .viewer-content h4, .viewer .viewer-content h3, .viewer .viewer-content img {
+      margin: 8px 0; }
+    .viewer .viewer-content a {
+      color: #574d4d; }
+    .viewer .viewer-content p, .viewer .viewer-content li {
+      color: #8C7E7E;
+      line-height: 24px; }
 
 .hire .title {
   float: left;
