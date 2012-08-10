@@ -4,6 +4,7 @@ $yellow: #FFF300;
 $green: #00A550;
 $red: #ED1D25;
 $blue: #303393;
+$black: black;
 $background_darkness: 5%;
 
 @mixin block($color) {
@@ -259,21 +260,114 @@ span.label.date {
   }
 }
 
-
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .wrapper {
-    margin: 0;
+.hire {
+  .title {
+    float: left;
+    width: 320px;
+    img {
+    }
   }
   .block {
-    width: 752px;
+    float: left;
+    width: 640px;
+    p, ul {
+      margin: 0.5em 0;
+    }
+  }
+  p {
+    color: $black;
+  }
+  p, li {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  a { 
+    color: $blue; 
+    font-weight: 400;
+  }
+  li {
+    color: $cyan;
+    a { 
+      color: $cyan; 
+      &:hover {
+        text-decoration: none; 
+      }
+    }
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.25em 0;
+    padding-right: 0.5em;
+  }
+  span.rate {
+    color: $green;
+    padding: 0.25em;
+    font-weight: 400;
+  }
+  ul {
+    li { list-style-type: none; }
+    margin-left: 1em;
+  }
+  h3 {
+    display: inline-block;
+    color: $blue;
+    margin: 1em 0;
+    font-size: 3em;
+    font-weight: 800;
   }
 }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .wrapper {
-    margin: 0;
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .hire {
+    .title {
+      float: left;
+      height: 640px;
+      width: 320px;
+      img {
+      }
+    }
+    .block {
+      float: left;
+      width: 640px;
+      p, ul {
+        margin: 0.5em 0;
+      }
+    }
   }
-  .block {
-    width: 496px;
-  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
 }

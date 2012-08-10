@@ -220,15 +220,72 @@ span.label.date {
         color: #8C7E7E;
         line-height: 24px; }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .wrapper {
-    margin: 0; }
+.hire .title {
+  float: left;
+  width: 320px; }
+.hire .block {
+  float: left;
+  width: 640px; }
+  .hire .block p, .hire .block ul {
+    margin: 0.5em 0; }
+.hire p {
+  color: black; }
+.hire p, .hire li {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5em; }
+.hire a {
+  color: #303393;
+  font-weight: 400; }
+.hire li {
+  color: #01aeef;
+  font-weight: 400;
+  display: inline-block;
+  padding: 0.25em 0;
+  padding-right: 0.5em; }
+  .hire li a {
+    color: #01aeef; }
+    .hire li a:hover {
+      text-decoration: none; }
+.hire span.rate {
+  color: #00a550;
+  padding: 0.25em;
+  font-weight: 400; }
+.hire ul {
+  margin-left: 1em; }
+  .hire ul li {
+    list-style-type: none; }
+.hire h3 {
+  display: inline-block;
+  color: #303393;
+  margin: 1em 0;
+  font-size: 3em;
+  font-weight: 800; }
 
-  .block {
-    width: 752px; } }
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .wrapper {
-    margin: 0; }
-
-  .block {
-    width: 496px; } }
+/* iPads (portrait and landscape) ----------- */
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */ }
+/* iPads (portrait) ----------- */
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .hire .title {
+    float: left;
+    height: 640px;
+    width: 320px; }
+  .hire .block {
+    float: left;
+    width: 640px; }
+    .hire .block p, .hire .block ul {
+      margin: 0.5em 0; } }
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */ }
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */ }

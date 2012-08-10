@@ -11,14 +11,6 @@ title: Teejay VanSlyke
         original music, an ebook, or a web application. I believe that creativity is 
         the cure for our culture's consumption-oriented condition. 
 
-    %div#tweet{class: "block block4"}
-      %span.label.date
-        Latest tweet
-      .body
-        %p
-      %p
-        <a href="https://twitter.com/teejayvanslyke" rel="me" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @teejayvanslyke</a>
-
 
     - article = @site.sorted_articles.reject {|a| a[:draft]}.first
     %div{class: "block block4 post"}
