@@ -1,24 +1,4 @@
-$magenta: #F60392;
-$cyan: #01AEEF;
-$yellow: #FFF300;
-$green: #00A550;
-$red: #ED1D25;
-$blue: #303393;
-$black: black;
-$background_darkness: 5%;
-
-@mixin block($color) {
-  background-color: darken($color, 10%);
-  border-color: darken(darken($color, $background_darkness), 10%);
-  box-shadow: 2px 2px 2px darken(darken($color, $background_darkness), 15%);
-
-  &:hover {
-    background-color: darken($color, 5%);
-    border-color: darken(darken($color, $background_darkness), 5%);
-    h3, p, li {
-    }
-  }
-}
+@import 'base';
 
 body {
   background: url(/assets/images/overlay-white.png) #F4F2F3;
@@ -45,6 +25,7 @@ span.date, span.label {
   display: block;
   color: darken(#F8F7F7, 50%);
   font-size: 11px;
+  font-weight: 200;
   margin: 0;
   padding: 0;
   margin-bottom: 0;
@@ -85,10 +66,11 @@ span.label.date {
     color: #8C7E7E;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 200;
   }
   h3 {
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 24px;
     color: darken(#8C7E7E, 10%);
   }
@@ -184,6 +166,7 @@ span.label.date {
 .post {
   img {
     border-top: 0;
+    max-width: 100%;
   }
 }
 
@@ -243,7 +226,7 @@ span.label.date {
     overflow: scroll;
     h2 {
       font-size: 24px;
-      font-weight: 200;
+      font-weight: 100;
       line-height: 24px;
       color: #8C7E7E;
     }
@@ -255,119 +238,11 @@ span.label.date {
     }
     p, li {
       color: #8C7E7E;
+      font-weight: 200;
       line-height: 24px;
     }
   }
 }
 
-.hire {
-  .title {
-    float: left;
-    width: 320px;
-    img {
-    }
-  }
-  .block {
-    float: left;
-    width: 640px;
-    p, ul {
-      margin: 0.5em 0;
-    }
-  }
-  p {
-    color: $black;
-  }
-  p, li {
-    font-weight: 200;
-    font-size: 16px;
-    line-height: 1.5em;
-  }
-  a { 
-    color: $blue; 
-    font-weight: 400;
-  }
-  li {
-    color: $cyan;
-    a { 
-      color: $cyan; 
-      &:hover {
-        text-decoration: none; 
-      }
-    }
-    font-weight: 400;
-    display: inline-block;
-    padding: 0.25em 0;
-    padding-right: 0.5em;
-  }
-  span.rate {
-    color: $green;
-    padding: 0.25em;
-    font-weight: 400;
-  }
-  ul {
-    li { list-style-type: none; }
-    margin-left: 1em;
-  }
-  h3 {
-    display: inline-block;
-    color: $blue;
-    margin: 1em 0;
-    font-size: 3em;
-    font-weight: 800;
-  }
-}
+@import 'hire';
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-  /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-  .hire {
-    .title {
-      float: left;
-      height: 640px;
-      width: 320px;
-      img {
-      }
-    }
-    .block {
-      float: left;
-      width: 640px;
-      p, ul {
-        margin: 0.5em 0;
-      }
-    }
-  }
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-  /* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  /* Styles */
-}

@@ -1,0 +1,22 @@
+$magenta: #F60392;
+$cyan: #01AEEF;
+$yellow: #FFF300;
+$green: #00A550;
+$red: #ED1D25;
+$blue: #303393;
+$black: black;
+$background_darkness: 5%;
+
+@mixin block($color) {
+  background-color: darken($color, 10%);
+  border-color: darken(darken($color, $background_darkness), 10%);
+  box-shadow: 2px 2px 2px darken(darken($color, $background_darkness), 15%);
+
+  &:hover {
+    background-color: darken($color, 5%);
+    border-color: darken(darken($color, $background_darkness), 5%);
+    h3, p, li {
+    }
+  }
+}
+
