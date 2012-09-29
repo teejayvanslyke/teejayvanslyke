@@ -2,13 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://tjvanslyke.com/</id>
   <title>Teejay VanSlyke</title>
-  <updated>2012-07-14T17:41:00Z</updated>
+  <updated>2012-09-29T21:48:00Z</updated>
   <link rel="alternate" href="http://tjvanslyke.com/"/>
   <link rel="self" href="http://tjvanslyke.com/feed.xml"/>
   <author>
     <name>Teejay VanSlyke</name>
     <uri>http://tjvanslyke.com</uri>
   </author>
+  <entry>
+    <id>tag:tjvanslyke.com,2012-09-29:/trailer-chic-my-ignite-portland-talk-is-online/</id>
+    <title type="html">Trailer Chic: My Ignite Portland talk is online!</title>
+    <published>2012-09-29T21:48:00Z</published>
+    <updated>2012-09-29T21:48:00Z</updated>
+    <link rel="alternate" href="http://tjvanslyke.com/trailer-chic-my-ignite-portland-talk-is-online/"/>
+    <content type="html">&lt;p&gt;
+  For those of you who missed it, last week I gave a talk at &lt;a href="http://igniteportland.org"&gt;Ignite Portland&lt;/a&gt; about my experiences living
+  in an RV in Portland (fast-forward to around 15:00):
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;iframe src="http://www.ustream.tv/embed/recorded/25537320" width="200" height="139" scrolling="no" frameborder="0" style="border: 0px none transparent;"&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+And, if you'd like to download the slide deck for your own amusement, click the image below.
+&lt;p&gt;
+  &lt;a href='http://misc.tjvanslyke.com.s3.amazonaws.com/VanSlyke-IP11.pdf'&gt;
+    &lt;img src='/assets/images/trailer-chic.jpg' /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:tjvanslyke.com,2012-07-14:/listen-to-others-for-fun-and-profit/</id>
     <title type="html">Listen to others for fun and profit</title>
@@ -228,60 +249,6 @@ bind-key l select-pane -R&lt;/pre&gt;
   payments in just ten lines of code. It includes a Getting Started guide with instructions
   for taking payments using &lt;a href="http://stripe.com"&gt;Stripe&lt;/a&gt; and deploying on
   &lt;a href="http://heroku.com"&gt;Heroku&lt;/a&gt;. Good luck!
-&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:tjvanslyke.com,2012-06-22:/why-i-quit-facebook/</id>
-    <title type="html">Why I quit Facebook</title>
-    <published>2012-06-22T18:28:09Z</published>
-    <updated>2012-06-22T18:28:09Z</updated>
-    <link rel="alternate" href="http://tjvanslyke.com/why-i-quit-facebook/"/>
-    <content type="html">&lt;p&gt;
-  &lt;img alt='You take the blue pill -- the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill -- you stay in Wonderland and I show you how deep the rabbit-hole goes.' src='/assets/images/why-i-quit-facebook-morpheus.jpeg' /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  The other day, I authored a blog post entitled &lt;em&gt;Stop Driving Now&lt;/em&gt;, which was effectively an
-  angry rant fueled by the actions of aggressive motorists on my ride home that afternoon. Smugly,
-  I posted it on Facebook, hoping it would attract attention. It did. I was ostracized (rightly) as
-  an angry asshole. Comment after comment filled the link post until I finally decided to delete
-  it. But another thing happened: I became consumed with the opinions of my peers. I had a hard time
-  sleeping that night because I knew that my post had offended someone. And it was far from the
-  first time this had happened.
-&lt;/p&gt;
-&lt;p&gt;
-  A few weeks earlier, I encountered a post by an acquaintance thinking of joining the Marines.
-  Being in staunch opposition to joining the military as a career choice, I voiced my concern
-  with hope that I might change her mind. After all, the opinion of a relative stranger
-  couldn't hurt, could it?
-&lt;/p&gt;
-&lt;p&gt;
-  It could. An hour and 30 comments later, I had alienated myself from people I hadn't even
-  met. Despite never having shared an experience to substantiate resistance, I created a
-  situation which left everyone feeling exhausted and vulnerable.
-&lt;/p&gt;
-&lt;p&gt;
-  Social media is my generation's sitcoms. Replace Jerry, Elaine, George and Kramer with four
-  people you met at a bar a year ago, and you've effectively captured the level of triviality
-  our Facebook feeds provide us. Even seemingly noble pursuits, whether the &lt;a href="http://newsfeed.time.com/2012/06/03/anti-gay-group-slams-jcpenneys-over-fathers-day-ad/"&gt;JCPenney fathers day&lt;/a&gt;
-  ad or the &lt;a href="http://arstechnica.com/tech-policy/2012/06/angry-internet-lawyer-sues-the-oatmeal-bears-and-cancer-research/"&gt;Oatmeal fundraiser&lt;/a&gt;,
-  have no bearing on the life we lead outside of Facebook and are better digested outside a
-  public forum.
-&lt;/p&gt;
-&lt;p&gt;
-  I've chosen to take the red pill and see how deep the rabbit hole of real life goes.
-  See you on the other side.
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;em&gt;
-    If you're ready to take the plunge and delete your Facebook account permanently, visit
-    this page in the Facebook Help Center:
-  &lt;/em&gt;
-  &lt;em&gt;
-    &lt;a href='http://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CFwQFjAA&amp;amp;url=http%3A%2F%2Fwww.facebook.com%2Fhelp%2F%3Ffaq%3D224562897555674&amp;amp;ei=W6_kT5OfMIPQ2wWM4sHaCQ&amp;amp;usg=AFQjCNHnmOXrbJ_X6UQlwBxhJF_pqcJWcA&amp;amp;sig2=uj7vFV9q2_5TE6QTw8H9vA'&gt;
-      How do I permanently delete my account?
-    &lt;/a&gt;
-  &lt;/em&gt;
 &lt;/p&gt;
 </content>
   </entry>

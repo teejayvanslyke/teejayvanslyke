@@ -1,0 +1,11 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+  .block, .block4 {
+    width: 240px; } }
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */ }
